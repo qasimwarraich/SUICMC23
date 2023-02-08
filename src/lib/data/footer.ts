@@ -1,0 +1,16 @@
+export const FootNotes: String[] = [
+    "Be nice to people",
+    "Chistole but respectfully",
+    "Spam",
+    "Chistole!",
+    "Safety First",
+    "Just say sorry!",
+    "A Spam a day keeps the doctor away",
+    "Nice weather we're havin'?",
+    "Stabiu",
+    "Je Foncedé la",
+    "Is it raining outside?",
+    "Asking for a friend, Where is the Chistole tn?",
+    "Punk rock means encouraging bikes not cars",
+    "Look out for your friends!",
+]

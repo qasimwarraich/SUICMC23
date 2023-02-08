@@ -1,15 +1,13 @@
 <script lang="ts">
-	let screenWidth = window.innerWidth;
-
-	const handleResize = () => {
-		screenWidth = window.innerWidth;
-		console.log('spam');
-	};
-
+	import rad from '$lib/images/radmaskottchen.png';
 </script>
 
-<svelte:window on:resize={handleResize} />
-<registration>
-	<h1>Nothing to see here 🤠</h1>
-	<p>spam {screenWidth}</p>
-</registration>
+<svelte:head>
+	<title>Registration</title>
+	<meta name="description" content="Registration" />
+</svelte:head>
+
+<h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
+	<img class="h-96" src={rad} alt="SUICMC" />
+	Coming soon!
+</h1>

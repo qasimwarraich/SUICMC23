@@ -1,20 +1,17 @@
-<script>
-	import sticker1 from '$lib/images/sticker1.jpeg';
+<script lang="ts">
+	import vest from '$lib/images/warnwest.png';
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="SUICMC23" />
 </svelte:head>
 
 <section>
-	<h1 class="text-5xl text-theme-1 font-bold">
-		Hallo Welt!
-		<span class="">
-			<picture>
-				<img class="h-80" src={sticker1} alt="SUICMC" />
-			</picture>
-		</span>
+	<h1 class="text-5xl text-theme-1 font-semibold">
+		Hello World!
+		<img class="h-80" src={vest} alt="SUICMC" />
+		See you in Bern <br /> 26-29.05!
 	</h1>
 </section>
 
@@ -25,8 +22,5 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
-
-	h1 {
 	}
 </style>

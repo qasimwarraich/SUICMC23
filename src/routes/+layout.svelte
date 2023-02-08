@@ -1,10 +1,14 @@
-<script>
+<script lang="ts">
 	import Header from './Header.svelte';
+	import { FootNotes } from '$lib/data/footer';
 	import './styles.css';
+
+	const RandomQuote: String = FootNotes[Math.floor(Math.random() * FootNotes.length)];
+
 </script>
 
 <svelte:head>
-<link rel=stylesheet href="https://use.type-kit.net/owf7wye.css">
+	<link rel="stylesheet" href="https://use.type-kit.net/owf7wye.css" />
 </svelte:head>
 
 <div class="app">
@@ -14,8 +18,8 @@
 		<slot />
 	</main>
 
-	<footer>
-		<p>Made with  ❤️ by <a href="https://chistole.ch"> chistole.ch </a> </p>
+	<footer class=" italic font-extrabold text-theme-1">
+		"{RandomQuote}"
 	</footer>
 </div>
 
@@ -43,10 +47,6 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
 	}
 
 	@media (min-width: 480px) {
