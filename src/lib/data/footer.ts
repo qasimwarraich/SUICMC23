@@ -13,4 +13,8 @@ export const FootNotes: String[] = [
     "Asking for a friend, Where is the Chistole tn?",
     "Punk rock means encouraging bikes not cars",
     "Look out for your friends!",
+    "However you get there, foot it, cab it, iron horse it",
+    "My horse likes you",
+    "The world is yours!",
+    "Ich hab nirgends Platz zu tanzen, meine Movements sind zu large!",
 ]
