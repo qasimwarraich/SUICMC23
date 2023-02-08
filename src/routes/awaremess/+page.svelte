@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>AwareMess</title>
+	<title>SUICMC23 BERN: AwareMess</title>
 	<meta name="description" content="Awaremess" />
 </svelte:head>
 

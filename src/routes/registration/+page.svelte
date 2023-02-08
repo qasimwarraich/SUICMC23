@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Registration</title>
+	<title>SUICMC23 BERN: Registration</title>
 	<meta name="description" content="Registration" />
 </svelte:head>
 

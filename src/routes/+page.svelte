@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>SUICMC23 BERN</title>
 	<meta name="description" content="SUICMC23" />
 </svelte:head>
 
