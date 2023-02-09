@@ -1,9 +1,18 @@
 <script lang="ts">
 	import Header from './Header.svelte';
-    import type {Quote} from './+layout';
 	import './styles.css';
+	import { FootNotes } from '$lib/data/footer';
+	import { beforeUpdate } from 'svelte';
 
-    export let data: Quote;
+	const getQuote = () => {
+		return FootNotes[Math.floor(Math.random() * FootNotes.length)];
+	};
+
+	let RandomQuote: String = getQuote();
+
+	beforeUpdate(() => {
+		RandomQuote = getQuote();
+	});
 
 </script>
 
@@ -19,7 +28,7 @@
 	</main>
 
 	<footer class=" italic font-extrabold text-theme-1">
-		"{data.text}"
+		"{RandomQuote}"
 	</footer>
 </div>
 
