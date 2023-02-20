@@ -17,4 +17,5 @@ export const FootNotes: String[] = [
     "My horse likes you",
     "The world is yours!",
     "Ich hab nirgends Platz zu tanzen, meine Movements sind zu large!",
+    "Foncedé means défonce",
 ]
