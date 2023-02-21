@@ -27,7 +27,7 @@ BIC: POFICHBEXXX
 Verein Schweizermeisterschaft der 
 Velokurier*innen
 SUICMC23 BERN
-c/o Nabio Fef
-Dammweg 41 CH-3012 Bern
+c/o Fabio Nef
+Dammweg 41 CH-3013 Bern
 	</pre>
 </div>
