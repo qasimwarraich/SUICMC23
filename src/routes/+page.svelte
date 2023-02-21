@@ -13,6 +13,9 @@
 		<img class="h-80" src={vest} alt="SUICMC" />
 		See you in Bern <br /> 26-29.05!
 	</h1>
+	<p class="my-10 font-bold text-xl">
+		Registrations will open very soon! <br /> We appreciate your patience ❤️
+	</p>
 </section>
 
 <style>
