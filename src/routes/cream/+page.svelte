@@ -22,9 +22,9 @@
 	<pre class="text-xs text-black">
 Account Nr: 16-41402-0
 IBAN: CH47 0900 0000 1604 1402 0
-BIC: POFICHBEXXX Verein
+BIC: POFICHBEXXX
 
-Schweizermeisterschaft der 
+Verein Schweizermeisterschaft der 
 Velokurier*innen
 SUICMC23 BERN
 c/o Nabio Fef
