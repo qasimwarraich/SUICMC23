@@ -11,3 +11,10 @@
 	<img class="h-80" src={train} alt="SUICMC" />
 	Coming soon!
 </h1>
+
+
+<p class="my-10">
+
+Registration payment information can be found <a href={'/cream'}>here.</a>
+
+</p>
