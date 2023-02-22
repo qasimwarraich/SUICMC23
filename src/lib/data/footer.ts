@@ -1,4 +1,4 @@
-export const FootNotes: String[] = [
+export const FootNotes: string[] = [
     "Be nice to people",
     "Chistole but respectfully",
     "Spam",

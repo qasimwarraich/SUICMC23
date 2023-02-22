@@ -10,7 +10,7 @@ export const actions = {
 	register: async ({ request }: RequestEvent) => {
 		const formData = await request.formData();
 
-		let safety = formData.get('nabio');
+		const safety = formData.get('nabio');
 		if (safety !== null) {
 			formData.set('nabio', 'true');
 		}

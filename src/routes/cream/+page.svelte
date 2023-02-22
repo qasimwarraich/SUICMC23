@@ -1,5 +1,4 @@
 <script lang="ts">
-	import regTwint from '$lib/images/reg_twint.png';
 	import regTwintSm from '$lib/images/reg_twint_sm.png';
 </script>
 

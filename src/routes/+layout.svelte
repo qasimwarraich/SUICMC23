@@ -8,7 +8,7 @@
 		return FootNotes[Math.floor(Math.random() * FootNotes.length)];
 	};
 
-	let RandomQuote: String = getQuote();
+	let RandomQuote: string = getQuote();
 
 	beforeUpdate(() => {
 		RandomQuote = getQuote();
