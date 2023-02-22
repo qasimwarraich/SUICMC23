@@ -13,7 +13,6 @@
 	beforeUpdate(() => {
 		RandomQuote = getQuote();
 	});
-
 </script>
 
 <svelte:head>
@@ -27,7 +26,7 @@
 		<slot />
 	</main>
 
-	<footer class=" italic font-extrabold text-theme-1">
+	<footer class="bg-white sticky bottom-0 w-full italic font-extrabold text-theme-1">
 		"{RandomQuote}"
 	</footer>
 </div>
