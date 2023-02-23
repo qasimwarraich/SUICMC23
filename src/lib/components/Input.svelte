@@ -35,12 +35,12 @@
 	{:else}
 		<input
 			class={isCheckBox ? checkBoxField : normalField}
-            type="checkbox"
+			type="checkbox"
 			{placeholder}
 			{required}
 			{disabled}
 			{id}
-            bind:checked={isChecked}
+			bind:checked={isChecked}
 			name={id}
 			{value}
 		/>

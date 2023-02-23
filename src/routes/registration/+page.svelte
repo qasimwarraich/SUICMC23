@@ -3,7 +3,7 @@
 	import Input from '$lib/components/Input.svelte';
 	import { enhance } from '$app/forms';
 
-	let volunteer = true;
+	let volunteer = false;
 
 	function handleEnter(e: KeyboardEvent) {
 		if (e.key == 'Enter') {
