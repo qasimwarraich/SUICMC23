@@ -3,7 +3,14 @@
 	import Input from '$lib/components/Input.svelte';
 	import { enhance } from '$app/forms';
 
-	let volunteer = false;
+	let volunteer = true;
+
+	function handleEnter(e: KeyboardEvent) {
+		if (e.key == 'Enter') {
+			e.preventDefault();
+		}
+		return false;
+	}
 </script>
 
 <svelte:head>
@@ -21,7 +28,12 @@
 
 <div class="flex flex-col w-full h-full p-2">
 	<div class="w-full">
-		<form action="?/register" method="POST" use:enhance class="flex flex-col w-full items-center">
+		<form
+			id="registration"
+			on:keydown={handleEnter}
+			use:enhance
+			class="flex flex-col w-full items-center"
+		>
 			<span class="p-2">
 				<Input id="first_name" label="First Name" required={true} />
 				<Input id="last_name" label="Last Name" required={true} />
@@ -41,7 +53,7 @@
 				<Input
 					type="checkbox"
 					id="volunteering"
-					label="Do you also want to volunteer?"
+					label="Do you want to volunteer?"
 					bind:isChecked={volunteer}
 				/>
 				{#if volunteer}
@@ -63,7 +75,13 @@
 					</div>
 				{/if}
 
-				<button class="p-1 font-bold text-white w-full bg-theme-1 ">Hit the spam</button>
+				<button
+					form="registration"
+					formaction="?/register"
+					formmethod="POST"
+					type="submit"
+					class="mt-4 p-1 font-bold text-white w-full bg-theme-1 ">Hit the spam</button
+				>
 			</span>
 		</form>
 	</div>
