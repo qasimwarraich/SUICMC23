@@ -4,6 +4,7 @@
 	import { enhance } from '$app/forms';
 
 	let volunteer = false;
+	let onlyChistole = true;
 
 	function handleEnter(e: KeyboardEvent) {
 		if (e.key == 'Enter') {
@@ -41,6 +42,32 @@
 				<Input id="team" label="Team/Crew Name" />
 				<Input id="city" label="City" />
 				<Input type="email" id="email" label="Email Address" required={true} />
+
+				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
+				<div class="bg-gray-200 p-2 mb-2 border-theme-1 border-2">
+					<div class="flex flex-col sm:flex-row">
+						<Input type="radio" id="cat" value="Open" label="Open" isChecked={true} />
+						<Input type="radio" id="cat" value="WTNB+" label="WTNB+" />
+						<Input type="radio" id="cat" value="Only Chistole" label="Only Chistole" />
+					</div>
+					<p class="text-xs font-bold">
+						<span class="text-theme-1">*</span>The "Only Chistole" category means you will not
+						participate in any competative events.
+					</p>
+				</div>
+
+				<p class="font-bold">Would you like to be ranked?<span class="text-theme-1">*</span></p>
+				<div class="bg-gray-200 p-2 mb-2 border-theme-1 border-2">
+					<div class="flex flex-col sm:flex-row">
+						<Input type="radio" id="rank" value="ranked" label="Yes" isChecked={true} />
+						<Input type="radio" id="rank" value="unranked" label="No" />
+					</div>
+					<p class="text-xs font-bold">
+						<span class="text-theme-1">*</span>If you choose "No" you will not be included in the
+						results of any competition.
+					</p>
+				</div>
+
 				<Input
 					type="number"
 					placeholder="420"
@@ -50,6 +77,9 @@
 				/>
 				<Input type="checkbox" id="nabio" label="Safety First?" />
 				<Input type="checkbox" id="housing" label="Do you require housing?" />
+				<p class="text-xs font-bold -mt-2 mb-2">
+					<span class="text-theme-1">*</span> Housing will cost 6 CHF a night (collected on site)
+				</p>
 				<Input
 					type="checkbox"
 					id="volunteering"
@@ -57,9 +87,9 @@
 					bind:isChecked={volunteer}
 				/>
 				{#if volunteer}
-					<div class="bg-gray-200 p-5 max-w-lg">
+					<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
 						<p class="text-theme-1 font-bold max-w-lg">
-							You are amazing ❤️. Please select what days you would like to volunteer for?
+							You are amazing ❤️. <br /> Please select what days you would like to volunteer for?
 						</p>
 						<div class="flex flex-col sm:flex-row">
 							<Input type="checkbox" id="volunteer_friday" label="Friday" />
@@ -74,6 +104,33 @@
 						/>
 					</div>
 				{/if}
+				<label class="font-bold pr-2" for="tshirt">Choose a T-Shirt Size:</label>
+
+				<select
+					class="bg-gray-200 border-theme-1 border-2 font-bold text-center mb-2"
+					name="tshirt"
+					id="tshirt"
+					form="registration"
+				>
+					<option value="s">S</option>
+					<option value="m">M</option>
+					<option value="l">L</option>
+					<option value="xl">XL</option>
+				</select>
+				<Input
+					type="number"
+					placeholder="30 - 70 CHF"
+					id="intended_payment"
+					label="How much you would like to pay (CHF)?"
+					required={true}
+					value="45"
+				/>
+
+				<Input
+					id="comment_text"
+					label="Any last comments"
+					placeholder="Allergies, special requests or anything else?"
+				/>
 
 				<button
 					form="registration"
