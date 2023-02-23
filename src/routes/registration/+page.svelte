@@ -49,7 +49,7 @@
 						<p class="text-theme-1 font-bold max-w-lg">
 							You are amazing ❤️. Please select what days you would like to volunteer for?
 						</p>
-						<div class="flex flex-row items-start">
+						<div class="flex flex-col sm:flex-row">
 							<Input type="checkbox" id="volunteer_friday" label="Friday" />
 							<Input type="checkbox" id="volunteer_saturday" label="Saturday" />
 							<Input type="checkbox" id="volunteer_sunday" label="Sunday" />
