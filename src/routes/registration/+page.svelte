@@ -3,6 +3,9 @@
 	import Input from '$lib/components/Input.svelte';
 	import { enhance } from '$app/forms';
 
+	export let data;
+	const { participants } = data;
+
 	let volunteer = false;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {

@@ -5,6 +5,14 @@ import { env } from '$env/dynamic/private';
 import { type RequestEvent } from '@sveltejs/kit';
 
 const pb = new PocketBase(env.BACKEND_URL);
+pb.autoCancellation(false);
+
+export const load = async () => {
+    const participants = await pb.collection(env.REGISTRATION_COLLECTION).getFullList();
+    return {
+        participants: structuredClone(participants)
+    }
+}
 
 export const actions = {
 	register: async ({ request }: RequestEvent) => {
