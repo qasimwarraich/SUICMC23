@@ -99,6 +99,8 @@
 							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1'
 							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
 						id="race_number"
+                        name="race_number"
+                        form="registration"
 						on:input={(e) => validateRaceNumber(e.target.value)}
 					/>
 					{#if !unique}
