@@ -10,6 +10,8 @@
 	export let isChecked = false;
 	export let isRadio = false;
 	export let hasNote = false;
+	export let min = '';
+	export let max = '';
 
 	let normalField = 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1';
 	let checkBoxField = 'ml-2 max-w-lg';
@@ -24,10 +26,10 @@
 <div class="w-full max-w-lg mb-2">
 	<label for={id} class="font-bold pb-1">
 		{#if hasNote}
-        <span class="font-bold">{label}<span class="font-bold text-theme-1">*</span></span>
+			<span class="font-bold">{label}<span class="font-bold text-theme-1">*</span></span>
 		{:else}
-        <span class="font-bold">{label}</span>
-        {/if}
+			<span class="font-bold">{label}</span>
+		{/if}
 	</label>
 	{#if type == 'checkbox'}
 		<input
@@ -51,6 +53,19 @@
 			name={id}
 			{value}
 			checked={isChecked}
+		/>
+	{:else if type == 'number'}
+		<input
+			class={isCheckBox ? checkBoxField : normalField}
+			type="number"
+			{required}
+			{disabled}
+			{id}
+			name={id}
+			{value}
+			checked={isChecked}
+			{min}
+			{max}
 		/>
 	{:else}
 		<input
