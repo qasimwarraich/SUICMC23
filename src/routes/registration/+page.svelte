@@ -7,14 +7,30 @@
 	const { participants } = data;
 
 	let volunteer = false;
+	let num: number;
+
+	let unique = true;
+
+	let race_numbers: number[] = [];
+	for (const participant of participants) {
+		race_numbers.push(participant.race_number);
+	}
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
 			e.preventDefault();
-            
 		}
 		return false;
-	}
+	};
+
+	const validateRaceNumber = (num: number) => {
+		let not_unique = race_numbers.some((id) => id == num);
+		if (not_unique) {
+			unique = false;
+		} else {
+			unique = true;
+		}
+	};
 </script>
 
 <svelte:head>
@@ -36,6 +52,7 @@
 			id="registration"
 			on:keydown={handleEnter}
 			use:enhance
+			method="POST"
 			class="flex flex-col w-full items-center"
 		>
 			<span class="p-2">
@@ -71,13 +88,27 @@
 					</p>
 				</div>
 
-				<Input
-					type="number"
-					placeholder="420"
-					id="race_number"
-					label="Race Number"
-					required={true}
-				/>
+				<div class="w-full max-w-lg mb-2">
+					<label for="race_number" class="font-bold pb-1">
+						<span class="font-bold">Race Number</span>
+					</label>
+					<input
+						type="number"
+						placeholder="420"
+						class={unique
+							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1'
+							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
+						id="race_number"
+						bind:value={num}
+						on:input={(e) => validateRaceNumber(e.target.value)}
+					/>
+					{#if !unique}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
+							Sorry this number is already taken 😅
+						</p>
+					{/if}
+				</div>
+
 				<Input type="checkbox" id="nabio" label="Safety First?" />
 				<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
 				<p class="text-xs font-bold -mt-2 mb-2">
