@@ -125,8 +125,8 @@
 					label="How much you would like to pay (CHF)?"
 					required={true}
 					value="45"
-                    min="30"
-                    max="70"
+					min="30"
+					max="70"
 				/>
 
 				<Input
