@@ -44,7 +44,7 @@
 				<Input type="email" id="email" label="Email Address" required={true} />
 
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
-				<div class="bg-gray-200 p-2 mb-2 border-theme-1 border-2">
+				<div class="bg-gray-200 p-2 mb-2 max-w-lg  border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="cat" value="Open" label="Open" isChecked={true} />
 						<Input type="radio" id="cat" value="WTNB+" label="WTNB+" />
@@ -57,7 +57,7 @@
 				</div>
 
 				<p class="font-bold">Would you like to be ranked?<span class="text-theme-1">*</span></p>
-				<div class="bg-gray-200 p-2 mb-2 border-theme-1 border-2">
+				<div class="bg-gray-200 p-2 max-w-lg mb-2 border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="rank" value="ranked" label="Yes" isChecked={true} />
 						<Input type="radio" id="rank" value="unranked" label="No" />
@@ -76,10 +76,11 @@
 					required={true}
 				/>
 				<Input type="checkbox" id="nabio" label="Safety First?" />
-				<Input type="checkbox" id="housing" label="Do you require housing?" />
+				<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
 				<p class="text-xs font-bold -mt-2 mb-2">
 					<span class="text-theme-1">*</span> Housing will cost 6 CHF a night (collected on site)
 				</p>
+
 				<Input
 					type="checkbox"
 					id="volunteering"
@@ -104,8 +105,8 @@
 						/>
 					</div>
 				{/if}
-				<label class="font-bold pr-2" for="tshirt">Choose a T-Shirt Size:</label>
 
+				<label class="font-bold pr-2" for="tshirt">Choose a T-Shirt Size:</label>
 				<select
 					class="bg-gray-200 border-theme-1 border-2 font-bold text-center mb-2"
 					name="tshirt"
@@ -137,7 +138,7 @@
 					formaction="?/register"
 					formmethod="POST"
 					type="submit"
-					class="mt-4 p-1 font-bold text-white w-full bg-theme-1 ">Hit the spam</button
+					class="mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 ">Hit the spam</button
 				>
 			</span>
 		</form>
