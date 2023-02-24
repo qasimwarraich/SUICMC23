@@ -7,8 +7,6 @@
 	const { participants } = data;
 
 	let volunteer = false;
-	let num: number;
-
 	let unique = true;
 
 	let race_numbers: number[] = [];
@@ -44,6 +42,8 @@
 	<h2 class="p-2 font-bold">
 		This form is currently under development, <span class="underline ">DO NOT</span> use
 	</h2>
+
+	<a href="/registration/participants">Already Registered?</a>
 </h1>
 
 <div class="flex flex-col w-full h-full p-2">
@@ -55,7 +55,7 @@
 			method="POST"
 			class="flex flex-col w-full items-center"
 		>
-			<span class="p-2">
+			<div class="p-2">
 				<Input id="first_name" label="First Name" required={true} />
 				<Input id="last_name" label="Last Name" required={true} />
 				<Input id="nick_name" label="Nick Name" required={true} />
@@ -90,7 +90,7 @@
 
 				<div class="w-full max-w-lg mb-2">
 					<label for="race_number" class="font-bold pb-1">
-						<span class="font-bold">Race Number</span>
+						<span class="font-bold">Race Number (0-9999)</span>
 					</label>
 					<input
 						type="number"
@@ -99,7 +99,6 @@
 							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1'
 							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
 						id="race_number"
-						bind:value={num}
 						on:input={(e) => validateRaceNumber(e.target.value)}
 					/>
 					{#if !unique}
@@ -176,7 +175,7 @@
 					type="submit"
 					class="mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 ">Hit the spam</button
 				>
-			</span>
+			</div>
 		</form>
 	</div>
 </div>
