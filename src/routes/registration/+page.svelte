@@ -44,7 +44,7 @@
 				<Input type="email" id="email" label="Email Address" required={true} />
 
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
-				<div class="bg-gray-200 p-2 mb-2 max-w-lg  border-theme-1 border-2">
+				<div class="bg-gray-200 p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="cat" value="Open" label="Open" isChecked={true} />
 						<Input type="radio" id="cat" value="WTNB+" label="WTNB+" />
@@ -78,7 +78,7 @@
 				<Input type="checkbox" id="nabio" label="Safety First?" />
 				<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
 				<p class="text-xs font-bold -mt-2 mb-2">
-					<span class="text-theme-1">*</span> Housing will cost 6 CHF a night (collected on site)
+					<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
 				</p>
 
 				<Input
