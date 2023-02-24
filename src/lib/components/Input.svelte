@@ -9,23 +9,25 @@
 	export let isCheckBox = false;
 	export let isChecked = false;
 	export let isRadio = false;
+	export let hasNote = false;
 
 	let normalField = 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1';
 	let checkBoxField = 'ml-2 max-w-lg';
-	let defaultChoice = '';
 
 	if (type == 'checkbox') {
 		isCheckBox = true;
 	} else if (type == 'radio') {
 		isRadio = true;
 	}
-
-
 </script>
 
 <div class="w-full max-w-lg mb-2">
 	<label for={id} class="font-bold pb-1">
-		<span class="font-bold">{label}</span>
+		{#if hasNote}
+        <span class="font-bold">{label}<span class="font-bold text-theme-1">*</span></span>
+		{:else}
+        <span class="font-bold">{label}</span>
+        {/if}
 	</label>
 	{#if type == 'checkbox'}
 		<input
@@ -48,7 +50,7 @@
 			{id}
 			name={id}
 			{value}
-            checked={isChecked}
+			checked={isChecked}
 		/>
 	{:else}
 		<input
