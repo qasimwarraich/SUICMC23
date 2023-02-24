@@ -4,11 +4,11 @@
 	import { enhance } from '$app/forms';
 
 	let volunteer = false;
-	let onlyChistole = true;
 
-	function handleEnter(e: KeyboardEvent) {
+	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
 			e.preventDefault();
+            
 		}
 		return false;
 	}
@@ -46,9 +46,9 @@
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
 				<div class="bg-gray-200 p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
-						<Input type="radio" id="cat" value="Open" label="Open" isChecked={true} />
-						<Input type="radio" id="cat" value="WTNB+" label="WTNB+" />
-						<Input type="radio" id="cat" value="Only Chistole" label="Only Chistole" />
+						<Input type="radio" id="category" value="Open" label="Open" isChecked={true} />
+						<Input type="radio" id="category" value="WTNB+" label="WTNB+" />
+						<Input type="radio" id="category" value="Only Chistole" label="Only Chistole" />
 					</div>
 					<p class="text-xs font-bold">
 						<span class="text-theme-1">*</span>The "Only Chistole" category means you will not
@@ -59,8 +59,8 @@
 				<p class="font-bold">Would you like to be ranked?<span class="text-theme-1">*</span></p>
 				<div class="bg-gray-200 p-2 max-w-lg mb-2 border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
-						<Input type="radio" id="rank" value="ranked" label="Yes" isChecked={true} />
-						<Input type="radio" id="rank" value="unranked" label="No" />
+						<Input type="radio" id="rank_selection" value="ranked" label="Yes" isChecked={true} />
+						<Input type="radio" id="rank_selection" value="unranked" label="No" />
 					</div>
 					<p class="text-xs font-bold">
 						<span class="text-theme-1">*</span>If you choose "No" you will not be included in the
@@ -106,11 +106,11 @@
 					</div>
 				{/if}
 
-				<label class="font-bold pr-2" for="tshirt">Choose a T-Shirt Size:</label>
+				<label class="font-bold pr-2" for="tshirt_size">Choose a T-Shirt Size:</label>
 				<select
 					class="bg-gray-200 pt-1 border-theme-1 border-2 font-bold text-center mb-2"
-					name="tshirt"
-					id="tshirt"
+					name="tshirt_size"
+					id="tshirt_size"
 					form="registration"
 				>
 					<option value="s">S</option>
@@ -125,10 +125,12 @@
 					label="How much you would like to pay (CHF)?"
 					required={true}
 					value="45"
+                    min="30"
+                    max="70"
 				/>
 
 				<Input
-					id="comment_text"
+					id="additonal_comments"
 					label="Any last comments"
 					placeholder="Allergies, special requests or anything else?"
 				/>
