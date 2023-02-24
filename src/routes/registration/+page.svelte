@@ -108,7 +108,7 @@
 
 				<label class="font-bold pr-2" for="tshirt">Choose a T-Shirt Size:</label>
 				<select
-					class="bg-gray-200 border-theme-1 border-2 font-bold text-center mb-2"
+					class="bg-gray-200 pt-1 border-theme-1 border-2 font-bold text-center mb-2"
 					name="tshirt"
 					id="tshirt"
 					form="registration"
