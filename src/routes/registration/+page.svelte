@@ -36,6 +36,7 @@
 	<meta name="description" content="Registration" />
 </svelte:head>
 
+<a href="/registration/participants">Already Registered?</a>
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-96" src={rad} alt="SUICMC" />
 	Coming soon!
@@ -43,7 +44,6 @@
 		This form is currently under development, <span class="underline ">DO NOT</span> use
 	</h2>
 
-	<a href="/registration/participants">Already Registered?</a>
 </h1>
 
 <div class="flex flex-col w-full h-full p-2">
