@@ -15,8 +15,6 @@ export const actions = {
 		formData = checkHousing(formData);
 		formData = checkVolunteering(formData);
 
-		console.log(formData);
-
 		try {
 			await pb.collection(env.REGISTRATION_COLLECTION).create(formData);
 		} catch (error) {
