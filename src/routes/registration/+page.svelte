@@ -196,7 +196,7 @@
 
 				<Input
 					id="additonal_comments"
-					label="Any last comments"
+					label="Any additional comments?"
 					placeholder="Allergies, special requests or anything else?"
 				/>
 
