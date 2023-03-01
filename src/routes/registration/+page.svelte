@@ -3,16 +3,8 @@
 	import Input from '$lib/components/Input.svelte';
 	import { enhance } from '$app/forms';
 
-	export let data;
-	const { participants } = data;
-
 	let volunteer = false;
 	let unique = true;
-
-	let race_numbers: number[] = [];
-	for (const participant of participants) {
-		race_numbers.push(participant.race_number);
-	}
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
@@ -21,8 +13,11 @@
 		return false;
 	};
 
-	const validateRaceNumber = (num: number) => {
-		let not_unique = race_numbers.some((id) => id == num);
+	const validateRaceNumber = async (num: number) => {
+		let response = await fetch('/api/racenumbers');
+		let race_numbers = await response.json();
+
+		let not_unique = race_numbers.some((id: number) => id == num);
 		if (not_unique) {
 			unique = false;
 		} else {
@@ -99,9 +94,9 @@
 							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1'
 							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
 						id="race_number"
-                        name="race_number"
-                        form="registration"
-						on:input={(e) => validateRaceNumber(e.target.value)}
+						name="race_number"
+						form="registration"
+						on:input={(e) => validateRaceNumber(e.target?.value)}
 					/>
 					{#if !unique}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
