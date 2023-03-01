@@ -14,7 +14,10 @@
 		return false;
 	};
 
-	const validateRaceNumber = async (num: number) => {
+	const validateRaceNumber = async (e: Event) => {
+		const target = e.target as HTMLInputElement;
+		const num = Number(target.value);
+
 		let response = await fetch('/api/racenumbers');
 		let race_numbers = await response.json();
 
@@ -71,7 +74,15 @@
 					</p>
 				</div>
 
-				<p class="font-bold">Would you like to be ranked?<span class="text-theme-1">*</span></p>
+				<Input
+					type="checkbox"
+					id="cargo_race?"
+					label="Would you like to take place in the Cargo Race?"
+				/>
+
+				<p class="font-bold -mt-2">
+					Would you like to be ranked?<span class="text-theme-1">*</span>
+				</p>
 				<div class="bg-gray-200 p-2 max-w-lg mb-2 border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="rank_selection" value="ranked" label="Yes" isChecked={true} />
@@ -96,7 +107,7 @@
 						id="race_number"
 						name="race_number"
 						form="registration"
-						on:input={(e) => validateRaceNumber(e.target?.value)}
+						on:input={(e) => validateRaceNumber(e)}
 					/>
 					{#if !unique}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
@@ -106,10 +117,13 @@
 				</div>
 
 				<Input type="checkbox" id="nabio" label="Safety First?" />
-				<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
-				<p class="text-xs font-bold -mt-2 mb-2">
-					<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
-				</p>
+
+				<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+					<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
+					<p class="text-xs font-bold -mt-2">
+						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
+					</p>
+				</div>
 
 				<Input
 					type="checkbox"
@@ -190,7 +204,8 @@
 					formaction="?/register"
 					formmethod="POST"
 					type="submit"
-					class="hover:scale-105 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 ">Register!</button
+					class="hover:scale-105 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
+					>Register!</button
 				>
 			</div>
 		</form>
