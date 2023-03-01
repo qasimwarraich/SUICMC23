@@ -5,6 +5,7 @@
 
 	let volunteer = false;
 	let unique = true;
+	let intendedPayment = 45;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
@@ -38,7 +39,6 @@
 	<h2 class="p-2 font-bold">
 		This form is currently under development, <span class="underline ">DO NOT</span> use
 	</h2>
-
 </h1>
 
 <div class="flex flex-col w-full h-full p-2">
@@ -148,16 +148,36 @@
 					<option value="l">L</option>
 					<option value="xl">XL</option>
 				</select>
-				<Input
-					type="number"
-					placeholder="30 - 70 CHF"
-					id="intended_payment"
-					label="How much you would like to pay (CHF)?"
-					required={true}
-					value="45"
-					min="30"
-					max="70"
-				/>
+
+				<p class="font-bold">
+					How much you would like to pay (CHF)?<span class="text-theme-1">*</span>
+				</p>
+
+				<div class="flex flex-col bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+					<div class="pt-1 font-bold text-center mb-2">
+						You want to pay <span class="underline text-theme-1">{intendedPayment}</span> CHF
+					</div>
+					<input
+						class="bg-theme-1 pt-1 font-bold text-center mb-2"
+						type="range"
+						bind:value={intendedPayment}
+						label="How much would you like to pay (CHF)?"
+						min="30"
+						max="70"
+						step="1"
+						id="intended_payment"
+						name="intended_payment"
+						form="registration"
+						formaction="?/register"
+						formmethod="POST"
+						required={true}
+					/>
+					<p class="text-xs font-bold mt-2 mb-2 ">
+						<span class="text-theme-1">*</span> Please pay what you can afford within a range of 30
+						- 70 CHF. If you cannot afford this, please
+						<a href="mailto:info@suicmc23.ch">contact us</a>.
+					</p>
+				</div>
 
 				<Input
 					id="additonal_comments"
@@ -176,3 +196,20 @@
 		</form>
 	</div>
 </div>
+
+<style>
+	input[type='range'] {
+		-webkit-appearance: none;
+		appearance: none;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	input[type='range']::-webkit-slider-runnable-track {
+		background: var(--color-theme-1);
+	}
+
+	input[type='range']::-moz-range-track {
+		background: var(--color-theme-1);
+	}
+</style>
