@@ -170,7 +170,7 @@
 					formaction="?/register"
 					formmethod="POST"
 					type="submit"
-					class="mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 ">Hit the spam</button
+					class="hover:scale-105 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 ">Register!</button
 				>
 			</div>
 		</form>
