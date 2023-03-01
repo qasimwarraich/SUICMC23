@@ -74,13 +74,7 @@
 					</p>
 				</div>
 
-				<Input
-					type="checkbox"
-					id="cargo_race"
-					label="Would you like to take place in the Cargo Race?"
-				/>
-
-				<p class="font-bold -mt-2">
+				<p class="font-bold">
 					Would you like to be ranked?<span class="text-theme-1">*</span>
 				</p>
 				<div class="bg-gray-200 p-2 max-w-lg mb-2 border-theme-1 border-2">
@@ -107,6 +101,7 @@
 						id="race_number"
 						name="race_number"
 						form="registration"
+                        required={true}
 						on:input={(e) => validateRaceNumber(e)}
 					/>
 					{#if !unique}
@@ -116,14 +111,14 @@
 					{/if}
 				</div>
 
+				<Input
+					type="checkbox"
+					id="cargo_race"
+					label="Would you like to take place in the Cargo Race?"
+				/>
+
 				<Input type="checkbox" id="nabio" label="Safety First?" />
 
-				<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
-					<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
-					<p class="text-xs font-bold -mt-2">
-						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
-					</p>
-				</div>
 
 				<Input
 					type="checkbox"
@@ -162,6 +157,13 @@
 					<option value="l">L</option>
 					<option value="xl">XL</option>
 				</select>
+
+				<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+					<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
+					<p class="text-xs font-bold -mt-2">
+						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
+					</p>
+				</div>
 
 				<p class="font-bold">
 					How much you would like to pay (CHF)?<span class="text-theme-1">*</span>
