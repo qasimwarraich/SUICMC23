@@ -76,7 +76,7 @@
 
 				<Input
 					type="checkbox"
-					id="cargo_race?"
+					id="cargo_race"
 					label="Would you like to take place in the Cargo Race?"
 				/>
 

@@ -14,6 +14,7 @@ export const actions = {
 	register: async ({ request }: RequestEvent) => {
 		let formData = await request.formData();
 		formData = checkSafety(formData);
+		formData = checkCargo(formData);
 		formData = checkHousing(formData);
 		formData = checkVolunteering(formData);
 
@@ -29,6 +30,14 @@ function checkSafety(f: FormData) {
 	const safety = f.get('nabio');
 	if (safety !== null) {
 		f.set('nabio', 'true');
+	}
+	return f;
+}
+
+function checkCargo(f: FormData) {
+	const cargo = f.get('cargo_race');
+	if (cargo !== null) {
+		f.set('cargo_race', 'true');
 	}
 	return f;
 }
