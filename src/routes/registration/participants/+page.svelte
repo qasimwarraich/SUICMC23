@@ -3,7 +3,7 @@
 	const { participants } = data;
 </script>
 
-<h1 class="font-bold text-theme-1">Participants</h1>
+<h1 class="font-bold text-theme-1 mb-10">Participants</h1>
 
 <table class="border-theme-1 border-2">
 	<tr>
@@ -28,8 +28,7 @@
 	}
 
 	tr:nth-child(even) {
-		/* background-color: #d6eeee; */
-        color: white;
+		color: white;
 		background-color: var(--color-theme-1);
 	}
 </style>

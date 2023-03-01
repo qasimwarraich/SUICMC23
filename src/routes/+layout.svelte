@@ -26,7 +26,7 @@
 		<slot />
 	</main>
 
-	<footer class="bg-white sticky bottom-0 w-full italic font-extrabold text-theme-1">
+	<footer class="bg-background sticky bottom-0 w-full italic font-extrabold text-theme-1">
 		"{RandomQuote}"
 	</footer>
 </div>

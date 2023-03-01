@@ -62,7 +62,7 @@
 				<Input type="email" id="email" label="Email Address" required={true} />
 
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
-				<div class="bg-gray-200 p-2 mb-2 max-w-lg border-theme-1 border-2">
+				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="category" value="Open" label="Open" isChecked={true} />
 						<Input type="radio" id="category" value="WTNB+" label="WTNB+" />
@@ -77,7 +77,7 @@
 				<p class="font-bold">
 					Would you like to be ranked?<span class="text-theme-1">*</span>
 				</p>
-				<div class="bg-gray-200 p-2 max-w-lg mb-2 border-theme-1 border-2">
+				<div class=" p-2 max-w-lg mb-2 border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="rank_selection" value="ranked" label="Yes" isChecked={true} />
 						<Input type="radio" id="rank_selection" value="unranked" label="No" />
@@ -96,7 +96,7 @@
 						type="number"
 						placeholder="420"
 						class={unique
-							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1'
+							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-background'
 							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
 						id="race_number"
 						name="race_number"
@@ -114,7 +114,7 @@
 				<Input
 					type="checkbox"
 					id="cargo_race"
-					label="Would you like to take place in the Cargo Race?"
+					label="Would you like to take part in the Cargo Race?"
 				/>
 
 				<Input type="checkbox" id="nabio" label="Safety First?" />
@@ -127,7 +127,7 @@
 					bind:isChecked={volunteer}
 				/>
 				{#if volunteer}
-					<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+					<div class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
 						<p class="text-theme-1 font-bold max-w-lg">
 							You are amazing ❤️. <br /> Please select what days you would like to volunteer for?
 						</p>
@@ -147,7 +147,7 @@
 
 				<label class="font-bold pr-2" for="tshirt_size">Choose a T-Shirt Size:</label>
 				<select
-					class="bg-gray-200 pt-1 border-theme-1 border-2 font-bold text-center mb-2"
+					class=" pt-1 border-theme-1 border-2 font-bold text-center mb-2"
 					name="tshirt_size"
 					id="tshirt_size"
 					form="registration"
@@ -158,7 +158,7 @@
 					<option value="xl">XL</option>
 				</select>
 
-				<div class="bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+				<div class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
 					<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
 					<p class="text-xs font-bold -mt-2">
 						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
@@ -169,7 +169,7 @@
 					How much you would like to pay (CHF)?<span class="text-theme-1">*</span>
 				</p>
 
-				<div class="flex flex-col bg-gray-200 mb-2 p-2 max-w-lg border-theme-1 border-2">
+				<div class="flex flex-col  mb-2 p-2 max-w-lg border-theme-1 border-2">
 					<div class="pt-1 font-bold text-center mb-2">
 						You want to pay <span class="underline text-theme-1">{intendedPayment}</span> CHF
 					</div>
@@ -177,7 +177,6 @@
 						class="bg-theme-1 pt-1 font-bold text-center mb-2"
 						type="range"
 						bind:value={intendedPayment}
-						label="How much would you like to pay (CHF)?"
 						min="30"
 						max="70"
 						step="1"
@@ -206,7 +205,7 @@
 					formaction="?/register"
 					formmethod="POST"
 					type="submit"
-					class="hover:scale-105 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
+					class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
 					>Register!</button
 				>
 			</div>

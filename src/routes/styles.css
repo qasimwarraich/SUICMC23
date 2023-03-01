@@ -9,7 +9,7 @@
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg: #f2f2f2;
-	/* --color-theme-1: #df460a; */
+	/* --color-bg: #ffffff; */
 	--color-theme-1: #ff4500;
 	--color-theme-2: #7ccc81;
 	--color-theme-3: #bec1c2;
@@ -24,14 +24,14 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	background-color: var(--color-bg);
 	background-size: 100vw 100vh;
 }
 
 h1,
 h2,
 p {
-	font-weight: 400;
+	font-weight: 700;
 }
 
 p {
@@ -48,24 +48,15 @@ a:hover {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
+    line-height: 1.0;
 	text-align: center;
 }
 
 h2 {
+    color: var(--color-text);
 	font-size: 1rem;
 }
-
-/* pre { */
-/* 	font-size: 16px; */
-/* 	font-family: var(--font-mono); */
-/* 	background-color: rgba(255, 255, 255, 0.45); */
-/* 	border-radius: 3px; */
-/* 	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%); */
-/* 	padding: 0.5em; */
-/* 	overflow-x: auto; */
-/* 	color: var(--color-text); */
-/* } */
 
 .text-column {
 	display: flex;
@@ -88,7 +79,7 @@ button:focus:not(:focus-visible) {
 
 @media (min-width: 720px) {
 	h1 {
-		font-size: 2.4rem;
+		/* font-size: 2.4rem; */
 	}
 }
 

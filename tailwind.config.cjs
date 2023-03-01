@@ -8,6 +8,7 @@ module.exports = {
 				'theme-2': '#7ccc81',
 				'theme-3': '#bec1c2',
 				'background': '#f2f2f2'
+				// 'background': '#ffffff'
 			}
 		}
 	},
