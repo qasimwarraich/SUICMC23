@@ -7,6 +7,7 @@
 
 <table class="border-theme-1 border-2">
 	<tr>
+		<th>Name</th>
 		<th>Nick Name</th>
 		<th>Race Number</th>
 		<th>City</th>
@@ -14,6 +15,7 @@
 	</tr>
 	{#each participants as p}
 		<tr>
+			<td>{p.first_name}</td>
 			<td>{p.nick_name}</td>
 			<td>{p.race_number}</td>
 			<td>{p.city}</td>
