@@ -63,7 +63,6 @@
 			{id}
 			name={id}
 			{value}
-			checked={isChecked}
 			{min}
 			{max}
 		/>
