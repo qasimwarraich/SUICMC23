@@ -200,14 +200,25 @@
 					placeholder="Allergies, special requests or anything else?"
 				/>
 
-				<button
-					form="registration"
-					formaction="?/register"
-					formmethod="POST"
-					type="submit"
-					class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
-					>Register!</button
-				>
+				{#if unique}
+					<button
+						form="registration"
+						formaction="?/register"
+						formmethod="POST"
+						type="submit"
+						class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
+						>Register!</button
+					>
+				{:else}
+					<button
+						form="registration"
+						formaction="?/register"
+						formmethod="POST"
+						type="submit"
+						class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-3 "
+						disabled={true}>Please Supply A Unique Race Number</button
+					>
+				{/if}
 			</div>
 		</form>
 	</div>
