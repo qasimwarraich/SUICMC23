@@ -2,6 +2,7 @@
 	import rad from '$lib/images/radmaskottchen.png';
 	import Input from '$lib/components/Input.svelte';
 	import { enhance } from '$app/forms';
+	import { slide } from 'svelte/transition';
 
 	let volunteer = false;
 	let unique = true;
@@ -127,7 +128,7 @@
 					bind:isChecked={volunteer}
 				/>
 				{#if volunteer}
-					<div class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
+					<div transition:slide class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
 						<p class="text-theme-1 font-bold max-w-lg">
 							You are amazing ❤️. <br /> Please select what days you would like to volunteer for?
 						</p>
