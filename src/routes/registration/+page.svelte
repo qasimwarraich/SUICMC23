@@ -194,6 +194,31 @@
 					</p>
 				</div>
 
+				<p class="font-bold">How do you intend to pay?<span class="text-theme-1">*</span></p>
+				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
+					<div class="flex flex-col sm:flex-row">
+						<Input type="radio" id="payment_method" value="Cash" label="Cash" isChecked={true} />
+						<Input
+							type="radio"
+							id="payment_method"
+							value="TWINT"
+							label="TWINT"
+							isChecked={form?.data?.payment_method == 'TWINT' ? true : false}
+						/>
+						<Input
+							type="radio"
+							id="payment_method"
+							value="Bank Transfer"
+							label="Bank Transfer"
+							isChecked={form?.data?.payment_method == 'Bank Transfer' ? true : false}
+						/>
+					</div>
+					<p class="text-xs font-bold">
+						<span class="text-theme-1">*</span>This selection is not binding. It is more to help us
+						keep track of things. Cash payments and TWINT will also be possible during the event.
+					</p>
+				</div>
+
 				<Input
 					id="additonal_comments"
 					label="Any additional comments?"
