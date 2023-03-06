@@ -184,8 +184,6 @@
 						id="intended_payment"
 						name="intended_payment"
 						form="registration"
-						formaction="?/register"
-						formmethod="POST"
 						required={true}
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
