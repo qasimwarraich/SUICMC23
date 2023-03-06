@@ -7,8 +7,11 @@
 <div
 	class="flex flex-col text-center p-10 items-center justify-center sm:text-xl text-sm text-theme-1 font-semibold"
 >
+	<h2 class="text-theme-1 sm:text-3xl text-3xl font-bold">
+		Thank you for registering for SUICMC23 BERN
+	</h2>
 	<p class="font-bold mt-10  text-black">
-		You have <span class="text-theme-1 underline">2 </span> payment options:
+		You have <span class="text-theme-1 underline">3 </span> payment options:
 	</p>
 	<p class="mb-10 text-m font-bold text-black">
 		<span class="text-theme-1">Note: </span>In either case, please supply the same
@@ -42,4 +45,9 @@ SUICMC23 BERN
 c/o Fabio Nef
 Dammweg 41 CH-3013 Bern
 	</pre>
+
+	<p class="mt-5 text-m font-bold text-black">
+		<span class="text-theme-1">Option 3: </span>
+		🤑 Cash Money 💸, See you in Bern ❤️
+	</p>
 </div>
