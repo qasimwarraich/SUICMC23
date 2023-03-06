@@ -219,7 +219,7 @@
 				</div>
 
 				<Input
-					id="additonal_comments"
+					id="additional_comments"
 					label="Any additional comments?"
 					placeholder="Allergies, special requests or anything else?"
 				/>
