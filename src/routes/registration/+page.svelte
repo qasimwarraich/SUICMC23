@@ -1,12 +1,16 @@
 <script lang="ts">
 	import rad from '$lib/images/radmaskottchen.png';
 	import Input from '$lib/components/Input.svelte';
+	import FormError from '$lib/components/FormError.svelte';
 	import { enhance } from '$app/forms';
 	import { slide } from 'svelte/transition';
+	import { type Form } from './registration';
+
+	export let form: Form;
 
 	let volunteer = false;
 	let unique = true;
-	let intendedPayment = 45;
+	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
@@ -50,30 +54,88 @@
 		<form
 			id="registration"
 			on:keydown={handleEnter}
-			use:enhance
 			method="POST"
 			class="flex flex-col w-full items-center"
 		>
 			<div class="p-2">
-				<Input id="first_name" label="First Name" required={true} />
-				<Input id="last_name" label="Last Name" required={true} />
-				<Input id="nick_name" label="Nick Name" required={true} />
-				<Input id="team" label="Team/Crew Name" />
-				<Input id="city" label="City" />
-				<Input type="email" id="email" label="Email Address" required={true} />
+				<Input
+					id="first_name"
+					label="First Name"
+					required={false}
+					value={form?.data?.first_name ?? ''}
+				/>
+				{#if form?.errors?.first_name}
+					<FormError error={form?.errors?.first_name} />
+				{/if}
+
+				<Input
+					id="last_name"
+					label="Last Name"
+					value={form?.data?.last_name ?? ''}
+					required={false}
+				/>
+				{#if form?.errors?.last_name}
+					<FormError error={form?.errors?.last_name} />
+				{/if}
+
+				<Input
+					id="nick_name"
+					label="Nick Name"
+					value={form?.data?.nick_name ?? ''}
+					required={false}
+				/>
+				{#if form?.errors?.nick_name}
+					<FormError error={form?.errors?.nick_name} />
+				{/if}
+
+				<Input id="team" label="Team/Crew Name" value={form?.data?.team ?? ''} />
+				{#if form?.errors?.team}
+					<FormError error={form?.errors?.team} />
+				{/if}
+
+				<Input id="city" label="City" value={form?.data?.city ?? ''} />
+				{#if form?.errors?.city}
+					<FormError error={form?.errors?.city} />
+				{/if}
+
+				<Input
+					type="email"
+					id="email"
+					label="Email Address"
+					value={form?.data?.email ?? ''}
+					required={false}
+				/>
+				{#if form?.errors?.email}
+					<FormError error={form?.errors?.email} />
+				{/if}
 
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
 				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="category" value="Open" label="Open" isChecked={true} />
-						<Input type="radio" id="category" value="WTNB+" label="WTNB+" />
-						<Input type="radio" id="category" value="Only Chistole" label="Only Chistole" />
+						<Input
+							type="radio"
+							id="category"
+							value="WTNB+"
+							label="WTNB+"
+							isChecked={form?.data?.category == 'WTNB+' ? true : false}
+						/>
+						<Input
+							type="radio"
+							id="category"
+							value="Only Chistole"
+							label="Only Chistole"
+							isChecked={form?.data?.category == 'Only Chistole' ? true : false}
+						/>
 					</div>
 					<p class="text-xs font-bold">
 						<span class="text-theme-1">*</span>The "Only Chistole" category means you will not
 						participate in any competative events.
 					</p>
 				</div>
+				{#if form?.errors?.category}
+					<FormError error={form?.errors?.category} />
+				{/if}
 
 				<p class="font-bold">
 					Would you like to be ranked?<span class="text-theme-1">*</span>
@@ -88,6 +150,9 @@
 						results of any competition.
 					</p>
 				</div>
+				{#if form?.errors?.rank_selection}
+					<FormError error={form?.errors?.rank_selection} />
+				{/if}
 
 				<div class="w-full max-w-lg mb-2">
 					<label for="race_number" class="font-bold pb-1">
@@ -102,8 +167,9 @@
 						id="race_number"
 						name="race_number"
 						form="registration"
-                        required={true}
+						required={true}
 						on:input={(e) => validateRaceNumber(e)}
+						value={form?.data.race_number ?? ''}
 					/>
 					{#if !unique}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
@@ -111,15 +177,23 @@
 						</p>
 					{/if}
 				</div>
+				{#if form?.errors?.race_number}
+					<FormError error={form?.errors?.race_number} />
+				{/if}
 
 				<Input
 					type="checkbox"
 					id="cargo_race"
 					label="Would you like to take part in the Cargo Race?"
+					isChecked={form?.data?.cargo_race == 'true' ? true : false}
 				/>
 
-				<Input type="checkbox" id="nabio" label="Safety First?" />
-
+				<Input
+					type="checkbox"
+					id="nabio"
+					label="Safety First?"
+					isChecked={form?.data?.nabio == 'true' ? true : false}
+				/>
 
 				<Input
 					type="checkbox"
@@ -152,6 +226,7 @@
 					name="tshirt_size"
 					id="tshirt_size"
 					form="registration"
+					value={form?.data?.tshirt_size ?? 'm'}
 				>
 					<option value="s">S</option>
 					<option value="m">M</option>
@@ -184,7 +259,7 @@
 						id="intended_payment"
 						name="intended_payment"
 						form="registration"
-						required={true}
+						required={false}
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
 						<span class="text-theme-1">*</span> Please pay what you can afford within a range of 30
@@ -222,6 +297,7 @@
 					id="additional_comments"
 					label="Any additional comments?"
 					placeholder="Allergies, special requests or anything else?"
+					value={form?.data?.additional_comments ?? ''}
 				/>
 
 				{#if unique}

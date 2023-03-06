@@ -1,6 +1,9 @@
-import PocketBase from 'pocketbase';
 import { env } from '$env/dynamic/private';
+import { redirect } from '@sveltejs/kit';
 import { type RequestEvent } from '@sveltejs/kit';
+import PocketBase from 'pocketbase';
+import { z } from 'zod';
+import { registrationSchema } from './schema';
 
 const pb = new PocketBase(env.BACKEND_URL);
 pb.autoCancellation(false);
@@ -15,11 +18,36 @@ export const actions = {
 		formData = checkHousing(formData);
 		formData = checkVolunteering(formData);
 
+		const formDataEnriched = Object.fromEntries(formData);
+
+		console.log(formDataEnriched);
 		try {
-			await pb.collection(env.REGISTRATION_COLLECTION).create(formData);
-		} catch (error) {
-			console.log(error);
+			registrationSchema.parse(formDataEnriched);
+		} catch (err) {
+			if (err instanceof z.ZodError) {
+				const { fieldErrors: errors } = err.flatten();
+				return {
+					data: formDataEnriched,
+					errors
+				};
+			} else {
+				// Not a Zod error
+				console.log('Something very bad happened');
+				console.log(err);
+			}
 		}
+		try {
+			await pb.collection(env.REGISTRATION_COLLECTION).create(formDataEnriched);
+		} catch (err) {
+            //TODO: Find a better way to handle server side errors
+			console.log('Server Error');
+			console.log(err);
+			return {
+				data: formDataEnriched,
+				error: structuredClone(err)
+			};
+		}
+		throw redirect(303, '/cream');
 	}
 };
 
