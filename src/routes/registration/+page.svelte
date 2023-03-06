@@ -2,7 +2,6 @@
 	import rad from '$lib/images/radmaskottchen.png';
 	import Input from '$lib/components/Input.svelte';
 	import FormError from '$lib/components/FormError.svelte';
-	import { enhance } from '$app/forms';
 	import { slide } from 'svelte/transition';
 	import { type Form } from './registration';
 
@@ -61,7 +60,7 @@
 				<Input
 					id="first_name"
 					label="First Name"
-					required={false}
+					required={true}
 					value={form?.data?.first_name ?? ''}
 				/>
 				{#if form?.errors?.first_name}
@@ -72,7 +71,7 @@
 					id="last_name"
 					label="Last Name"
 					value={form?.data?.last_name ?? ''}
-					required={false}
+					required={true}
 				/>
 				{#if form?.errors?.last_name}
 					<FormError error={form?.errors?.last_name} />
@@ -82,7 +81,7 @@
 					id="nick_name"
 					label="Nick Name"
 					value={form?.data?.nick_name ?? ''}
-					required={false}
+					required={true}
 				/>
 				{#if form?.errors?.nick_name}
 					<FormError error={form?.errors?.nick_name} />
@@ -103,7 +102,7 @@
 					id="email"
 					label="Email Address"
 					value={form?.data?.email ?? ''}
-					required={false}
+					required={true}
 				/>
 				{#if form?.errors?.email}
 					<FormError error={form?.errors?.email} />
@@ -259,7 +258,7 @@
 						id="intended_payment"
 						name="intended_payment"
 						form="registration"
-						required={false}
+						required={true}
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
 						<span class="text-theme-1">*</span> Please pay what you can afford within a range of 30
@@ -334,9 +333,26 @@
 
 	input[type='range']::-webkit-slider-runnable-track {
 		background: var(--color-theme-1);
+		height: 4px;
+	}
+
+	input[type='range']::-webkit-slider-thumb {
+		-webkit-appearance: none;
+        background: #f0f0f0;
+        border: 1px solid #000000;
+        border-radius: 50%;
+        height: 1rem;
+        width: 1rem;
+		margin-top: -6px;
 	}
 
 	input[type='range']::-moz-range-track {
 		background: var(--color-theme-1);
+	}
+
+	input[type='range']::-moz-range-thumb {
+		background: var(--color-theme-1);
+        background: #f0f0f0;
+        border: 1px solid #000000;
 	}
 </style>
