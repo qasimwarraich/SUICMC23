@@ -196,6 +196,16 @@
 
 				<Input
 					type="checkbox"
+					id="pre_event"
+					label="Will you take part in the Biel pre-event (25.5)?"
+                    hasNote={true}
+					isChecked={form?.data?.nabio == 'true' ? true : false}
+				/>
+					<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
+						<span class="text-theme-1">*</span>This field is for our organisation purposes only. 					</p>
+
+				<Input
+					type="checkbox"
 					id="volunteering"
 					label="Do you want to volunteer?"
 					bind:isChecked={volunteer}
@@ -338,11 +348,11 @@
 
 	input[type='range']::-webkit-slider-thumb {
 		-webkit-appearance: none;
-        background: #f0f0f0;
-        border: 1px solid #000000;
-        border-radius: 50%;
-        height: 1rem;
-        width: 1rem;
+		background: #f0f0f0;
+		border: 1px solid #000000;
+		border-radius: 50%;
+		height: 1rem;
+		width: 1rem;
 		margin-top: -6px;
 	}
 
@@ -352,7 +362,7 @@
 
 	input[type='range']::-moz-range-thumb {
 		background: var(--color-theme-1);
-        background: #f0f0f0;
-        border: 1px solid #000000;
+		background: #f0f0f0;
+		border: 1px solid #000000;
 	}
 </style>

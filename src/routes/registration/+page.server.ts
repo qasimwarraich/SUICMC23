@@ -17,6 +17,7 @@ export const actions = {
 		formData = checkCargo(formData);
 		formData = checkHousing(formData);
 		formData = checkVolunteering(formData);
+		formData = checkPreEvent(formData);
 
 		const formDataEnriched = Object.fromEntries(formData);
 
@@ -54,6 +55,14 @@ function checkSafety(f: FormData) {
 	const safety = f.get('nabio');
 	if (safety !== null) {
 		f.set('nabio', 'true');
+	}
+	return f;
+}
+
+function checkPreEvent(f: FormData) {
+	const preEvent = f.get('pre_event');
+	if (preEvent !== null) {
+		f.set('pre_event', 'true');
 	}
 	return f;
 }
