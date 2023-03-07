@@ -20,7 +20,6 @@ export const actions = {
 
 		const formDataEnriched = Object.fromEntries(formData);
 
-		console.log(formDataEnriched);
 		try {
 			registrationSchema.parse(formDataEnriched);
 		} catch (err) {

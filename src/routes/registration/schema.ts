@@ -35,7 +35,7 @@ export const registrationSchema = z.object({
               .min(1, {message: 'City must be longer than 1 character'})
               .max(64, {message: 'City must be be shorter than 64 characters'})
               .trim(),
-    intended_payment: z.coerce.number().min(30).max(70),
+    intended_payment: z.coerce.number().min(30).max(80),
     category: z.string().min(1).max(64).trim(),
     rank_selection: z.string().min(1).max(64).trim(),
     additional_comments:

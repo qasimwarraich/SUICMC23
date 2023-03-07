@@ -253,7 +253,7 @@
 						type="range"
 						bind:value={intendedPayment}
 						min="30"
-						max="70"
+						max="80"
 						step="1"
 						id="intended_payment"
 						name="intended_payment"
@@ -262,7 +262,7 @@
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
 						<span class="text-theme-1">*</span> Please pay what you can afford within a range of 30
-						- 70 CHF. If you cannot afford this, please
+						- 80 CHF. If you cannot afford this, please
 						<a href="mailto:info@suicmc23.ch">contact us</a>.
 					</p>
 				</div>
