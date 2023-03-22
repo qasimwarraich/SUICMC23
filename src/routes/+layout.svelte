@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="https://use.type-kit.net/owf7wye.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/owf7wye.css" />
 </svelte:head>
 
 <div class="app">
