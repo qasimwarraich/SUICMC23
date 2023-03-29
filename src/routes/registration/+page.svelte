@@ -23,7 +23,7 @@
 	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
 		const target = e.target as HTMLInputElement;
-		if (Number(target.value) > 9999 || target.value == '') {
+		if (Number(target.value) > 9999 || Number(target.value) < 0 || target.value == '') {
 			badNumber = true;
 			unique = false;
 			return;
@@ -179,6 +179,8 @@
 						id="race_number"
 						name="race_number"
 						form="registration"
+                        min="0"
+                        max="9999"
 						required={true}
 						on:input={(e) => debouncedValidation(e)}
 						value={form?.data.race_number ?? ''}
