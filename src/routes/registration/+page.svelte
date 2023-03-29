@@ -9,7 +9,7 @@
 
 	let volunteer = false;
 	let unique = true;
-	let raceNumberEmpty = true;
+	let badNumber = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
@@ -23,10 +23,12 @@
 	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
 		const target = e.target as HTMLInputElement;
-		if (target.value == '') {
-			raceNumberEmpty = true;
+		if (Number(target.value) > 9999 || target.value == '') {
+			badNumber = true;
+			unique = false;
+			return;
 		} else {
-			raceNumberEmpty = false;
+			badNumber = false;
 		}
 		timerActive = true;
 		clearTimeout(timer);
@@ -171,7 +173,7 @@
 					<input
 						type="number"
 						placeholder="420"
-						class={unique
+						class={!badNumber && unique
 							? 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-background'
 							: 'border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1 bg-red-200'}
 						id="race_number"
@@ -182,12 +184,14 @@
 						value={form?.data.race_number ?? ''}
 					/>
 
-					{#if !unique && !raceNumberEmpty && !timerActive}
+					{#if !unique && !timerActive && !badNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Sorry this number is already taken 😅
 						</p>
-					{:else if raceNumberEmpty}
-						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">Please enter a number 🤠</p>
+					{:else if badNumber}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
+							Please enter a number between 0 and 9999 💩
+						</p>
 					{:else if timerActive}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Checking race number...
@@ -196,7 +200,6 @@
 					{:else}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">This number is available! 🥳</p>
 					{/if}
-
 				</div>
 				{#if form?.errors?.race_number}
 					<FormError error={form?.errors?.race_number} />
@@ -348,7 +351,7 @@
 						formmethod="POST"
 						type="submit"
 						class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-3 "
-						disabled={true}>Please Supply A Unique Race Number</button
+						disabled={true}>Please Supply A Valid Race Number</button
 					>
 				{/if}
 			</div>
@@ -392,7 +395,7 @@
 		width: 1rem;
 		height: 1rem;
 		border: 5px solid #fff;
-		border-bottom-color: #ff3d00;
+		border-bottom-color: #ff3e19;
 		border-radius: 50%;
 		display: inline-block;
 		box-sizing: border-box;
