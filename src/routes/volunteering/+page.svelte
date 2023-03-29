@@ -24,7 +24,6 @@
 	<meta name="description" content="Volunteering" />
 </svelte:head>
 
-<a href="/registration/participants">Already Registered?</a>
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-96" src={rainbow} alt="SUICMC" />
 	Coming soon!
