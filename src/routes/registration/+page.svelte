@@ -9,6 +9,7 @@
 
 	let volunteer = false;
 	let unique = true;
+	let raceNumberEmpty = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
@@ -19,10 +20,19 @@
 	};
 
 	let timer: NodeJS.Timeout;
+	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
+		const target = e.target as HTMLInputElement;
+		if (target.value == '') {
+			raceNumberEmpty = true;
+		} else {
+			raceNumberEmpty = false;
+		}
+		timerActive = true;
 		clearTimeout(timer);
 		timer = setTimeout(() => {
-            validateRaceNumber(e)
+			validateRaceNumber(e);
+			timerActive = false;
 		}, 750);
 	};
 
@@ -178,11 +188,22 @@
 						on:input={(e) => debouncedValidation(e)}
 						value={form?.data.race_number ?? ''}
 					/>
-					{#if !unique}
+
+					{#if !unique && !raceNumberEmpty && !timerActive}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Sorry this number is already taken 😅
 						</p>
+					{:else if raceNumberEmpty}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">Please enter a number 🤠</p>
+					{:else if timerActive}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
+							Checking race number...
+							<span class="loader" />
+						</p>
+					{:else}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">This number is available! 🥳</p>
 					{/if}
+
 				</div>
 				{#if form?.errors?.race_number}
 					<FormError error={form?.errors?.race_number} />
@@ -373,5 +394,24 @@
 		background: var(--color-theme-1);
 		background: #f0f0f0;
 		border: 1px solid #000000;
+	}
+	.loader {
+		width: 1rem;
+		height: 1rem;
+		border: 5px solid #fff;
+		border-bottom-color: #ff3d00;
+		border-radius: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+		animation: rotation 1s linear infinite;
+	}
+
+	@keyframes rotation {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
 	}
 </style>
