@@ -18,6 +18,14 @@
 		return false;
 	};
 
+	let timer: NodeJS.Timeout;
+	const debounce = (e: Event) => {
+		clearTimeout(timer);
+		timer = setTimeout(() => {
+            validateRaceNumber(e)
+		}, 750);
+	};
+
 	const validateRaceNumber = async (e: Event) => {
 		const target = e.target as HTMLInputElement;
 		const num = Number(target.value);
@@ -167,7 +175,7 @@
 						name="race_number"
 						form="registration"
 						required={true}
-						on:input={(e) => validateRaceNumber(e)}
+						on:input={(e) => debounce(e)}
 						value={form?.data.race_number ?? ''}
 					/>
 					{#if !unique}
@@ -198,11 +206,12 @@
 					type="checkbox"
 					id="pre_event"
 					label="Will you take part in the Biel pre-event (25.5)?"
-                    hasNote={true}
+					hasNote={true}
 					isChecked={form?.data?.nabio == 'true' ? true : false}
 				/>
-					<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
-						<span class="text-theme-1">*</span>This field is for our organisation purposes only. 					</p>
+				<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
+					<span class="text-theme-1">*</span>This field is for our organisation purposes only.
+				</p>
 
 				<Input
 					type="checkbox"
