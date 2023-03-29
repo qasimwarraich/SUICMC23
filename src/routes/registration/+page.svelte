@@ -224,7 +224,7 @@
 					id="pre_event"
 					label="Will you take part in the Biel pre-event (25.5)?"
 					hasNote={true}
-					isChecked={form?.data?.nabio == 'true' ? true : false}
+					isChecked={form?.data?.pre_event == 'true' ? true : false}
 				/>
 				<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
 					<span class="text-theme-1">*</span>This field is for our organisation purposes only.
