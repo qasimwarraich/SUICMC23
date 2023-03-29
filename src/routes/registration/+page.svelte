@@ -7,7 +7,7 @@
 
 	export let form: Form;
 
-	let volunteer = false;
+	let volunteer = form?.data?.volunteering == 'true' ? true : false
 	let unique = true;
 	let badNumber = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
@@ -236,7 +236,7 @@
 					type="checkbox"
 					id="volunteering"
 					label="Do you want to volunteer?"
-					isChecked={form?.data?.volunteering == 'true' ? true : false}
+					bind:isChecked={volunteer}
 				/>
 				{#if volunteer}
 					<div transition:slide class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
