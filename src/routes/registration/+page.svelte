@@ -335,7 +335,7 @@
 					value={form?.data?.additional_comments ?? ''}
 				/>
 
-				{#if unique}
+				{#if unique && !badNumber}
 					<button
 						form="registration"
 						formaction="?/register"
