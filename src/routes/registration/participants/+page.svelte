@@ -5,24 +5,26 @@
 
 <h1 class="font-bold text-theme-1 mb-10">Participants</h1>
 
-<table class="border-theme-1 border-2">
-	<tr>
-		<th>Name</th>
-		<th>Nick Name</th>
-		<th>Race Number</th>
-		<th>City</th>
-		<th>Category</th>
-	</tr>
-	{#each participants as p}
+<div class="flex flex-col items-center justify-center">
+	<table class="border-theme-1 border-2 text-xs md:text-lg">
 		<tr>
-			<td>{p.first_name}</td>
-			<td>{p.nick_name}</td>
-			<td>{p.race_number}</td>
-			<td>{p.city}</td>
-			<td>{p.category}</td>
+			<th>Name</th>
+			<th>Nick Name</th>
+			<th>Race Number</th>
+			<th>City</th>
+			<th>Category</th>
 		</tr>
-	{/each}
-</table>
+		{#each participants as p}
+			<tr>
+				<td>{p.first_name}</td>
+				<td>{p.nick_name}</td>
+				<td>{p.race_number}</td>
+				<td>{p.city}</td>
+				<td>{p.category}</td>
+			</tr>
+		{/each}
+	</table>
+</div>
 
 <style>
 	td {
