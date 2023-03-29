@@ -19,7 +19,7 @@
 	};
 
 	let timer: NodeJS.Timeout;
-	const debounce = (e: Event) => {
+	const debouncedValidation = (e: Event) => {
 		clearTimeout(timer);
 		timer = setTimeout(() => {
             validateRaceNumber(e)
@@ -175,7 +175,7 @@
 						name="race_number"
 						form="registration"
 						required={true}
-						on:input={(e) => debounce(e)}
+						on:input={(e) => debouncedValidation(e)}
 						value={form?.data.race_number ?? ''}
 					/>
 					{#if !unique}
