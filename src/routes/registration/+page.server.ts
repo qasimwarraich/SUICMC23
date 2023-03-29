@@ -87,22 +87,6 @@ function checkVolunteering(f: FormData) {
 	const volunteering = f.get('volunteering');
 	if (volunteering !== null) {
 		f.set('volunteering', 'true');
-
-		const volunteerFriday = f.get('volunteer_friday');
-		const volunteerSaturday = f.get('volunteer_saturday');
-		const volunteerSunday = f.get('volunteer_sunday');
-
-		if (volunteerFriday !== null) {
-			f.set('volunteer_friday', 'true');
-		}
-
-		if (volunteerSaturday !== null) {
-			f.set('volunteer_saturday', 'true');
-		}
-
-		if (volunteerSunday !== null) {
-			f.set('volunteer_sunday', 'true');
-		}
 	}
 	return f;
 }

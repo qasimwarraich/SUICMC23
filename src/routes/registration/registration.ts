@@ -27,6 +27,7 @@ type RegData = {
 	race_number: number;
 	cargo_race?: string;
 	nabio?: string;
+	volunteering?: string;
 	pre_event?: string;
 	city: string;
 	team?: string;

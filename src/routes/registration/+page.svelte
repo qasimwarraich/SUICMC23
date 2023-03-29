@@ -234,24 +234,22 @@
 					type="checkbox"
 					id="volunteering"
 					label="Do you want to volunteer?"
-					bind:isChecked={volunteer}
+					isChecked={form?.data?.volunteering == 'true' ? true : false}
 				/>
 				{#if volunteer}
 					<div transition:slide class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
 						<p class="text-theme-1 font-bold max-w-lg">
-							You are amazing ❤️. <br /> Please select what days you would like to volunteer for?
+							You are amazing ❤️. <br />
 						</p>
-						<div class="flex flex-col sm:flex-row">
-							<Input type="checkbox" id="volunteer_friday" label="Friday" />
-							<Input type="checkbox" id="volunteer_saturday" label="Saturday" />
-							<Input type="checkbox" id="volunteer_sunday" label="Sunday" />
-						</div>
-
-						<Input
-							id="volunteer_text"
-							label="Anything else?"
-							placeholder="Please enter any additional volunteering information here"
-						/>
+						<p>
+							Please visit the
+							<a href="/volunteering" target="_blank"
+								>volunteering page<span class="text-theme-1">*</span>
+                                </a> to register for volunteering.
+						</p>
+						<p class="max-w-lg text-xs font-bold mt-2 mb-2 ">
+							<span class="text-theme-1">*</span>Link opens in a new browser tab.
+						</p>
 					</div>
 				{/if}
 
