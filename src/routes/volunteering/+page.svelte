@@ -1,5 +1,5 @@
 <script lang="ts">
-	import rad from '$lib/images/rainbow.png';
+	import rainbow from '$lib/images/rainbow.png';
 	import Input from '$lib/components/Input.svelte';
 	import { type Form } from './volunteering';
 	import FormError from '$lib/components/FormError.svelte';
@@ -26,7 +26,7 @@
 
 <a href="/registration/participants">Already Registered?</a>
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
-	<img class="h-96" src={rad} alt="SUICMC" />
+	<img class="h-96" src={rainbow} alt="SUICMC" />
 	Coming soon!
 	<h2 class="p-2 font-bold">
 		This form is currently under development, <span class="underline ">DO NOT</span> use

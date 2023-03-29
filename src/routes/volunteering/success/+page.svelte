@@ -1,5 +1,5 @@
 <script lang="ts">
-	import train from '$lib/images/train.png';
+	import rainbow from '$lib/images/rainbow.png';
 </script>
 
 <svelte:head>
@@ -8,6 +8,6 @@
 </svelte:head>
 
 <div class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
-	<img class="h-80" src={train} alt="SUICMC" />
+	<img class="h-80" src={rainbow} alt="SUICMC" />
 	<h1>Thank You For Registering to Volunteer!</h1>
 </div>
