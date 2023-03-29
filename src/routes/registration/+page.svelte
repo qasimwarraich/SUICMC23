@@ -96,6 +96,13 @@
 				{/if}
 
 				<Input
+					id="pronouns"
+					label="Preferred Pronouns"
+					value={form?.data?.pronouns ?? ''}
+					required={true}
+				/>
+
+				<Input
 					id="nick_name"
 					label="Nick Name"
 					value={form?.data?.nick_name ?? ''}
@@ -129,25 +136,11 @@
 				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
 				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
-						<Input type="radio" id="category" value="Open" label="Open" isChecked={true} />
-						<Input
-							type="radio"
-							id="category"
-							value="WTNB+"
-							label="WTNB+"
-							isChecked={form?.data?.category == 'WTNB+' ? true : false}
-						/>
-						<Input
-							type="radio"
-							id="category"
-							value="Only Chistole"
-							label="Only Chistole"
-							isChecked={form?.data?.category == 'Only Chistole' ? true : false}
-						/>
+						<Input type="radio" id="category" value="Chistole" label="Chistole" isChecked={true} />
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1">*</span>The "Only Chistole" category means you will not
-						participate in any competative events.
+						<span class="text-theme-1">*</span>We are trying to host an equally fair (or unfair)
+						race for all types of beautiful humans.
 					</p>
 				</div>
 				{#if form?.errors?.category}

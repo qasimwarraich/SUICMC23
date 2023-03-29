@@ -7,6 +7,7 @@ type RegError = {
 	first_name: string[];
 	last_name: string[];
 	nick_name: string[];
+	pronouns: string[];
 	email: string[];
 	race_number: string[];
 	city: string[];
@@ -21,6 +22,7 @@ type RegData = {
 	additional_comments?: string | undefined;
 	first_name: string;
 	last_name: string;
+	pronouns: string;
 	email: string;
 	race_number: number;
 	cargo_race?: string;
