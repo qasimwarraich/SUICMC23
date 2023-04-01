@@ -216,7 +216,9 @@
 							Sorry this number is already taken 😅
 						</p>
 					{:else if emptyNumber && !badNumber}
-						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">Please enter a valid race number 😇</p>
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
+							Please enter a valid race number 😇
+						</p>
 					{:else if badNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Please enter a number between 0 and 9999 💩
