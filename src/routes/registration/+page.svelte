@@ -77,6 +77,14 @@
 			class="flex flex-col w-full items-center"
 		>
 			<div class="p-2">
+				{#if form?.errors}
+					<div
+						class="text-center font-bold text-theme-1 bg-red-200 border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-10"
+					>
+						⚠️ Your Submission Contains Error(s) ⚠️
+						<div class="text-sm">please scroll down and correct the error(s)</div>
+					</div>
+				{/if}
 				<Input
 					id="first_name"
 					label="First Name"
