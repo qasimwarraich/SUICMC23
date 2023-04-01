@@ -18,7 +18,6 @@ export const load = async () => {
             nick_name: p.nick_name,
             race_number: p.race_number,
             city: p.city,
-            category: p.category,
         }
         participantArray.push(res);
     }
