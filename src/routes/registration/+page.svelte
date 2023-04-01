@@ -30,7 +30,8 @@
 	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
 		const target = e.target as HTMLInputElement;
-		if (Number(target.value) > 9999 || Number(target.value) < 0) {
+        const raceNumber = Number(target.value);
+		if (raceNumber > 9999 || raceNumber < 0 || raceNumber % 1 !== 0) {
 			badNumber = true;
 			unique = false;
 			return;
