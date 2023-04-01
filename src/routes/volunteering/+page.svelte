@@ -73,7 +73,7 @@
 					label="Telephone Number"
 					value={form?.data?.telephone ?? ''}
 					required={true}
-                    placeholder="+41 079 420 1312"
+                    placeholder="+41 79 420 1312"
 				/>
 				{#if form?.errors?.telephone}
 					<FormError error={form?.errors?.telephone} />
