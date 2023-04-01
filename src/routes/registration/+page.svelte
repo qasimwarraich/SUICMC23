@@ -4,12 +4,14 @@
 	import FormError from '$lib/components/FormError.svelte';
 	import { slide } from 'svelte/transition';
 	import { type Form } from './registration';
+	import { onMount } from 'svelte';
 
 	export let form: Form;
 
-	let volunteer = form?.data?.volunteering == 'true' ? true : false
+	let volunteer = form?.data?.volunteering == 'true' ? true : false;
 	let unique = true;
-	let badNumber = true;
+	let badNumber = false;
+	let emptyNumber = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
@@ -19,11 +21,16 @@
 		return false;
 	};
 
+	onMount(() => {
+		const raceNumber = document.getElementById('race_number') as HTMLInputElement;
+		checkEmptyNumber(raceNumber);
+	});
+
 	let timer: NodeJS.Timeout;
 	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
 		const target = e.target as HTMLInputElement;
-		if (Number(target.value) > 9999 || Number(target.value) < 0 || target.value == '') {
+		if (Number(target.value) > 9999 || Number(target.value) < 0) {
 			badNumber = true;
 			unique = false;
 			return;
@@ -42,6 +49,8 @@
 		const target = e.target as HTMLInputElement;
 		const num = Number(target.value);
 
+		checkEmptyNumber(target);
+
 		let response = await fetch('/api/racenumbers');
 		let race_numbers = await response.json();
 
@@ -50,6 +59,14 @@
 			unique = false;
 		} else {
 			unique = true;
+		}
+	};
+
+	const checkEmptyNumber = (raceNumber: HTMLInputElement) => {
+		if (raceNumber.value == '') {
+			emptyNumber = true;
+		} else {
+			emptyNumber = false;
 		}
 	};
 </script>
@@ -187,17 +204,19 @@
 						id="race_number"
 						name="race_number"
 						form="registration"
-                        min="0"
-                        max="9999"
+						min="0"
+						max="9999"
 						required={true}
 						on:input={(e) => debouncedValidation(e)}
 						value={form?.data.race_number ?? ''}
 					/>
 
-					{#if !unique && !timerActive && !badNumber}
+					{#if !unique && !timerActive && !badNumber && !emptyNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Sorry this number is already taken 😅
 						</p>
+					{:else if emptyNumber && !badNumber}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">Please enter a valid race number 😇</p>
 					{:else if badNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Please enter a number between 0 and 9999 💩
@@ -255,7 +274,7 @@
 							Please visit the
 							<a href="/volunteering" target="_blank"
 								>volunteering page<span class="text-theme-1">*</span>
-                                </a> to register for volunteering.
+							</a> to register for volunteering.
 						</p>
 						<p class="max-w-lg text-xs font-bold mt-2 mb-2 ">
 							<span class="text-theme-1">*</span>Link opens in a new browser tab.
