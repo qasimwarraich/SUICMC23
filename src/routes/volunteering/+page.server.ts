@@ -14,7 +14,6 @@ export const actions = {
     volunteering: async ({ request }: RequestEvent) => {
         let formData = await request.formData();
         formData = checkVolunteering(formData);
-        console.log(formData)
 
         const formDataEnriched = Object.fromEntries(formData);
 
@@ -35,7 +34,7 @@ export const actions = {
             }
         }
         try {
-            // await pb.collection(env.VOLUNTEERING_COLLECTION).create(formDataEnriched);
+            await pb.collection(env.VOLUNTEERING_COLLECTION).create(formDataEnriched);
         } catch (err) {
             //TODO: Find a better way to handle server side errors
             console.log('Server Error');
