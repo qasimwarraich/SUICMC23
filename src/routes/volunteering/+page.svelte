@@ -28,7 +28,9 @@
 	<img class="h-96" src={rainbow} alt="SUICMC" />
 	Volunteer Registration
 	<h2 class="p-2 font-bold">
-		This form is currently under final development, <span class="text-theme-1">PLEASE TRY TO BREAK IT  😇</span> 
+		This form is currently under final development, <span class="text-theme-1"
+			>PLEASE TRY TO BREAK IT 😇</span
+		>
 	</h2>
 </h1>
 
@@ -73,7 +75,7 @@
 					label="Telephone Number"
 					value={form?.data?.telephone ?? ''}
 					required={true}
-                    placeholder="+41 79 420 1312"
+					placeholder="+41 79 420 1312"
 				/>
 				{#if form?.errors?.telephone}
 					<FormError error={form?.errors?.telephone} />
@@ -148,9 +150,9 @@
 						label="Anything else?"
 						placeholder="Please enter any additional volunteering information here"
 					/>
-                    {#if form?.errors?.additional_comments}
-                        <FormError error={form?.errors?.additional_comments} />
-                    {/if}
+					{#if form?.errors?.additional_comments}
+						<FormError error={form?.errors?.additional_comments} />
+					{/if}
 					<button
 						form="volunteering"
 						formaction="?/volunteering"

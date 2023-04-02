@@ -2,7 +2,7 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import { FootNotes } from '$lib/data/footer';
-    import {afterNavigate} from "$app/navigation";
+	import { afterNavigate } from '$app/navigation';
 
 	const getQuote = () => {
 		return FootNotes[Math.floor(Math.random() * FootNotes.length)];

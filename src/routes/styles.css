@@ -49,12 +49,12 @@ a:hover {
 
 h1 {
 	font-size: 3rem;
-    line-height: 1.0;
+	line-height: 1;
 	text-align: center;
 }
 
 h2 {
-    color: var(--color-text);
+	color: var(--color-text);
 	font-size: 1rem;
 }
 

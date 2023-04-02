@@ -30,7 +30,7 @@
 	let timerActive: boolean;
 	const debouncedValidation = (e: Event) => {
 		const target = e.target as HTMLInputElement;
-        const raceNumber = Number(target.value);
+		const raceNumber = Number(target.value);
 		if (raceNumber > 9999 || raceNumber < 0 || raceNumber % 1 !== 0) {
 			badNumber = true;
 			unique = false;
@@ -82,7 +82,9 @@
 	<img class="h-96" src={rad} alt="SUICMC" />
 	Registration
 	<h2 class="p-2 font-bold">
-		This form is currently under final development, <span class="text-theme-1">PLEASE TRY TO BREAK IT  😇</span> 
+		This form is currently under final development, <span class="text-theme-1"
+			>PLEASE TRY TO BREAK IT 😇</span
+		>
 	</h2>
 </h1>
 

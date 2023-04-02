@@ -39,7 +39,7 @@ export const actions = {
 		try {
 			await pb.collection(env.REGISTRATION_COLLECTION).create(formDataEnriched);
 		} catch (err) {
-            //TODO: Find a better way to handle server side errors
+			//TODO: Find a better way to handle server side errors
 			console.log('Server Error');
 			console.log(err);
 			return {

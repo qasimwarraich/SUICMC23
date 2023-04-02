@@ -15,7 +15,7 @@
 		<h1>Thank You For Registering to Volunteer!</h1>
 	</div>
 	<div class="m-8">
-        <h3>See you at the event</h3>
+		<h3>See you at the event</h3>
 	</div>
 	<h3>❤️</h3>
 </div>

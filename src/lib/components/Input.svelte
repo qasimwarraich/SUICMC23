@@ -13,7 +13,8 @@
 	export let min = '';
 	export let max = '';
 
-	let normalField = 'bg-background border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1';
+	let normalField =
+		'bg-background border-theme-1 border-2 border-solid rounded-none w-full max-w-lg p-1';
 	let checkBoxField = 'bg-background ml-2 max-w-lg';
 
 	if (type == 'checkbox') {
