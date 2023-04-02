@@ -216,6 +216,11 @@
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Sorry this number is already taken 😅
 						</p>
+					{:else if timerActive}
+						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
+							Checking race number...
+							<span class="loader" />
+						</p>
 					{:else if emptyNumber && !badNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Please enter a valid race number 😇
@@ -223,11 +228,6 @@
 					{:else if badNumber}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
 							Please enter a number between 0 and 9999 💩
-						</p>
-					{:else if timerActive}
-						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">
-							Checking race number...
-							<span class="loader" />
 						</p>
 					{:else}
 						<p class="text-theme-1 text-xs font-bold mt-1 mb-2">This number is available! 🥳</p>
