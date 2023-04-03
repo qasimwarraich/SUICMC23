@@ -10,6 +10,7 @@
 	<h2 class="text-theme-1 sm:text-3xl text-3xl font-bold">
 		Thank you for registering for SUICMC23 BERN
 	</h2>
+	<h3>Check your inbox for a confirmation email!</h3>
 	<p class="font-bold mt-10  text-black">
 		We would be extremely appreciate if you could pay your registration fees <span
 			class="text-theme-1"
@@ -32,10 +33,11 @@
 		We will provide additional codes during the event for other uses.
 	</p>
 	<span class="text-bold underline text-theme-1">
-			Please include your name,race number and email in the reference text!
+		Please include your name,race number and email in the reference text!
 	</span>
 
-	<img class="sm:h-60 h-48 my-10" src={regTwintSm} alt="Registration Twint QR-Code" />
+	<img class="sm:h-60 h-48" src={regTwintSm} alt="Registration Twint QR-Code" />
+	<p class=" underline mb-10">Use the above TWINT code only for registration!</p>
 
 	<p class="text-m font-bold text-black">
 		<span class="text-theme-1">Option 2: </span>
@@ -56,7 +58,7 @@ c/o Fabio Nef
 Dammweg 41 CH-3013 Bern
 <pre class="border-2  border-theme-1">
 IMPORTANT! Don't Forget!
-Additional Information: <br>Your Name/Race #/your@email.com
+Additional Information: <br />Your Name/Race #/your@email.com
 </pre>
 <span class="text-bold text-theme-1">
 Please include your name/race #/email 
