@@ -54,7 +54,10 @@ Velokurier*innen
 SUICMC23 BERN
 c/o Fabio Nef
 Dammweg 41 CH-3013 Bern
-Additional Information: Your Name/Race #/your@email.com
+<pre class="border-2  border-theme-1">
+IMPORTANT! Don't Forget!
+Additional Information: <br>Your Name/Race #/your@email.com
+</pre>
 <span class="text-bold text-theme-1">
 Please include your name/race #/email 
 in the "additional information" text!
