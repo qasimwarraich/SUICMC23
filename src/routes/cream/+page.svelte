@@ -11,6 +11,13 @@
 		Thank you for registering for SUICMC23 BERN
 	</h2>
 	<p class="font-bold mt-10  text-black">
+		We would be extremely appreciate if you could pay your registration fees <span
+			class="text-theme-1"
+		>
+			ASAP
+		</span>. This will allow us to organise a much smoother event ❤️.
+	</p>
+	<p class="font-bold mt-10  text-black">
 		You have <span class="text-theme-1 underline">3 </span> payment options:
 	</p>
 	<p class="mb-10 text-m font-bold text-black">
