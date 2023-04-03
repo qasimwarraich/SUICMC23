@@ -31,6 +31,9 @@
 		You may use the below TWINT QR-Code <span class="text-theme-1 underline">ONLY</span> for registration.
 		We will provide additional codes during the event for other uses.
 	</p>
+	<span class="text-bold underline text-theme-1">
+			Please include your name,race number and email in the reference text!
+	</span>
 
 	<img class="sm:h-60 h-48 my-10" src={regTwintSm} alt="Registration Twint QR-Code" />
 
@@ -51,6 +54,11 @@ Velokurier*innen
 SUICMC23 BERN
 c/o Fabio Nef
 Dammweg 41 CH-3013 Bern
+Reference: Your Name/Race #/your@email.com
+<span class="text-bold text-theme-1">
+Please include your name/race #/email 
+in the reference text!
+</span>
 	</pre>
 
 	<p class="mt-5 text-m font-bold text-black">
