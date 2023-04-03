@@ -93,16 +93,21 @@
 				{/if}
 				<div class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
 					<p class="text-theme-1 font-bold max-w-lg">
-						You are amazing ❤️. <br /> Please select what days you would like to volunteer for. You will
-						then be asked about what time slots you would be available for.
+						You are amazing ❤️. <br /> Please select what days you would like to volunteer for. You
+						will then be asked about what time slots you would be available for. <br />
+						<br />
+
+						You could help us with various things: Cooking, preparing the racecourse, helping during
+						the main race, bartending, and much more! :) Feel free to comment below on what you
+						would like to do!
 					</p>
 					<div class="flex flex-col sm:flex-col">
-						<Input type="checkbox" id="volunteer_friday" label="Friday (Only Evening)" />
+						<Input type="checkbox" id="volunteer_friday" label="Friday (26.5) (Only Evening)" />
 
 						<Input
 							type="checkbox"
 							id="volunteer_saturday"
-							label="Saturday"
+							label="Saturday (27.5)"
 							bind:isChecked={volunteerSaturday}
 						/>
 						{#if volunteerSaturday}
@@ -117,7 +122,7 @@
 						<Input
 							type="checkbox"
 							id="volunteer_sunday"
-							label="Sunday"
+							label="Sunday (28.5)"
 							bind:isChecked={volunteerSunday}
 						/>
 						{#if volunteerSunday}
@@ -132,7 +137,7 @@
 						<Input
 							type="checkbox"
 							id="volunteer_monday"
-							label="Monday"
+							label="Monday (29.5)"
 							bind:isChecked={volunteerMonday}
 						/>
 						{#if volunteerMonday}
@@ -147,8 +152,8 @@
 
 					<Input
 						id="additional_comments"
-						label="Anything else?"
-						placeholder="Please enter any additional volunteering information here"
+						label="What would you like to help with?"
+						placeholder="Please enter volunteering information here"
 					/>
 					{#if form?.errors?.additional_comments}
 						<FormError error={form?.errors?.additional_comments} />
