@@ -165,13 +165,13 @@
 					<FormError error={form?.errors?.email} />
 				{/if}
 
-				<p class="font-bold">Select a category<span class="text-theme-1">*</span></p>
+				<p class="font-bold">Select a category <span class="text-theme-1"> ⓘ </span></p>
 				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="category" value="Chistole" label="Chistole" isChecked={true} />
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1">*</span>We are trying to host an equally fair (or unfair)
+						<span class="text-theme-1"> ⓘ </span>We are trying to host an equally fair (or unfair)
 						race for all types of beautiful humans.
 					</p>
 				</div>
@@ -180,7 +180,7 @@
 				{/if}
 
 				<p class="font-bold">
-					Would you like to be ranked?<span class="text-theme-1">*</span>
+					Would you like to be ranked?<span class="text-theme-1"> ⓘ </span>
 				</p>
 				<div class=" p-2 max-w-lg mb-2 border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
@@ -188,7 +188,7 @@
 						<Input type="radio" id="rank_selection" value="unranked" label="No" />
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1">*</span>If you choose "No" you will not be included in the
+						<span class="text-theme-1"> ⓘ </span>If you choose "No" you will not be included in the
 						results of any competition.
 					</p>
 				</div>
@@ -258,12 +258,12 @@
 				<Input
 					type="checkbox"
 					id="pre_event"
-					label="Will you take part in the Biel pre-event (25.5)?"
+					label="Will you take part in the Biel pre-event (25.5)? "
 					hasNote={true}
 					isChecked={form?.data?.pre_event == 'true' ? true : false}
 				/>
 				<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
-					<span class="text-theme-1">*</span>This field is for our organisation purposes only.
+					<span class="text-theme-1"> ⓘ </span>This field is for our organisation purposes only.
 				</p>
 
 				<Input
@@ -280,11 +280,11 @@
 						<p>
 							Please visit the
 							<a href="/volunteering" target="_blank"
-								>volunteering page<span class="text-theme-1">*</span>
+								>volunteering page<span class="text-theme-1"> ⓘ </span>
 							</a> to register for volunteering.
 						</p>
 						<p class="max-w-lg text-xs font-bold mt-2 mb-2 ">
-							<span class="text-theme-1">*</span>Link opens in a new browser tab.
+							<span class="text-theme-1"> ⓘ </span>Link opens in a new browser tab.
 						</p>
 					</div>
 				{/if}
@@ -307,30 +307,30 @@
 					<Input
 						type="checkbox"
 						id="housing"
-						label="Do you require housing?"
+						label="Do you require housing? "
 						bind:isChecked={housing}
 						hasNote={true}
 					/>
 					<p class="text-xs font-bold -mt-2">
-						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
+						<span class="text-theme-1"> ⓘ </span> Housing payment/selection will be conducted on site.
 					</p>
 					{#if housing}
 						<div transition:slide class="mb-2 p-2 max-w-lg border-theme-1 border-2">
-							<p>Which days do you require housing?<span class="text-theme-1">**</span></p>
+							<p>Which days do you require housing?<span class="text-theme-1"> ⓘ </span> ⓘ</p>
 							<div class="flex flex-row">
 								<Input type="checkbox" id="housing_friday" label="Friday (26.5)" />
 								<Input type="checkbox" id="housing_saturday" label="Saturday (27.5)" />
 								<Input type="checkbox" id="housing_sunday" label="Sunday (28.5)" />
 							</div>
 							<p class="text-sm">
-								<span class="text-theme-1 ">**</span> This field is for our organisation purposes only
+								<span class="text-theme-1 "> ⓘ </span> This field is for our organisation purposes only
 							</p>
 						</div>
 					{/if}
 				</div>
 
 				<p class="font-bold">
-					How much you would like to pay (CHF)?<span class="text-theme-1">*</span>
+					How much you would like to pay (CHF)? <span class="text-theme-1">ⓘ </span>
 				</p>
 
 				<div class="flex flex-col  mb-2 p-2 max-w-lg border-theme-1 border-2">
@@ -350,13 +350,13 @@
 						required={true}
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
-						<span class="text-theme-1">*</span> Please pay what you can afford within a range of 30
-						- 80 CHF. If you cannot afford this, please
+						<span class="text-theme-1"> ⓘ </span> Please pay what you can afford within a range of
+						30 - 80 CHF. If you cannot afford this, please
 						<a href="mailto:info@suicmc23.ch">contact us</a>.
 					</p>
 				</div>
 
-				<p class="font-bold">How do you intend to pay?<span class="text-theme-1">*</span></p>
+				<p class="font-bold">How do you intend to pay? <span class="text-theme-1">ⓘ </span></p>
 				<div class=" p-2 mb-2 max-w-lg border-theme-1 border-2">
 					<div class="flex flex-col sm:flex-row">
 						<Input type="radio" id="payment_method" value="TWINT" label="TWINT" isChecked={true} />
@@ -376,8 +376,8 @@
 						/>
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1">*</span>This selection is not binding. It is more to help us
-						keep track of things. Cash payments and TWINT will also be possible during the event.
+						<span class="text-theme-1"> ⓘ </span>This selection is not binding. It is more to help
+						us keep track of things. Cash payments and TWINT will also be possible during the event.
 					</p>
 				</div>
 

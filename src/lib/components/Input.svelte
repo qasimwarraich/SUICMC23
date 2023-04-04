@@ -27,7 +27,7 @@
 <div class="w-full max-w-lg mb-2">
 	<label for={id} class="font-bold pb-1">
 		{#if hasNote}
-			<span class="font-bold">{label}<span class="font-bold text-theme-1">*</span></span>
+			<span class="font-bold">{label}<span class="font-bold text-theme-1">ⓘ</span></span>
 		{:else}
 			<span class="font-bold">{label}</span>
 		{/if}
