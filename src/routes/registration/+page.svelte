@@ -14,7 +14,7 @@
 	let emptyNumber = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
-	let housing = false;
+	let housing = form?.data?.housing == 'true' ? true : false;
 
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {

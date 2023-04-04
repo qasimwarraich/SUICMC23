@@ -80,6 +80,18 @@ function checkHousing(f: FormData) {
 	if (housing !== null) {
 		f.set('housing', 'true');
 	}
+	const housingFriday = f.get('housing_friday');
+	if (housingFriday !== null) {
+		f.set('housing_friday', 'true');
+	}
+	const housingSaturday = f.get('housing_saturday');
+	if (housingSaturday !== null) {
+		f.set('housing_saturday', 'true');
+	}
+	const housingSunday = f.get('housing_sunday');
+	if (housingSunday !== null) {
+		f.set('housing_sunday', 'true');
+	}
 	return f;
 }
 
