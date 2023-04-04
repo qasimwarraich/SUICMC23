@@ -14,6 +14,8 @@
 	let emptyNumber = true;
 	let intendedPayment = form?.data ? form.data.intended_payment : 50;
 
+	let housing = false;
+
 	const handleEnter = (e: KeyboardEvent): boolean => {
 		if (e.key == 'Enter') {
 			e.preventDefault();
@@ -302,10 +304,29 @@
 				</select>
 
 				<div class=" mb-2 p-2 max-w-lg border-theme-1 border-2">
-					<Input type="checkbox" id="housing" label="Do you require housing?" hasNote={true} />
+					<Input
+						type="checkbox"
+						id="housing"
+						label="Do you require housing?"
+						bind:isChecked={housing}
+						hasNote={true}
+					/>
 					<p class="text-xs font-bold -mt-2">
 						<span class="text-theme-1">*</span> Housing payment/selection will be conducted on site.
 					</p>
+					{#if housing}
+						<div transition:slide class="mb-2 p-2 max-w-lg border-theme-1 border-2">
+							<p>Which days do you require housing?<span class="text-theme-1">**</span></p>
+							<div class="flex flex-row">
+								<Input type="checkbox" id="housing_friday" label="Friday (26.5)" />
+								<Input type="checkbox" id="housing_saturday" label="Saturday (27.5)" />
+								<Input type="checkbox" id="housing_sunday" label="Sunday (28.5)" />
+							</div>
+							<p class="text-sm">
+								<span class="text-theme-1 ">**</span> This field is for our organisation purposes only
+							</p>
+						</div>
+					{/if}
 				</div>
 
 				<p class="font-bold">
