@@ -315,14 +315,14 @@
 						<span class="text-theme-1"> ⓘ </span> Housing payment/selection will be conducted on site.
 					</p>
 					{#if housing}
-						<div transition:slide class="mb-2 p-2 max-w-lg border-theme-1 border-2">
-							<p>Which days do you require housing?<span class="text-theme-1"> ⓘ </span> ⓘ</p>
+						<div transition:slide class="my-2 p-2 max-w-lg border-theme-1 border-2">
+							<p>Which days do you require housing?<span class="text-theme-1"> ⓘ </span></p>
 							<div class="flex flex-row">
 								<Input type="checkbox" id="housing_friday" label="Friday (26.5)" />
 								<Input type="checkbox" id="housing_saturday" label="Saturday (27.5)" />
 								<Input type="checkbox" id="housing_sunday" label="Sunday (28.5)" />
 							</div>
-							<p class="text-sm">
+							<p class="text-xs">
 								<span class="text-theme-1 "> ⓘ </span> This field is for our organisation purposes only
 							</p>
 						</div>
