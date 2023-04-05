@@ -83,11 +83,6 @@
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-96" src={rad} alt="SUICMC" />
 	Registration
-	<h2 class="p-2 font-bold">
-		This form is currently under final development, <span class="text-theme-1"
-			>PLEASE TRY TO BREAK IT 😇</span
-		>
-	</h2>
 </h1>
 
 <div class="flex flex-col w-full h-full p-2">
@@ -171,8 +166,8 @@
 						<Input type="radio" id="category" value="Chistole" label="Chistole" isChecked={true} />
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1 info"> ⓘ</span>We are trying to host an equally fair (or unfair)
-						race for all types of beautiful humans.
+						<span class="text-theme-1 info"> ⓘ</span>We are trying to host an equally fair (or
+						unfair) race for all types of beautiful humans.
 					</p>
 				</div>
 				{#if form?.errors?.category}
@@ -188,8 +183,8 @@
 						<Input type="radio" id="rank_selection" value="unranked" label="No" />
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1 info">ⓘ</span>If you choose "No" you will not be included in the
-						results of any competition.
+						<span class="text-theme-1 info">ⓘ</span>If you choose "No" you will not be included in
+						the results of any competition.
 					</p>
 				</div>
 				{#if form?.errors?.rank_selection}
@@ -263,8 +258,7 @@
 					isChecked={form?.data?.pre_event == 'true' ? true : false}
 				/>
 				<p class="max-w-lg text-xs font-bold -mt-2 mb-2 ">
-					<span class="info text-theme-1">ⓘ</span>This field is for our organisation purposes
-					only.
+					<span class="info text-theme-1">ⓘ</span>This field is for our organisation purposes only.
 				</p>
 
 				<Input
@@ -313,7 +307,8 @@
 						hasNote={true}
 					/>
 					<p class="text-xs font-bold -mt-2">
-						<span class="text-theme-1 info"> ⓘ</span>Housing payment/selection will be conducted on site.
+						<span class="text-theme-1 info"> ⓘ</span>Housing payment/selection will be conducted on
+						site.
 					</p>
 					{#if housing}
 						<div transition:slide class="my-2 p-2 max-w-lg border-theme-1 border-2">
@@ -324,7 +319,8 @@
 								<Input type="checkbox" id="housing_sunday" label="Sunday (28.5)" />
 							</div>
 							<p class="text-xs">
-								<span class="text-theme-1 info"> ⓘ</span> This field is for our organisation purposes only
+								<span class="text-theme-1 info"> ⓘ</span> This field is for our organisation purposes
+								only
 							</p>
 						</div>
 					{/if}
@@ -351,8 +347,8 @@
 						required={true}
 					/>
 					<p class="text-xs font-bold mt-2 mb-2 ">
-						<span class="text-theme-1 info"> ⓘ</span>Please pay what you can afford within a range of
-						30 - 80 CHF. If you cannot afford this, please
+						<span class="text-theme-1 info"> ⓘ</span>Please pay what you can afford within a range
+						of 30 - 80 CHF. If you cannot afford this, please
 						<a href="mailto:info@suicmc23.ch">contact us</a>.
 					</p>
 				</div>
@@ -377,8 +373,9 @@
 						/>
 					</div>
 					<p class="text-xs font-bold">
-						<span class="text-theme-1 info"> ⓘ</span>This selection is not binding. It is more to help
-						us keep track of things. Cash payments and TWINT will also be possible during the event.
+						<span class="text-theme-1 info"> ⓘ</span>This selection is not binding. It is more to
+						help us keep track of things. Cash payments and TWINT will also be possible during the
+						event.
 					</p>
 				</div>
 
