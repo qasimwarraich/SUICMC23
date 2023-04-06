@@ -17,6 +17,7 @@ export const load = async () => {
 			first_name: p.first_name,
 			nick_name: p.nick_name,
 			race_number: p.race_number,
+            team: p.team,
 			city: p.city
 		};
 		participantArray.push(res);
