@@ -3,7 +3,7 @@
 	import { Nav } from '$lib/data/nav';
 </script>
 
-<header class="bg-background top-0 sm:sticky pt-4 shadow-white mb-10">
+<header class="bg-background top-0 lg:sticky pt-4 shadow-white mb-10">
 	<nav>
 		<ul class="flex flex-wrap text-4xl font-semibold justify-start">
 			{#each Nav as item}
