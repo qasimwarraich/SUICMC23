@@ -29,6 +29,7 @@
 <style>
 	td {
 		text-align: center;
+        word-break: break-word;
 	}
 
 	tr:nth-child(even) {
