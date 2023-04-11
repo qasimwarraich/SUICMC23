@@ -3,6 +3,11 @@
 	const { participants } = data;
 </script>
 
+<svelte:head>
+	<title>SUICMC23 BERN: Participants</title>
+	<meta name="description" content="Registered participants for SUICMC23 Bern" />
+</svelte:head>
+
 <h1 class="font-bold text-theme-1 mb-10">Participants</h1>
 
 <div class="flex flex-col items-center justify-center">
@@ -19,7 +24,7 @@
 				<td>{p.first_name}</td>
 				<td>{p.nick_name}</td>
 				<td>{p.race_number}</td>
-                <td>{p.team}</td>
+				<td>{p.team}</td>
 				<td>{p.city}</td>
 			</tr>
 		{/each}
@@ -29,7 +34,7 @@
 <style>
 	td {
 		text-align: center;
-        word-break: break-word;
+		word-break: break-word;
 	}
 
 	tr:nth-child(even) {

@@ -76,7 +76,7 @@
 
 <svelte:head>
 	<title>SUICMC23 BERN: Registration</title>
-	<meta name="description" content="Registration" />
+	<meta name="description" content="Registration for SUICMC23" />
 </svelte:head>
 
 <a href="/registration/participants">Already Registered?</a>

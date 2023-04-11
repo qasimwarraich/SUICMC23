@@ -21,7 +21,7 @@
 
 <svelte:head>
 	<title>SUICMC23 BERN: Volunteering</title>
-	<meta name="description" content="Volunteering" />
+	<meta name="description" content="Volunteering information and registration for SUICMC23 Bern" />
 </svelte:head>
 
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">

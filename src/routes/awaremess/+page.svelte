@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>SUICMC23 BERN: AwareMess</title>
-	<meta name="description" content="Awaremess" />
+	<meta name="description" content="Awaremess information SUICMC23" />
 </svelte:head>
 
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">

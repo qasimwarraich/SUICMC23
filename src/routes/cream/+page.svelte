@@ -2,6 +2,11 @@
 	import regTwintSm from '$lib/images/reg_twint_sm.png';
 </script>
 
+<svelte:head>
+	<title>SUICMC23 BERN: Cash Rules Everything Around Me</title>
+	<meta name="description" content="Payment information for SUICMC23 BERN" />
+</svelte:head>
+
 <h1 class="text-theme-1 sm:text-4xl text-4xl font-bold">😓 Cash Rules Everything Around Me 😢</h1>
 
 <div

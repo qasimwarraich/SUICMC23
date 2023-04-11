@@ -4,7 +4,10 @@
 
 <svelte:head>
 	<title>SUICMC23 BERN</title>
-	<meta name="description" content="SUICMC23" />
+	<meta
+		name="description"
+		content="Home page of the Swiss Cycle Messenger Championships 2023 : SUICM23 Bern"
+	/>
 </svelte:head>
 
 <section>
