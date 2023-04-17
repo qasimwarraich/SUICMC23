@@ -1,6 +1,7 @@
 <script lang="ts">
 	export let data;
 	const { participants } = data;
+
 </script>
 
 <svelte:head>
@@ -11,6 +12,9 @@
 <h1 class="font-bold text-theme-1 mb-10">Participants</h1>
 
 <div class="flex flex-col items-center justify-center">
+	<h2>
+		<span class="text-theme-1">{participants?.length}</span> beautiful humans already registered!
+	</h2>
 	<table class="border-theme-1 border-2 text-xs md:text-lg">
 		<tr>
 			<th>Name</th>
