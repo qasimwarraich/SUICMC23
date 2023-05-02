@@ -1,7 +1,9 @@
 <script lang="ts">
 	import train from '$lib/images/train.png';
+	import siebendruck from '$lib/images/logos/7druck.svg';
 	import adrianos from '$lib/images/logos/adrianos-coffee.png';
 	import b1 from '$lib/images/logos/backup-one.png';
+	import bello from '$lib/images/logos/bello.svg';
 	import bfh from '$lib/images/logos/bfh.svg';
 	import carvelo from '$lib/images/logos/carvelo.png';
 	import cmi from '$lib/images/logos/cmi.png';
@@ -9,6 +11,7 @@
 	import dachstock from '$lib/images/logos/dachstockreitschule.svg';
 	import fizzen from '$lib/images/logos/fizzen.svg';
 	import gaskessel from '$lib/images/logos/gaskessel.png';
+	import gelateria from '$lib/images/logos/gelateria.svg';
 	import headdy from '$lib/images/logos/headdy.svg';
 	import herbaDiBerna from '$lib/images/logos/herba-di-berna.png';
 	import knog from '$lib/images/logos/knog.png';
@@ -21,6 +24,8 @@
 	import oepfelchasper from '$lib/images/logos/oepfelchasper.jpg';
 	import sbbLogistik from '$lib/images/logos/sbb-logistik.svg';
 	import sportamtbern from '$lib/images/logos/sportamtbern.svg';
+	import streit from '$lib/images/logos/streit.svg';
+	import intact from '$lib/images/logos/intact.jpg';
 	import swissconnect from '$lib/images/logos/swissconnect.svg';
 	import syndicom from '$lib/images/logos/syndicom.svg';
 	import untamed from '$lib/images/logos/untamed.svg';
@@ -41,7 +46,6 @@
 	<img class="h-80" src={train} alt="SUICMC" />
 	<h1>More info coming soon!</h1>
 
-
 	<h2 class="my-10 text-theme-1 text-4xl">Payment information</h2>
 	<h2 class="">
 		Registration payment information can be found <a href={'/cream'}>here.</a>
@@ -49,11 +53,17 @@
 
 	<h2 class="my-10 text-theme-1 text-4xl">Our Sponsors!</h2>
 	<div class="flex  flex-row max-w-full flex-wrap justify-around">
+		<a href="https://7-druck.com" target="_blank" rel="noreferrer">
+			<img src={siebendruck} alt="7druck" />
+		</a>
 		<a href="https://adrianos.ch" target="_blank" rel="noreferrer">
 			<img src={adrianos} alt="adrianos" />
 		</a>
 		<a href="https://backup.ch" target="_blank" rel="noreferrer">
 			<img src={b1} alt="b1" />
+		</a>
+		<a href="https://bellocyclist.com" target="_blank" rel="noreferrer">
+			<img src={bello} alt="bello" />
 		</a>
 		<a href="https://bfh.ch" target="_blank" rel="noreferrer">
 			<img src={bfh} alt="bfh" />
@@ -75,6 +85,9 @@
 		</a>
 		<a href="https://gaskessel.ch" target="_blank" rel="noreferrer">
 			<img src={gaskessel} alt="gaskessel" />
+		</a>
+		<a href="https://gelateriadiberna.ch" target="_blank" rel="noreferrer">
+			<img src={gelateria} alt="gelateria" />
 		</a>
 		<a href="https://headdyoriginal.com" target="_blank" rel="noreferrer">
 			<img src={headdy} alt="headdy" />
@@ -111,6 +124,12 @@
 		</a>
 		<a href="https://sportamt-bern.ch" target="_blank" rel="noreferrer">
 			<img src={sportamtbern} alt="sportamtbern" />
+		</a>
+		<a href="https://streit-ag.ch" target="_blank" rel="noreferrer">
+			<img src={streit} alt="streit" />
+		</a>
+		<a href="https://wir-bringens.ch" target="_blank" rel="noreferrer">
+			<img src={intact} alt="intact" />
 		</a>
 		<a href="https://swissconnect.ch" target="_blank" rel="noreferrer">
 			<img src={swissconnect} alt="swissconnect" />
