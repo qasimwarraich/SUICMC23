@@ -7,8 +7,8 @@
 	import bfh from '$lib/images/logos/bfh.svg';
 	import carvelo from '$lib/images/logos/carvelo.png';
 	import cmi from '$lib/images/logos/cmi.png';
-    import dachstock from '$lib/images/logos/dachstockreitschule.svg';
-    import dirtysox from '$lib/images/logos/dirtysox.svg';
+	import dachstock from '$lib/images/logos/dachstockreitschule.svg';
+	import dirtysox from '$lib/images/logos/dirtysox.svg';
 	import drahtesel from '$lib/images/logos/drahtesel.svg';
 	import fizzen from '$lib/images/logos/fizzen.svg';
 	import gaskessel from '$lib/images/logos/gaskessel.png';
@@ -48,10 +48,28 @@
 	<img class="h-80" src={train} alt="SUICMC" />
 	<h1>More info coming soon!</h1>
 
-	<h2 class="my-10 text-theme-1 text-4xl">Payment information</h2>
+	<h2 class="my-10 text-theme-1 text-4xl">Financial Information</h2>
+
 	<h2 class="">
 		Registration payment information can be found <a href={'/cream'}>here.</a>
 	</h2>
+	<h2 class="py-4">
+		We aim to finance the event as little as possible from your wallets, but unfortunately we cannot
+		avoid charging a registration fee. We have decided to set a target price of 50 CHF. However, you
+		are free to choose your registration fee depending on your financial situation. If the minimum
+		of 35 CHF is too much, we encourage you to contact us and, we will definitely find a solution
+		that you can be part of.
+
+		<br /><br />
+
+		The parties will take place at different locations. Sometimes, it will not be possible for us to
+		run a bar with "fair" prices at the event location. That's why we intend to make sure (where
+		possible) that there is a SUICMC23 bar next to the bars at the event locations. That way we'll
+		be able to keep prices down there and the sales will come straight to us.
+		<br /><br />
+		Accepted means of payment: Cash, Twint, Bank Transfer (Only for registration).
+	</h2>
+	<br />
 
 	<h2 class="my-10 text-theme-1 text-4xl">Our Sponsors!</h2>
 	<div class="flex  flex-row max-w-full flex-wrap justify-around">
@@ -76,9 +94,9 @@
 		<a href="https://carvelo.ch" target="_blank" rel="noreferrer">
 			<img src={carvelo} alt="carvelo" />
 		</a>
-        <a href="https://dachstock.ch" target="_blank" rel="noreferrer">
-        <img src={dachstock} alt="dachstock" />
-        </a>
+		<a href="https://dachstock.ch" target="_blank" rel="noreferrer">
+			<img src={dachstock} alt="dachstock" />
+		</a>
 		<a href="https://dirtysox.eu" target="_blank" rel="noreferrer">
 			<img src={dirtysox} alt="dirtysox" />
 		</a>
@@ -120,6 +138,9 @@
 		</a>
 		<a href="https://chistole.ch" target="_blank" rel="noreferrer">
 			<img src={noochFond} alt="noochFond" />
+		</a>
+		<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
+			<img src={oepfelchasper} alt="oepfelchasper" />
 		</a>
 		<a href="https://saettaverde.ch" target="_blank" rel="noreferrer">
 			<img src={saettaVerde} alt="saettaverde" />
