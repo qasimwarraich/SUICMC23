@@ -7,8 +7,9 @@
 	import bfh from '$lib/images/logos/bfh.svg';
 	import carvelo from '$lib/images/logos/carvelo.png';
 	import cmi from '$lib/images/logos/cmi.png';
+    import dachstock from '$lib/images/logos/dachstockreitschule.svg';
+    import dirtysox from '$lib/images/logos/dirtysox.svg';
 	import drahtesel from '$lib/images/logos/drahtesel.svg';
-	import dachstock from '$lib/images/logos/dachstockreitschule.svg';
 	import fizzen from '$lib/images/logos/fizzen.svg';
 	import gaskessel from '$lib/images/logos/gaskessel.png';
 	import gelateria from '$lib/images/logos/gelateria.svg';
@@ -74,11 +75,14 @@
 		<a href="https://carvelo.ch" target="_blank" rel="noreferrer">
 			<img src={carvelo} alt="carvelo" />
 		</a>
+        <a href="https://dachstock.ch" target="_blank" rel="noreferrer">
+        <img src={dachstock} alt="dachstock" />
+        </a>
+		<a href="https://dirtysox.eu" target="_blank" rel="noreferrer">
+			<img src={dirtysox} alt="dirtysox" />
+		</a>
 		<a href="https://drahtesel.ch" target="_blank" rel="noreferrer">
 			<img src={drahtesel} alt="drahtesel" />
-		</a>
-		<a href="https://dachstock.ch" target="_blank" rel="noreferrer">
-			<img src={dachstock} alt="dachstock" />
 		</a>
 		<a href="https://fizzen.ch" target="_blank" rel="noreferrer">
 			<img src={fizzen} alt="fizzen" />
