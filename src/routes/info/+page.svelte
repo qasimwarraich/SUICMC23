@@ -100,14 +100,14 @@
 		<a href="https://nooch.ch" target="_blank" rel="noreferrer">
 			<img src={nooch} alt="nooch" />
 		</a>
-		<a href="https://sbbcargo.com" target="_blank" rel="noreferrer">
-			<img src={sbbLogistik} alt="sbbLogistik" />
+		<a href="https://chistole.ch" target="_blank" rel="noreferrer">
+			<img src={noochFond} alt="noochFond" />
 		</a>
 		<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
 			<img src={oepfelchasper} alt="oepfelchasper" />
 		</a>
-		<a href="https://chistole.ch" target="_blank" rel="noreferrer">
-			<img src={noochFond} alt="noochFond" />
+		<a href="https://sbbcargo.com" target="_blank" rel="noreferrer">
+			<img src={sbbLogistik} alt="sbbLogistik" />
 		</a>
 		<a href="https://sportamt-bern.ch" target="_blank" rel="noreferrer">
 			<img src={sportamtbern} alt="sportamtbern" />
