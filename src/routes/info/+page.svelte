@@ -6,7 +6,9 @@
 	import carvelo from '$lib/images/logos/carvelo.png';
 	import cmi from '$lib/images/logos/cmi.png';
 	import drahtesel from '$lib/images/logos/drahtesel.svg';
+	import dachstock from '$lib/images/logos/dachstockreitschule.svg';
 	import fizzen from '$lib/images/logos/fizzen.svg';
+	import gaskessel from '$lib/images/logos/gaskessel.png';
 	import headdy from '$lib/images/logos/headdy.svg';
 	import herbaDiBerna from '$lib/images/logos/herba-di-berna.png';
 	import knog from '$lib/images/logos/knog.png';
@@ -59,11 +61,20 @@
 		<a href="https://cmiag.ch" target="_blank" rel="noreferrer">
 			<img src={cmi} alt="cmi" />
 		</a>
+		<a href="https://carvelo.ch" target="_blank" rel="noreferrer">
+			<img src={carvelo} alt="carvelo" />
+		</a>
 		<a href="https://drahtesel.ch" target="_blank" rel="noreferrer">
 			<img src={drahtesel} alt="drahtesel" />
 		</a>
+		<a href="https://dachstock.ch" target="_blank" rel="noreferrer">
+			<img src={dachstock} alt="dachstock" />
+		</a>
 		<a href="https://fizzen.ch" target="_blank" rel="noreferrer">
 			<img src={fizzen} alt="fizzen" />
+		</a>
+		<a href="https://gaskessel.ch" target="_blank" rel="noreferrer">
+			<img src={gaskessel} alt="gaskessel" />
 		</a>
 		<a href="https://headdyoriginal.com" target="_blank" rel="noreferrer">
 			<img src={headdy} alt="headdy" />
