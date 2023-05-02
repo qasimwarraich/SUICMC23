@@ -23,6 +23,7 @@
 	import noochFond from '$lib/images/logos/nooch-investment.png';
 	import nooch from '$lib/images/logos/nooch.png';
 	import oepfelchasper from '$lib/images/logos/oepfelchasper.jpg';
+	import saettaVerde from '$lib/images/logos/saetta-verde.svg';
 	import sbbLogistik from '$lib/images/logos/sbb-logistik.svg';
 	import sportamtbern from '$lib/images/logos/sportamtbern.svg';
 	import streit from '$lib/images/logos/streit.svg';
@@ -120,8 +121,8 @@
 		<a href="https://chistole.ch" target="_blank" rel="noreferrer">
 			<img src={noochFond} alt="noochFond" />
 		</a>
-		<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
-			<img src={oepfelchasper} alt="oepfelchasper" />
+		<a href="https://saettaverde.ch" target="_blank" rel="noreferrer">
+			<img src={saettaVerde} alt="saettaverde" />
 		</a>
 		<a href="https://sbbcargo.com" target="_blank" rel="noreferrer">
 			<img src={sbbLogistik} alt="sbbLogistik" />
