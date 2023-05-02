@@ -89,7 +89,7 @@
 		<a href="https://nooch.ch" target="_blank" rel="noreferrer">
 			<img src={nooch} alt="nooch" />
 		</a>
-		<a href="https://sbb.ch" target="_blank" rel="noreferrer">
+		<a href="https://sbbcargo.com" target="_blank" rel="noreferrer">
 			<img src={sbbLogistik} alt="sbbLogistik" />
 		</a>
 		<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
