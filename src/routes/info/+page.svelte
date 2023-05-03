@@ -83,6 +83,88 @@
 		sleep, please contact: +41 76 466 09 36
 	</h2>
 
+	<h2 class="my-10 text-theme-1 text-4xl">Food 😋</h2>
+
+	<h2>
+		<div>
+			First of all – thank you for bringing your own Tupperware/Cutlery! You are a really
+			responsible and eco-friendly person who helps us to have a beautiful event without too much
+			trash! Each day we will provide you with a breakfast and dinner which will be as vegan,
+			healthy and tasty as possible! If you have any allergies, questions about the ingredients or
+			on how it’s made, don’t hesitate to ask our lovely cooks! On Sunday we will organize some
+			additional food corners for the main and cargo race. So don’t worry you will be refueled
+			throughout the day so you can race and chistole all the time – if needed! But what if you are
+			hungry between the provided meals? Then check out the following places:
+		</div>
+		<ul>
+			<li>
+				<span class="text-theme-1"> Sous le Pont, Reitschule:</span>
+				The best fries in town, always fresh and served by the lovely Sous-Le-Pont/Rössli collective.
+				Neubrückstrasse 8, 3012 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1"> D’Brass – Brasserie Lorraine:</span>
+				If you want to have a vegan brunch or a tasty snack with a cold beer: This is the place to be!
+				But don’t ask for fries, they have no fryer :) Quartiergasse 17, 3013 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Restaurant Marzer:</span>
+				This is the perfect place to share your dinner with the philosophy of ‘Leaf To Tip & No Food
+				Waste’ – They will provide a shareable and tasty dinner for you and your friends. Brückenstrasse
+				12, 3005 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Hollyfood – Sandwichbar:</span>
+				Skip Subway, there’s only one place to get a rich and juicy sandwich in Bern! Go to Hollyfood
+				and put your freshly made-to-order Sandwich in the middle of the old town of Bern. Kramgasse
+				34, 3011 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Mimo Falafel:</span>
+				If you are strolling around in the old town, get a vegetarian take away falafel with fresh ingredients
+				for lunch or dinner. Postgasse 28, 3011 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Gelateria di Berna:</span>
+				Gelato all limon - Gelato al basilico - Chocolate fondente or one of the other 100 delicious
+				flavors, you have the choice! Marzilistrasse 32, 3005 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Boomerang’s:</span>
+				Did you chistole all night long and now you’re starving? Go to Boomerang’s and get the midnight-snack
+				you want – they even have vegan snacks! Sternengässchen 11, 3005 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Pittaria:</span>
+				Just as the name of the restaurant indicates, they are experts in making the best Pittas in town!
+				Falkenplatz 1, 3012 Bern
+			</li>
+
+			<li>
+				<span class="text-theme-1">Café Fleuri:</span>
+				You want to have a quiet and relaxing start into the morning? From 11am to 17pm you can get a
+				basic brunch, some snacks or cakes while enjoying the beauty of the Botanical Garden Bern. Altenbergrain
+				21, 3013 Bern
+			</li>
+		</ul>
+		<div class="flex items-center justify-center">
+			<iframe
+				src="https://www.google.com/maps/d/embed?mid=1FC52jM0Z4mlDK333ZY2Jvp4KsSQ6J7I&ehbc=2E312F"
+				class=""
+				width="80%"
+				height="420"
+				title="SUICMC FOOD MAP"
+			/>
+		</div>
+	</h2>
+
 	<br />
 
 	<h2 class="my-10 text-theme-1 text-4xl">Our Sponsors!</h2>
@@ -222,5 +304,9 @@
 	}
 	a {
 		display: contents;
+	}
+
+	li {
+		padding: 1rem;
 	}
 </style>
