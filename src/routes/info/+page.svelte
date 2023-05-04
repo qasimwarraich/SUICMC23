@@ -5,6 +5,7 @@
 	import HousingInfo from './HousingInfo.svelte';
 	import FoodInfo from './FoodInfo.svelte';
 	import SafetyInfo from './SafetyInfo.svelte';
+	import ChistoleInfo from './ChistoleInfo.svelte';
 </script>
 
 <svelte:head>
@@ -18,8 +19,9 @@
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>
 
 	<SafetyInfo />
-	<FinanceInfo />
-	<HousingInfo />
+	<ChistoleInfo />
 	<FoodInfo />
+	<HousingInfo />
+	<FinanceInfo />
 	<SponsorList />
 </div>
