@@ -46,18 +46,27 @@
 			<br /> <br />
 			Last but not least we’d like to give a heads up concerning the Dreigänger. The Dreigänger is located
 			in a resedential area including assisted living facilities. Let’s be considerate with volume outside
-			after 10PM. Furthermore, Dreigänger allowed us to use their venue for free. They are financing their
-			costs with the income from the bar, so please don’t consume your own stuff at this place and buy
-			the discounted drinks instead! 
-
-            As for the whole event, it is very important that you read our
+			after 10PM. Furthermore, Dreigänger allowed us to use their venue for free. They are financing
+			their costs with the income from the bar, so please don’t consume your own stuff at this place
+			and buy the discounted drinks instead! As for the whole event, it is very important that you read
+			our
 			<a href={'/awaremess'}>AwareMess</a> concept and have it in mind for the chistole too!
 
 			<br /> <br />
-            We are looking forward to celebrate this year's SUICMC with you.
+			We are looking forward to celebrate this year's SUICMC with you.
 
 			<br /> <br />
-            Chistole! ❤️
+			Chistole! ❤️
+
+			<div class="pt-2 flex items-center justify-center">
+				<iframe
+					src="https://www.google.com/maps/d/embed?mid=1FcG7xHHyizZx2h-UTviPNNFR5lEH9wQ&ehbc=2E312F"
+					class=""
+					width="80%"
+					height="420"
+					title="SUICMC23 CHISTOLE MAP"
+				/>
+			</div>
 		</h2>
 	</div>
 {/if}
