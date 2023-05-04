@@ -22,7 +22,8 @@
 	import nooch from '$lib/images/logos/nooch.png';
 	import oepfelchasper from '$lib/images/logos/oepfelchasper.png';
 	import sbbLogistik from '$lib/images/logos/sbb-logistik.svg';
-	import sportamtbern from '$lib/images/logos/sportamtbern.svg';
+    import sportAmtBern from '$lib/images/logos/sport-amt-bern.png';
+	import stadtBern from '$lib/images/logos/stadt-bern.svg';
 	import streit from '$lib/images/logos/streit.svg';
 	import intact from '$lib/images/logos/intact.jpg';
 	import swissconnect from '$lib/images/logos/swissconnect.svg';
@@ -113,8 +114,11 @@
 	<a href="https://www.sbb.ch/gepaeck" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={sbbLogistik} alt="sbbLogistik" />
 	</a>
+	<a href="https://bern.ch" target="_blank" rel="noreferrer">
+		<img class="aluminium" src={stadtBern} alt="Stadt Bern" />
+	</a>
 	<a href="https://sportamt-bern.ch" target="_blank" rel="noreferrer">
-		<img class="aluminium" src={sportamtbern} alt="sportamtbern" />
+		<img class="aluminium" src={sportAmtBern} alt="Sport Amt Bern" />
 	</a>
 	<a href="https://streit-ag.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={streit} alt="streit" />
