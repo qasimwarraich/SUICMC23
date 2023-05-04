@@ -128,9 +128,6 @@
 	<a href="https://veloblitz.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={veloblitz} alt="veloblitz" />
 	</a>
-	<a href="https://veloplus.ch" target="_blank" rel="noreferrer">
-		<img class="aluminium" src={veloplus} alt="veloplus" />
-	</a>
 	<a href="https://velokurierbern.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={vkb} alt="vkb" />
 	</a>
@@ -142,6 +139,9 @@
 	</a>
 	<a href="https://velokurierwinterthur.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={vkwinti} alt="vkwinti" />
+	</a>
+	<a href="https://veloplus.ch" target="_blank" rel="noreferrer">
+		<img class="aluminium" src={veloplus} alt="veloplus" />
 	</a>
 </div>
 
