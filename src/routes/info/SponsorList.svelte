@@ -151,22 +151,19 @@
 <style>
 	.aluminium {
 		padding: 1rem;
-		aspect-ratio: 1/1;
 		max-width: 100px;
-		object-fit: contain;
-	}
-	.titanium {
-		padding: 0rem !important;
-		aspect-ratio: 1/1;
-		max-width: 300px !important;
-		min-width: 250px !important;
 		object-fit: contain;
 	}
 	.steel {
 		padding: 0rem !important;
-		aspect-ratio: 1/1;
 		max-width: 300px !important;
 		min-width: 200px;
+		object-fit: contain;
+	}
+	.titanium {
+		padding: 0rem !important;
+		max-width: 300px !important;
+		min-width: 250px !important;
 		object-fit: contain;
 	}
 	a {
