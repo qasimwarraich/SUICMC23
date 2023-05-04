@@ -110,9 +110,6 @@
 	<a href="https://chistole.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={noochFond} alt="noochFond" />
 	</a>
-	<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
-		<img class="aluminium" src={oepfelchasper} alt="oepfelchasper" />
-	</a>
 	<a href="https://www.sbb.ch/gepaeck" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={sbbLogistik} alt="sbbLogistik" />
 	</a>
