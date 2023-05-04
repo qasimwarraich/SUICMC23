@@ -6,4 +6,6 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Platform {}
+	/// <reference types="@sveltejs/kit" />
+	/// <reference types="unplugin-icons/types/svelte" />
 }

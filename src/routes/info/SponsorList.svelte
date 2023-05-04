@@ -35,7 +35,7 @@
 	import vkwinti from '$lib/images/logos/vkwinti.svg';
 </script>
 
-<h2 class="my-10 text-theme-1 text-4xl">Our Sponsors!</h2>
+<h2 class="mt-10 text-theme-1 text-4xl">Our Sponsors!</h2>
 <div class="flex flex-row max-w-full flex-wrap justify-around ">
 	<a href="https://oepfelchasper.ch" target="_blank" rel="noreferrer">
 		<img class="titanium" src={oepfelchasper} alt="oepfelchasper" />
