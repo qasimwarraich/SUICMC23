@@ -11,10 +11,14 @@
 	<img class="h-80" src={funk} alt="SUICMC" />
 	<a class="sm:text-5xl text-3xl animate-bounce" href="mailto:info@suicmc23.ch">
 		email: info@suicmc23.ch
-
 	</a>
-    <div class="py-5"></div>
-    <a class="sm:text-5xl text-3xl animate-bounce" href="https://www.instagram.com/suicmc23bern" target="_blank" rel="noreferrer">
-        insta: @suicmc23bern
-    </a>
+	<div class="py-5" />
+	<a
+		class="sm:text-5xl text-3xl animate-bounce"
+		href="https://www.instagram.com/suicmc23bern"
+		target="_blank"
+		rel="noreferrer"
+	>
+		insta: @suicmc23bern
+	</a>
 </h1>

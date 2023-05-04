@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let data;
 	const { participants } = data;
-
 </script>
 
 <svelte:head>
