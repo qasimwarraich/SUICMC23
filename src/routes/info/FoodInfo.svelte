@@ -58,7 +58,7 @@
 				<li>
 					<span class="text-theme-1">Hollyfood – Sandwichbar:</span>
 					Skip Subway, there’s only one place to get a rich and juicy sandwich in Bern! Go to Hollyfood
-					and put your freshly made-to-order Sandwich in the middle of the old town of Bern. Kramgasse
+					and get your freshly made-to-order sandwich in the middle of the old town of Bern. Kramgasse
 					34, 3011 Bern
 				</li>
 
@@ -70,7 +70,7 @@
 
 				<li>
 					<span class="text-theme-1">Gelateria di Berna:</span>
-					Gelato all limon - Gelato al basilico - Chocolate fondente or one of the other 100 delicious
+					Gelato al limon - Gelato al basilico - Chocolate fondente or one of the other 100 delicious
 					flavors, you have the choice! Marzilistrasse 32, 3005 Bern
 				</li>
 
@@ -88,7 +88,7 @@
 
 				<li>
 					<span class="text-theme-1">Café Fleuri:</span>
-					You want to have a quiet and relaxing start into the morning? From 11am to 17pm you can get
+					You want to have a quiet and relaxing start into the morning? From 11:00 to 17:00 you can get
 					a basic brunch, some snacks or cakes while enjoying the beauty of the Botanical Garden Bern.
 					Altenbergrain 21, 3013 Bern
 				</li>
