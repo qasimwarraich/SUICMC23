@@ -6,6 +6,7 @@
 	import FoodInfo from './FoodInfo.svelte';
 	import SafetyInfo from './SafetyInfo.svelte';
 	import ChistoleInfo from './ChistoleInfo.svelte';
+	import LocationsInfo from './LocationsInfo.svelte';
 </script>
 
 <svelte:head>
@@ -19,6 +20,7 @@
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>
 
 	<SafetyInfo />
+	<LocationsInfo />
 	<ChistoleInfo />
 	<FoodInfo />
 	<HousingInfo />
