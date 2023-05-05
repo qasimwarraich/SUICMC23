@@ -40,7 +40,7 @@
 	being asked to and grow into a habit of asking questions.
 </p>
 
-<p class="py-4">It's out responsibility to create accessible spaces and support structures.</p>
+<p class="py-4">It's our responsibility to create accessible spaces and support structures.</p>
 
 <p class="py-4">
 	In whatever case you need support, assistance or anyone to talk to, Awaremess volunteers will be
