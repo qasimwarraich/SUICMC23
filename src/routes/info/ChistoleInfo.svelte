@@ -45,12 +45,12 @@
 
 			<br /> <br />
 			Last but not least we’d like to give a heads up concerning the Dreigänger. The Dreigänger is located
-			in a resedential area including assisted living facilities. Let’s be considerate with volume outside
+			in a residential area including assisted living facilities. Let’s be considerate with volume outside
 			after 10PM. Furthermore, Dreigänger allowed us to use their venue for free. They are financing
 			their costs with the income from the bar, so please don’t consume your own stuff at this place
 			and buy the discounted drinks instead! As for the whole event, it is very important that you read
 			our
-			<a href={'/awaremess'}>AwareMess</a> concept and have it in mind for the chistole too!
+			<a href={'/awaremess'}>AwareMess</a> concept and have it in mind for the Chistole too!
 
 			<br /> <br />
 			We are looking forward to celebrate this year's SUICMC with you.

@@ -31,9 +31,9 @@
 				<li>
 					<span class="text-theme-1">Drugs & Alcohol: </span>
 
-					We’d like to ensure a nice event with wonderful people for everybody. we don’t think that
-					drugs and alcohol are a necessity to reach this goal. please be aware of what and how much
-					you’re going to consume and always follow the awaremess rules so we can all enjoy the
+					We’d like to ensure a nice event with wonderful people for everybody. We don’t think that
+					drugs and alcohol are a necessity to reach this goal. Please be aware of what and how much
+					you’re going to consume and always follow the AwareMess rules so we can all enjoy the
 					event!
 				</li>
 				<li>

@@ -3,17 +3,17 @@
 </script>
 
 <svelte:head>
-	<title>SUICMC23 BERN: Awaremess</title>
-	<meta name="description" content="Awaremess information SUICMC23" />
+	<title>SUICMC23 BERN: AwareMess</title>
+	<meta name="description" content="AwareMess information SUICMC23" />
 </svelte:head>
 
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-80" src={helmet} alt="SUICMC" />
-	Awaremess
+	AwareMess
 </h1>
 
 <p class="py-4">
-	SUICMC23 Awaremess welcomes you whole heartedly to this event - we're looking forward to spending
+	SUICMC23 AwareMess welcomes you whole heartedly to this event - we're looking forward to spending
 	a wonderful weekend filled with messfam, races, and events with all of you. The championship is
 	traditionally a gathering bringing together various social realities, opinions, and expectations.
 	To have a memorable time together, we find it crucial to set some expectations on how we would
@@ -43,7 +43,7 @@
 <p class="py-4">It's our responsibility to create accessible spaces and support structures.</p>
 
 <p class="py-4">
-	In whatever case you need support, assistance or anyone to talk to, Awaremess volunteers will be
+	In whatever case you need support, assistance or anyone to talk to, AwareMess volunteers will be
 	present during all the event. We have a phone number you can contact at any time and we support
 	you within the scope of our possibilities.
 </p>
@@ -57,9 +57,9 @@
 <p class="py-4">
 	With all of this, we hope to create an inclusive, supportive, and respectful event together. If
 	you have any questions or constructive feedback about this concept, please let us know. Also, are
-	we still looking for people who would like to cover Awaremess shifts during the event. Please
+	we still looking for people who would like to cover AwareMess shifts during the event. Please
 	contact us if you'd like to get involved (<a href="mailto:awaremess@suicmc23.ch">
 		awaremess@suicmc23.ch</a
 	>).
 </p>
-<p class="py-4">See you around ❤️ , <br /> Awaremess SUICMC23 Bern</p>
+<p class="py-4">See you around ❤️ , <br /> AwareMess SUICMC23 Bern</p>

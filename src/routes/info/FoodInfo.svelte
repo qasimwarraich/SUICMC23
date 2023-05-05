@@ -21,7 +21,7 @@
 	<div transition:slide>
 		<h2>
 			<div>
-				First of all – thank you for bringing your own Tupperware/Cutlery!
+				First of all – thank you for bringing your own food containers and cutlery!
 				<br /><br />
 				You are a really responsible and eco-friendly person who helps us to have a beautiful event without
 				too much trash! Each day we will provide you with a breakfast and dinner which will be as vegan,
@@ -31,7 +31,7 @@
                 If you have any allergies, questions about the ingredients or
 				on how it’s made, don’t hesitate to ask our lovely cooks! On Sunday we will organize some additional
 				food corners for the main and cargo race. So don’t worry you will be refueled throughout the
-				day so you can race and chistole all the time – if needed!
+				day so you can race and Chistole all the time – if needed!
 				<br /><br />
 				But what if you are hungry between the provided meals? Then check out the following places:
 			</div>
@@ -76,7 +76,7 @@
 
 				<li>
 					<span class="text-theme-1">Boomerang’s:</span>
-					Did you chistole all night long and now you’re starving? Go to Boomerang’s and get the midnight-snack
+					Did you Chistole all night long and now you’re starving? Go to Boomerang’s and get the midnight-snack
 					you want – they even have vegan snacks! Sternengässchen 11, 3005 Bern
 				</li>
 
