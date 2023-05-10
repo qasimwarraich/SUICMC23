@@ -93,8 +93,13 @@
 						<br />
 
 						You could help us with various things: Cooking, preparing the racecourse, helping during
-						the main race, bartending, and much more! :) Feel free to comment below on what you
-						would like to do!
+						the main race, bartending, and much more! :)
+
+						<br />
+
+						You will recieve an email with a link to a google sheet where you can register for
+						shifts!
+						<br />
 					</p>
 					<div class="flex flex-col sm:flex-col">
 						<Input type="checkbox" id="volunteer_friday" label="Friday (26.5) (Only Evening)" />
