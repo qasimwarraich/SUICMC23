@@ -7,6 +7,7 @@
 	import SafetyInfo from './SafetyInfo.svelte';
 	import ChistoleInfo from './ChistoleInfo.svelte';
 	import LocationsInfo from './LocationsInfo.svelte';
+	import VolunteeringInfo from './VolunteeringInfo.svelte';
 </script>
 
 <svelte:head>
@@ -22,6 +23,7 @@
 	<SafetyInfo />
 	<LocationsInfo />
 	<ChistoleInfo />
+	<VolunteeringInfo />
 	<FoodInfo />
 	<HousingInfo />
 	<FinanceInfo />
