@@ -20,7 +20,7 @@
 {#if showInformation}
 	<div transition:slide>
 		<h2>
-			For the four days of racing, eating, sleeping, partying etc. we need you! Help us prepare
+			For the four days of racing, eating, sleeping, partying etc. We need you! Help us prepare
 			food, support the main race, carry things around, and much more. Register as a volunteer on
 			our <a href={'/volunteering'}>website</a> and sign up for shifts in this online
 
