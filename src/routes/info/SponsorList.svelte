@@ -21,10 +21,12 @@
 	import noochFond from '$lib/images/logos/nooch-investment.png';
 	import nooch from '$lib/images/logos/nooch.png';
 	import oepfelchasper from '$lib/images/logos/oepfelchasper.png';
+	import saettaVerde from '$lib/images/logos/saetta-verde.svg';
 	import sbbLogistik from '$lib/images/logos/sbb-logistik.svg';
-    import sportAmtBern from '$lib/images/logos/sport-amt-bern.png';
+	import sportAmtBern from '$lib/images/logos/sport-amt-bern.png';
 	import stadtBern from '$lib/images/logos/stadt-bern.svg';
 	import streit from '$lib/images/logos/streit.svg';
+	import syndicom from '$lib/images/logos/syndicom.svg';
 	import intact from '$lib/images/logos/intact.jpg';
 	import swissconnect from '$lib/images/logos/swissconnect.svg';
 	import untamed from '$lib/images/logos/untamed.svg';
@@ -111,6 +113,9 @@
 	<a href="https://chistole.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={noochFond} alt="noochFond" />
 	</a>
+	<a href="https://saettaverde.ch" target="_blank" rel="noreferrer">
+		<img class="aluminium" src={saettaVerde} alt="saettaverde" />
+	</a>
 	<a href="https://www.sbb.ch/gepaeck" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={sbbLogistik} alt="sbbLogistik" />
 	</a>
@@ -125,6 +130,9 @@
 	</a>
 	<a href="https://wir-bringens.ch" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={intact} alt="intact" />
+	</a>
+	<a href="https://syndicom.ch" target="_blank" rel="noreferrer">
+		<img class="aluminium" src={syndicom} alt="syndicom" />
 	</a>
 	<a href="https://untamed.love" target="_blank" rel="noreferrer">
 		<img class="aluminium" src={untamed} alt="untamed" />
