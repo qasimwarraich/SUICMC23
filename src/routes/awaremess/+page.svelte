@@ -1,5 +1,5 @@
 <script lang="ts">
-	import helmet from '$lib/images/wearahelmet.png';
+	import helmet from '$lib/images/awaremess.png';
 </script>
 
 <svelte:head>
@@ -7,19 +7,19 @@
 	<meta name="description" content="AwareMess information SUICMC23" />
 </svelte:head>
 
-<h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
+<h1 class="flex flex-col items-center justify-center text-5xl text-theme-awaremess font-semibold">
 	<img class="h-80" src={helmet} alt="SUICMC" />
 	AwareMess
 </h1>
 
 <p class="py-4">
-	SUICMC23 AwareMess welcomes you wholeheartedly to this event - we're looking forward to spending a
-	wonderful weekend filled with messfam, races, and events with all of you. The championship is
-	traditionally a gathering bringing together various social realities, opinions, and expectations.
-	To have a memorable time together, we find it crucial to set some expectations on how we would
-	like to treat each other. As we understand the well-being and safety of all people present to be
-	in our collective responsibility, we're inviting you to read this concept thoroughly and discuss
-	it with peers. And most importantly, to hold each other accountable in creating more reliable,
+	SUICMC23 <span class="text-theme-awaremess">AwareMess</span> welcomes you wholeheartedly to this event
+	- we're looking forward to spending a wonderful weekend filled with messfam, races, and events with
+	all of you. The championship is traditionally a gathering bringing together various social realities,
+	opinions, and expectations. To have a memorable time together, we find it crucial to set some expectations
+	on how we would like to treat each other. As we understand the well-being and safety of all people
+	present to be in our collective responsibility, we're inviting you to read this concept thoroughly
+	and discuss it with peers. And most importantly, to hold each other accountable in creating more reliable,
 	safer spaces.
 </p>
 
@@ -43,9 +43,12 @@
 <p class="py-4">It's our responsibility to create accessible spaces and support structures.</p>
 
 <p class="py-4">
-	In whatever case you need support, assistance or anyone to talk to, AwareMess volunteers will be
-	present during all the event. We have a phone number you can contact at any time, and we support
-	you within the scope of our possibilities.
+	In whatever case you need support, assistance or someone to talk to, <span
+		class="text-theme-awaremess">AwareMess</span
+	>
+	volunteers will be present throughout the event. Please don’t hesitate to call
+	<span class="text-theme-awaremess">+41 77 472 83 97 </span>if you struggle finding support in the
+	space you are currently in. We will support you within the scope of our possibilities.
 </p>
 
 <p class="py-4">
@@ -57,9 +60,17 @@
 <p class="py-4">
 	With all of this, we hope to create an inclusive, supportive, and respectful event together. If
 	you have any questions or constructive feedback about this concept, please let us know. Also, are
-	we still looking for people who would like to cover AwareMess shifts during the event. Please
-	contact us if you'd like to get involved (<a href="mailto:awaremess@suicmc23.ch">
+	we still looking for people who would like to cover <span class="text-theme-awaremess"
+		>AwareMess</span
+	>
+	shifts during the event. Please contact us if you'd like to get involved (<a
+		href="mailto:awaremess@suicmc23.ch"
+		class="text-theme-awaremess"
+	>
 		awaremess@suicmc23.ch</a
 	>).
 </p>
-<p class="py-4">See you around ❤️ , <br /> AwareMess SUICMC23 Bern</p>
+<p class="py-4">
+	See you around ❤️ , <br /> <span class="text-theme-awaremess">AwareMess</span>
+	SUICMC23 Bern
+</p>

@@ -9,7 +9,7 @@ export const Nav: NavData[] = [
 	{ title: 'Registration', path: '/registration' },
 	{ title: 'Volunteering', path: '/volunteering' },
 	{ title: 'Events', path: '/events' },
-	{ title: 'Awaremess', path: '/awaremess' },
+	{ title: 'AwareMess', path: '/awaremess' },
 	{ title: 'Contact', path: '/contact' },
 	{ title: 'Results', path: '/results' }
 ];

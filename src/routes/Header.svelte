@@ -8,7 +8,11 @@
 		<ul class="flex flex-wrap text-4xl font-semibold justify-start">
 			{#each Nav as item}
 				<li>
-					<a class:active={$page.route.id === item.path} href={item.path}>{item.title}</a>
+					<a
+						class:active={$page.route.id === item.path}
+						class={item.title == 'AwareMess' ? 'text-theme-awaremess' : ''}
+						href={item.path}>{item.title}</a
+					>
 				</li>
 			{/each}
 		</ul>

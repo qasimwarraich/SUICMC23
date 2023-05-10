@@ -29,12 +29,32 @@
 				</li>
 
 				<li>
+					<span class="text-theme-awaremess">AwareMess:</span>
+
+					The <a href={'/awaremess'} class="text-theme-awaremess">AwareMess</a> team will be dressed
+					in <span class="text-theme-awaremess">pink</span> throughout the event. Read up on our
+					AwareMess concept
+					<a href={'/awaremess'} class="text-theme-awaremess">here</a>.
+
+					<br /> <br />
+
+					In whatever case you need support, assistance or someone to talk to, <span
+						class="text-theme-awaremess">AwareMess</span
+					>
+					volunteers will be present throughout the event. Please don’t hesitate to call
+					<span class="text-theme-awaremess">+41 77 472 83 97 </span>if you struggle finding support
+					in the space you are currently in. We will support you within the scope of our
+					possibilities.
+				</li>
+
+				<li>
 					<span class="text-theme-1">Drugs & Alcohol: </span>
 
 					We’d like to ensure a nice event with wonderful people for everybody. We don’t think that
 					drugs and alcohol are a necessity to reach this goal. Please be aware of what and how much
-					you’re going to consume and always follow the AwareMess rules so we can all enjoy the
-					event!
+					you’re going to consume and always follow the
+					<a href={'/awaremess'} class="text-theme-awaremess">AwareMess</a>
+					rules so we can all enjoy the event!
 				</li>
 				<li>
 					<span class="text-theme-1">Swimming:</span>
