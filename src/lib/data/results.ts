@@ -1,8 +1,104 @@
 export const data = `
 [
 {
-  "name": "Theodor",
+  "name": "Winner",
   "position": 1,
+  "points": 1000,
+  "race_number": 312,
+  "team": "VKB",
+  "city": "Bern",
+  "pronoun": "er",
+  "gear": "fixed",
+  "bike": "tractor",
+  "age": "20-30"
+},
+{
+  "name": "Manfred",
+  "position": 6,
+  "points": 222,
+  "race_number": 887,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "none",
+  "gear": "fixed",
+  "bike": "steel",
+  "age": "30-40"
+},
+{
+  "name": "DIO",
+  "position": 3,
+  "points": 123,
+  "race_number": 254,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "n/a",
+  "gear": "fixed",
+  "bike": "steel",
+  "age": "20-30"
+},
+{
+  "name": "Po",
+  "position": 4,
+  "points": 123,
+  "race_number": 46,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "fixed",
+  "bike": "steel",
+  "age": "30-40"
+},
+{
+  "name": "lol",
+  "position": 5,
+  "points": 32,
+  "race_number": 6,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "fixed",
+  "bike": "tractor",
+  "age": "30-40"
+},
+{
+  "name": "sbma",
+  "position": 7,
+  "points": 22,
+  "race_number": 88,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "n/a",
+  "gear": "fixed",
+  "bike": "aluminium",
+  "age": "30-40"
+},
+{
+  "name": "Theodor",
+  "position": 8,
+  "points": 10,
+  "race_number": 420,
+  "team": "VKB",
+  "city": "Bern",
+  "pronoun": "er",
+  "gear": "fixed",
+  "bike": "tractor",
+  "age": "20-30"
+},
+{
+  "name": "Theodor",
+  "position": 8,
+  "points": 10,
+  "race_number": 420,
+  "team": "VKB",
+  "city": "Bern",
+  "pronoun": "sie",
+  "gear": "fixed",
+  "bike": "tractor",
+  "age": "30-40"
+},
+{
+  "name": "Theodor",
+  "position": 8,
   "points": 10,
   "race_number": 420,
   "team": "VKB",
@@ -14,7 +110,7 @@ export const data = `
 },
 {
   "name": "Theodora",
-  "position": 2,
+  "position": 9,
   "points": 8,
   "race_number": 161,
   "team": "velocité",
@@ -26,7 +122,7 @@ export const data = `
 },
 {
   "name": "Debora",
-  "position": 3,
+  "position": 10,
   "points": 8,
   "race_number": 1312,
   "team": "velocité",
@@ -37,8 +133,32 @@ export const data = `
   "age": "20-30"
 },
 {
+  "name": "fdskjlfsda",
+  "position": 9,
+  "points": 8,
+  "race_number": 161,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "geared",
+  "bike": "carbon",
+  "age": "30-40"
+},
+{
+  "name": "Debdfsafora",
+  "position": 10,
+  "points": 8,
+  "race_number": 1312,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "n/a",
+  "gear": "geared",
+  "bike": "steel",
+  "age": "20-30"
+},
+{
   "name": "Paul",
-  "position": 4,
+  "position": 11,
   "points": 7,
   "race_number": 4,
   "team": "velocité",
@@ -49,8 +169,32 @@ export const data = `
   "age": "30-40"
 },
 {
+  "name": "fdskjl",
+  "position": 11,
+  "points": 7,
+  "race_number": 4,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "geared",
+  "bike": "steel",
+  "age": "20-30"
+},
+{
+  "name": "Vitali",
+  "position": 2,
+  "points": 4,
+  "race_number": 321,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "geared",
+  "bike": "carbon",
+  "age": "20-30"
+},
+{
   "name": "Fritz",
-  "position": 5,
+  "position": 11,
   "points": 2,
   "race_number": 20,
   "team": "velocité",
@@ -61,8 +205,20 @@ export const data = `
   "age": "30-40"
 },
 {
+  "name": "Fritz",
+  "position": 11,
+  "points": 2,
+  "race_number": 20,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "sie",
+  "gear": "fixed",
+  "bike": "steel",
+  "age": "30-40"
+},
+{
   "name": "Fritza",
-  "position": 6,
+  "position": 12,
   "points": 1,
   "race_number": 13,
   "team": "velocité",
@@ -73,8 +229,8 @@ export const data = `
   "age": "30-40"
 },
 {
-  "name": "Manfred",
-  "position": 7,
+  "name": "DFL",
+  "position": 13,
   "points": 1,
   "race_number": 12,
   "team": "velocité",
@@ -83,6 +239,30 @@ export const data = `
   "gear": "fixed",
   "bike": "aluminium",
   "age": "30-40"
+},
+{
+  "name": "fjdksl",
+  "position": 12,
+  "points": 1,
+  "race_number": 13,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "none",
+  "gear": "gear",
+  "bike": "steel",
+  "age": "30-40"
+},
+{
+  "name": "DFL",
+  "position": 13,
+  "points": 1,
+  "race_number": 12,
+  "team": "velocité",
+  "city": "Lausanne",
+  "pronoun": "n/a",
+  "gear": "fixed",
+  "bike": "aluminium",
+  "age": "20-30"
 }
 ]
 `;
