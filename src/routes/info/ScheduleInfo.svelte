@@ -24,7 +24,7 @@
 		<h2 class="">
 			<div class="flex items-center justify-center">
 				<a href={schedule} alt="Schedule Image">
-					<img class="h-80" src={schedule} alt="SUICMC" />
+					<img class="h-80 object-contain" src={schedule} alt="SUICMC" />
 					<h2 class="py-5">
 						<a href={schedulePDF} download>
 							↪ Click Here to Download a PDF of our event schedule🧡↩</a
@@ -40,7 +40,7 @@
 
 				<br /><br />
 
-				More contact info  <a href={'/contact'} class="text-theme-1">here</a>.
+				More contact info <a href={'/contact'} class="text-theme-1">here</a>.
 			</h2>
 		</h2>
 	</div>
