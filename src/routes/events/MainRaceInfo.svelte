@@ -23,6 +23,7 @@
 			<ul>
 					<span class="text-theme-1">Qualification:</span>
 					There’s no Qualification. Congratulations - you made it into the Final!
+					<br /><br />
 
 					<span class="text-theme-1">Main Race</span>
 					Because there are so many of you, the Main race will be
