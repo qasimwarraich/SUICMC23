@@ -22,12 +22,25 @@
 {#if showInformation}
 	<div transition:slide>
 		<h2 class="">
-			<!-- Registration payment information can be found <a href={'/cream'}>here.</a> -->
-			<a href={schedule} alt="Schedule Image">
-				<img class="h-80" src={schedule} alt="SUICMC" />
-			</a>
+			<div class="flex items-center justify-center">
+				<a href={schedule} alt="Schedule Image">
+					<img class="h-80" src={schedule} alt="SUICMC" />
+					<h2 class="py-5">
+						<a href={schedulePDF} download>
+							↪ Click Here to Download a PDF of our event schedule🧡↩</a
+						>
+					</h2>
+				</a>
+			</div>
+
 			<h2 class="py-5">
-				<a href={schedulePDF} download> ↪ Click Here to Download a PDF of our event schedule🧡↩</a>
+				We will do our best to avoid any schedule changes but in the unfortunate event that
+				something doens't quite line up with the above schedule. Please check back here and follow
+				our <a href="https://t.me/+aMssxWcnN-k4ZWE0"> telegram chat</a> for live updates.
+
+				<br /><br />
+
+				More contact info  <a href={'/contact'} class="text-theme-1">here</a>.
 			</h2>
 		</h2>
 	</div>
