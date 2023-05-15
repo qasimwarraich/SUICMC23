@@ -1,5 +1,8 @@
 <script lang="ts">
 	import cone from '$lib/images/safetycone.png';
+import GeneralInfo from './GeneralInfo.svelte';
+import MainRaceInfo from './MainRaceInfo.svelte';
+import SideEventsInfo from './SideEventsInfo.svelte';
 </script>
 
 <svelte:head>
@@ -9,5 +12,10 @@
 
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-96" src={cone} alt="SUICMC" />
-	Coming soon!
+    Events
+    <h2 class="pb-5">Click on the headings to reveal information :)</h2>
+
+    <GeneralInfo/>
+    <MainRaceInfo/>
+    <SideEventsInfo/>
 </h1>
