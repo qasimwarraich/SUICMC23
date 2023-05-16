@@ -79,9 +79,8 @@
 					<span class="text-theme-1">Cargo Race:</span>
 					Cargo Race <span class="text-theme-1">starts at 16:30</span>. There are the Rules like in
 					the mainrace (except for the additional manifest).Your time will be counted when the
-					manifests are finished and handed in correctly at the race office. want to go for a swim,
-					especially which parts of the Aare are safe (entry & exit points).
-					<br /><br />
+					manifests are finished and handed in correctly at the race office.
+                    <br /><br />
 					In order for the race office to let you participate in the Carco-Race, you need a Cargo. If
 					you are not sure if your bike is a Cargo, you can ask for an expertise at the race office.
 					Your front rack doesn't make your bike a cargobike. Your bag is not a cargobike. If you want
