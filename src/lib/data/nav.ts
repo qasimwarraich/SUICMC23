@@ -4,7 +4,7 @@ type NavData = {
 };
 
 export const Nav: NavData[] = [
-	{ title: 'SUICMC23 BERN', path: '/' },
+	{ title: 'SUICMC23BERN', path: '/' },
 	{ title: 'Info', path: '/info' },
 	{ title: 'Registration', path: '/registration' },
 	{ title: 'Volunteering', path: '/volunteering' },
