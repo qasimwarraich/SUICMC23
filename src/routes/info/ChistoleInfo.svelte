@@ -10,9 +10,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Chistole 🥳</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+				<Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>
@@ -50,7 +50,8 @@
 			their costs with the income from the bar, so please don’t consume your own stuff at this place
 			and buy the discounted drinks instead! As for the whole event, it is very important that you read
 			our
-			<a href={'/awaremess'} class="text-theme-awaremess">AwareMess</a> concept and have it in mind for the Chistole too!
+			<a href={'/awaremess'} class="text-theme-awaremess">AwareMess</a> concept and have it in mind
+			for the Chistole too!
 
 			<br /> <br />
 			We are looking forward to celebrate this year's SUICMC with you.

@@ -10,9 +10,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Main/Cargo Race Info 🏁</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+				<Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>
@@ -21,74 +21,77 @@
 	<div transition:slide>
 		<h2 class="text-left">
 			<ul>
-					<span class="text-theme-1">Qualification:</span>
-					There’s no Qualification. Congratulations - you made it into the Final!
-					<br /><br />
+				<span class="text-theme-1">Qualification:</span>
+				There’s no Qualification. Congratulations - you made it into the Final!
+				<br /><br />
 
-					<span class="text-theme-1">Main Race</span>
-					Because there are so many of you, the Main race will be
-					<span class="text-theme-1">in two heats</span>. The first heat will start at 9am and ends
-					at latest 12.15pm. The second at 12.30pm and ends at latest 15.45pm. You have to decide at
-					the registration / check-in in which heat you will start.
-					<span class="text-theme-1"
-						>If you want to avoid the Rush hour, you have to get up earlier ;)</span
-					>
-					<br /><br />
+				<span class="text-theme-1">Main Race</span>
+				Because there are so many of you, the Main race will be
+				<span class="text-theme-1">in two heats</span>. The first heat will start at 9am and ends at
+				latest 12.15pm. The second at 12.30pm and ends at latest 15.45pm. You have to decide at the
+				registration / check-in in which heat you will start.
+				<span class="text-theme-1"
+					>If you want to avoid the Rush hour, you have to get up earlier ;)</span
+				>
+				<br /><br />
 
-					<ul>
-						<li>
-							Last instructions for the first heat at <span class="text-theme-1">08:45</span> in front
-							of the race office.
-						</li>
-						<li>
-							Last instructions for the second heat at <span class="text-theme-1">12:15</span> in front
-							of the race office.
-						</li>
-					</ul>
+				<ul>
+					<li>
+						Last instructions for the first heat at <span class="text-theme-1">08:45</span> in front
+						of the race office.
+					</li>
+					<li>
+						Last instructions for the second heat at <span class="text-theme-1">12:15</span> in front
+						of the race office.
+					</li>
+				</ul>
 
-					<br /><br />
+				<br /><br />
 
-					You will place your bike laying down on the race course (The location place we will tell
-					you on-site).
+				You will place your bike laying down on the race course (The location place we will tell you
+				on-site).
 
-					<br /><br />
+				<br /><br />
 
-					You will find the first manifest in the spokes. The first manifest is Nr. 1,2 or 3. When
-					you have finished a manifest you get the next one from the first block. The race office
-					will decide how many manifests will be left to ride.
-					<span class="text-theme-1">You will keep all manifests until the end</span> . For each
-					manifest you finished and show to the race office, you will receive a new one. You are
-					responsible for knowing which manifests you have already completed.
-					<span class="text-theme-1">You may combine as many jobs as you like</span> . Complete as
-					much jobs as possible. At the end uncompleted jobs doesn't count. If you have the same
-					amount of Jobs, time counts. We can’t prevent small waiting times at the race office -
-					take this into account.
+				You will find the first manifest in the spokes. The first manifest is Nr. 1,2 or 3. When you
+				have finished a manifest you get the next one from the first block. The race office will
+				decide how many manifests will be left to ride.
+				<span class="text-theme-1">You will keep all manifests until the end</span> . For each
+				manifest you finished and show to the race office, you will receive a new one. You are
+				responsible for knowing which manifests you have already completed.
+				<span class="text-theme-1">You may combine as many jobs as you like</span> . Complete as
+				much jobs as possible. At the end uncompleted jobs doesn't count. If you have the same
+				amount of Jobs, time counts. We can’t prevent small waiting times at the race office - take
+				this into account.
 
-					<br /><br />
+				<br /><br />
 
-					During the whole final you will work on
-					<span class="text-theme-1">one additional “Skills-manifest</span>. This manifest ask for
-					messenger skills aside from only your legs. You have time until the end to finish your
-					skill-manifest – choose a good time to make these jobs.
-					<span class="text-theme-1">Try to finish it</span>, it will count a lot.
+				During the whole final you will work on
+				<span class="text-theme-1">one additional “Skills-manifest</span>. This manifest ask for
+				messenger skills aside from only your legs. You have time until the end to finish your
+				skill-manifest – choose a good time to make these jobs.
+				<span class="text-theme-1">Try to finish it</span>, it will count a lot.
 
-					<br /><br />
-					There is material to be transported. Be prepared for it. Transport goods must be transported
-					safely and carefully.
-					<br /><br />
-					<span class="text-theme-1">Cargo Race:</span>
-					Cargo Race <span class="text-theme-1">starts at 16:30</span>. There are the Rules like in
-					the mainrace (except for the additional manifest).Your time will be counted when the
-					manifests are finished and handed in correctly at the race office.
-                    <br /><br />
-					In order for the race office to let you participate in the Carco-Race, you need a Cargo. If
-					you are not sure if your bike is a Cargo, you can ask for an expertise at the race office.
-					Your front rack doesn't make your bike a cargobike. Your bag is not a cargobike. If you want
-					to ride with a trailer, no one will stop you.
+				<br /><br />
+				There is material to be transported. Be prepared for it. Transport goods must be transported
+				safely and carefully.
+				<br /><br />
+				<span class="text-theme-1">Cargo Race:</span>
+				Cargo Race <span class="text-theme-1">starts at 16:30</span>. There are the Rules like in
+				the mainrace (except for the additional manifest).Your time will be counted when the
+				manifests are finished and handed in correctly at the race office.
+				<br /><br />
+				In order for the race office to let you participate in the Carco-Race, you need a Cargo. If you
+				are not sure if your bike is a Cargo, you can ask for an expertise at the race office. Your front
+				rack doesn't make your bike a cargobike. Your bag is not a cargobike. If you want to ride with
+				a trailer, no one will stop you.
 
-					<br /><br />
-					It's possible to participate both race (Main- and Cargorace). 
-                    <span class="text-theme-1">If you want enjoy both race you have to start in the first Mainrace heat at 09.00am.</span>
+				<br /><br />
+				It's possible to participate both race (Main- and Cargorace).
+				<span class="text-theme-1"
+					>If you want enjoy both race you have to start in the first Mainrace heat at 09.00am.</span
+				>
+			</ul>
 		</h2>
 	</div>
 {/if}

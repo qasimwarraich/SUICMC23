@@ -21,10 +21,13 @@
 		insta: @suicmc23bern
 	</a>
 	<div class="py-5" />
-	<a class="sm:text-5xl text-3xl" href="https://t.me/+aMssxWcnN-k4ZWE0"
+	<a
+		class="sm:text-5xl text-3xl"
+		href="https://t.me/+aMssxWcnN-k4ZWE0"
 		target="_blank"
-		rel="noreferrer">
-    telegram chat: click me or scan below🧡
+		rel="noreferrer"
+	>
+		telegram chat: click me or scan below🧡
 	</a>
 	<div class="py-5" />
 

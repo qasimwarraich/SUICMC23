@@ -10,9 +10,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Food 😋</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+				<Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>
@@ -28,10 +28,10 @@
 				healthy and tasty as possible!
 
 				<br /><br />
-                If you have any allergies, questions about the ingredients or
-				on how it’s made, don’t hesitate to ask our lovely cooks! On Sunday we will organize some additional
-				food corners for the main and cargo race. So don’t worry you will be refueled throughout the
-				day so you can race and Chistole all the time – if needed!
+				If you have any allergies, questions about the ingredients or on how it’s made, don’t hesitate
+				to ask our lovely cooks! On Sunday we will organize some additional food corners for the main
+				and cargo race. So don’t worry you will be refueled throughout the day so you can race and Chistole
+				all the time – if needed!
 				<br /><br />
 				But what if you are hungry between the provided meals? Then check out the following places:
 			</div>

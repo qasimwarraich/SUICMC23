@@ -10,9 +10,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Financial 💰</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+                <Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>

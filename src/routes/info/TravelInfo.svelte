@@ -11,9 +11,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Getting to Bern 🚅</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+				<Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>
@@ -35,8 +35,8 @@
 			is almost always cheaper to purchase a day pass for bicycles for
 			<span class="text-theme-1 underline">14 CHF</span>
 			😓. Furthermore, some trains may require you to reserve a bicycle spot on the train for an additional
-			<span class="text-theme-1 underline">2 CHF</span>. This ticket and reservation is NOT necessary if you
-			pack your bike into a bag. The following symbols
+			<span class="text-theme-1 underline">2 CHF</span>. This ticket and reservation is NOT
+			necessary if you pack your bike into a bag. The following symbols
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="22"

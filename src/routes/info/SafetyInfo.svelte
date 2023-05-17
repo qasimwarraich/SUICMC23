@@ -10,9 +10,9 @@
 		<div class="flex space-between">
 			<div class="px-2">Safety 🦺</div>
 			{#if showInformation}
-				<Fa6RegularEyeSlash class="text-lg" />
-			{:else}
 				<Fa6RegularEye class="text-lg" />
+			{:else}
+				<Fa6RegularEyeSlash class="text-lg" />
 			{/if}
 		</div>
 	</h2>
@@ -38,9 +38,8 @@
 
 					<br /> <br />
 
-					In whatever case you need support, assistance or someone to talk to, <span
-						class="text-theme-awaremess">AwareMess</span
-					>
+					In whatever case you need support, assistance or someone to talk to,
+					<span class="text-theme-awaremess">AwareMess</span>
 					volunteers will be present throughout the event. Please don’t hesitate to call
 					<span class="text-theme-awaremess">+41 77 472 83 97 </span>if you struggle finding support
 					in the space you are currently in. We will support you within the scope of our
