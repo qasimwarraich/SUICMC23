@@ -22,15 +22,11 @@
 {#if showInformation}
 	<div transition:slide>
 		<h2 class="">
-			<div class="flex items-center justify-center">
-				<a href={schedule} alt="Schedule Image">
+			<div class="flex flex-col items-center justify-center">
+				<a href={schedule} class="pb-5" alt="Schedule Image">
 					<img class="h-80 object-contain" src={schedule} alt="SUICMC" />
-					<h2 class="py-5">
-						<a href={schedulePDF} download>
-							↪ Click Here to Download a PDF of our event schedule🧡↩</a
-						>
-					</h2>
 				</a>
+				<a href={schedulePDF} download> ↪ Click Here to Download a PDF of our event schedule🧡↩</a>
 			</div>
 
 			<h2 class="py-5">
