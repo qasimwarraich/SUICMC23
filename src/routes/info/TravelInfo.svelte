@@ -29,15 +29,14 @@
 			said, it is possible to use other bags, hammocks, bed sheets or plastic wrap, but your mileage
 			may vary.
 
-			<div />
 			<br /><br />
 
 			Bicycle tickets usually cost the same as half-fare "human" ticket but on longer stretches it
 			is almost always cheaper to purchase a day pass for bicycles for
-			<span class="text-theme-1">14 CHF</span>
+			<span class="text-theme-1 underline">14 CHF</span>
 			😓. Furthermore, some trains may require you to reserve a bicycle spot on the train for an additional
-			<span class="text-theme-1">2 CHF</span>. This is NOT necessary if you pack your bike into a
-			bag. The following symbols
+			<span class="text-theme-1 underline">2 CHF</span>. This ticket and reservation is NOT necessary if you
+			pack your bike into a bag. The following symbols
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="22"
@@ -66,13 +65,32 @@
 					fill="#000"
 				/></svg
 			>
-            indicate the requirement of a bike reservation for that specific train.
+			indicate the requirement of a bike reservation for that specific train.
 
 			<br /><br />
 
 			The <a href="https://sbb.ch" target="_blank" rel="noreferrer">SBB</a>
-			recommend taking the IR from/to Geneva or St. Gallen/Zurich. These older trains provide more space
-			for Tranzbags. In general, the
+			recommend taking the
+
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					d="M9.388 4.2h4.042L8.43 15.8h-4.06L9.389 4.2ZM26.092 12.366a.922.922 0 0 0 .843-.553L30.216 4.2H16.13l-5.001 11.6h4.025l3.786-8.69h5.973l-1.197 2.775-5.209-.019L22.71 15.8h4.582l-3.114-3.434h1.915Z"
+					fill="#fff"
+				/></svg
+			>
+			from/to Geneva or St. Gallen/Zurich. These older trains provide more space for Tranzbags. In general,
+			the
 			<svg
 				class="color-immutable"
 				width="59"
@@ -90,7 +108,55 @@
 					fill="#fff"
 				/></svg
 			>
-			and
+			,
+
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M42.244 7.122h2.191a3.888 3.888 0 0 0-.749-1.874c-.678-.86-1.655-1.29-2.932-1.29a3.751 3.751 0 0 0-3.209 1.622c-.81 1.118-1.214 2.663-1.214 4.635 0 1.846.378 3.284 1.135 4.315.757 1.031 1.816 1.547 3.177 1.547a3.84 3.84 0 0 0 2.728-1.068c.84-.791 1.261-1.838 1.261-3.14a4.05 4.05 0 0 0-.938-2.737 3.26 3.26 0 0 0-2.61-1.155 3.01 3.01 0 0 0-1.415.308c-.44.25-.819.596-1.107 1.013.05-.657.168-1.307.355-1.938.357-1.05.962-1.574 1.813-1.574.804 0 1.309.445 1.514 1.336Zm-3.028 3.347a1.53 1.53 0 0 1 1.317-.697 1.64 1.64 0 0 1 1.411.736c.291.425.44.932.426 1.448a2.427 2.427 0 0 1-.473 1.495 1.586 1.586 0 0 1-1.333.672 1.546 1.546 0 0 1-1.34-.704 2.488 2.488 0 0 1-.45-1.48 2.46 2.46 0 0 1 .442-1.47Z"
+					fill="#fff"
+				/><path
+					d="M9.22 4.2h4.057L8.259 15.8H4.186L9.22 4.2ZM15.948 4.2h14.395l-1.49 3.445h-10.28l-2.042 4.71h10.285l-1.49 3.445H10.93l5.017-11.6Z"
+					fill="#fff"
+				/></svg
+			>
+			,
+
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M38.333 9.59a2.371 2.371 0 0 1-1.234-.91 2.666 2.666 0 0 1-.43-1.534A2.816 2.816 0 0 1 37.9 4.75a4.28 4.28 0 0 1 2.586-.79c1.136 0 2.063.313 2.783.94a2.783 2.783 0 0 1 1.025 2.192 2.74 2.74 0 0 1-.434 1.558c-.297.44-.729.77-1.23.941a3.33 3.33 0 0 1 1.018.467c.73.533 1.095 1.31 1.096 2.334a3.369 3.369 0 0 1-1.349 2.808c-.756.585-1.729.878-2.917.878-1.287 0-2.312-.322-3.074-.965a3.28 3.28 0 0 1-1.19-2.634c0-1.018.352-1.806 1.056-2.366a2.91 2.91 0 0 1 1.064-.522Zm2.105.87a1.91 1.91 0 0 0-1.391.527 1.8 1.8 0 0 0-.54 1.348 1.83 1.83 0 0 0 .547 1.377c.385.36.898.551 1.423.53.663 0 1.16-.196 1.49-.586.315-.358.486-.82.482-1.297a1.84 1.84 0 0 0-.553-1.376 1.983 1.983 0 0 0-1.458-.523Zm-1.206-4.283a1.745 1.745 0 0 1 1.222-.423 1.88 1.88 0 0 1 1.28.403c.316.286.485.699.462 1.124.022.435-.145.86-.457 1.162-.344.3-.791.453-1.246.428a1.786 1.786 0 0 1-1.257-.431 1.488 1.488 0 0 1-.47-1.151 1.43 1.43 0 0 1 .466-1.112Z"
+					fill="#fff"
+				/><path
+					d="M9.22 4.2h4.057L8.259 15.8H4.186L9.22 4.2ZM15.948 4.2h14.395l-1.49 3.445h-10.28l-2.042 4.71h10.285l-1.49 3.445H10.93l5.017-11.6Z"
+					fill="#fff"
+				/></svg
+			>
+			, and
 			<svg
 				class="color-immutable"
 				width="59"
@@ -111,7 +177,30 @@
 				><defs><clipPath id="a"><path fill="#fff" d="M0 0h59v20H0z" /></clipPath></defs></svg
 			>
 
-			good options for travelling to Bern. The
+			also good options for travelling to Bern.
+			<br /> <br />
+			However, certain
+
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					d="M42.26 4.235V15.8h-2.303V8.23h-2.712V6.553a5.794 5.794 0 0 0 1.376-.174c.353-.1.684-.266.974-.49.425-.327.712-.878.859-1.654h1.805ZM9.22 4.2h4.057L8.259 15.8H4.186L9.22 4.2ZM15.948 4.2h14.395l-1.49 3.445h-10.28l-2.042 4.71h10.285l-1.49 3.445H10.93l5.017-11.6Z"
+					fill="#fff"
+				/></svg
+			>
+			trains are now operating with newer (and worse)
+			<a href="https://en.wikipedia.org/wiki/SBB_RABDe_500">"tilting"</a>
+			train sets which have less space for bicycles. Furthermore,
 
 			<svg
 				class="color-immutable"
@@ -130,7 +219,51 @@
 					fill="#fff"
 				/></svg
 			>
-			requires a reservation for unpacked bikes. More information from the SBB
+			requires a reservation for unpacked bikes.
+
+			<br /><br />
+			<span class="text-theme-1">IMPORTANT:</span> A good amount of
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					d="M9.22 4.2h4.057L8.259 15.8H4.186L9.22 4.2ZM15.948 4.2h14.395l-1.49 3.445h-10.28l-2.042 4.71h10.285l-1.49 3.445H10.93l5.017-11.6Z"
+					fill="#fff"
+				/></svg
+			>
+			trains require a reservation between Friday and Sunday as well as on holiday weekends (like the
+			weekend of <span class="text-theme-1">SUICMC23</span>). We recommend you look out for the
+			symbols above and consider the various
+
+			<svg
+				class="color-immutable"
+				width="59"
+				height="20"
+				viewBox="0 0 59 20"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M2 0a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h55a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"
+					fill="#EB0000"
+				/><path
+					d="M9.388 4.2h4.042L8.43 15.8h-4.06L9.389 4.2ZM26.092 12.366a.922.922 0 0 0 .843-.553L30.216 4.2H16.13l-5.001 11.6h4.025l3.786-8.69h5.973l-1.197 2.775-5.209-.019L22.71 15.8h4.582l-3.114-3.434h1.915Z"
+					fill="#fff"
+				/></svg
+			>
+			connections as they typically do not have reservation restrictions.
+			<br /><br />
+			More information from the SBB
 			<a
 				href="https://www.sbb.ch/en/timetable/travel-advice/bicycles/take-your-bike-with-you.html"
 				target="_blank"
