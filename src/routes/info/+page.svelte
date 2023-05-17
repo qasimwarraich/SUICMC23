@@ -10,6 +10,7 @@
 	import LocationsInfo from './LocationsInfo.svelte';
 	import VolunteeringInfo from './VolunteeringInfo.svelte';
 	import ScheduleInfo from './ScheduleInfo.svelte';
+	import TravelInfo from './TravelInfo.svelte';
 </script>
 
 <svelte:head>
@@ -29,6 +30,7 @@
 
 	<SafetyInfo />
 	<ScheduleInfo />
+	<TravelInfo />
 	<LocationsInfo />
 	<ChistoleInfo />
 	<VolunteeringInfo />
