@@ -177,7 +177,7 @@
 				><defs><clipPath id="a"><path fill="#fff" d="M0 0h59v20H0z" /></clipPath></defs></svg
 			>
 
-			also good options for travelling to Bern.
+			are also good options for travelling to Bern.
 			<br /> <br />
 			However, certain
 
@@ -200,7 +200,7 @@
 			>
 			trains are now operating with newer (and worse)
 			<a href="https://en.wikipedia.org/wiki/SBB_RABDe_500">"tilting"</a>
-			train sets which have less space for bicycles. Furthermore,
+			train sets which have less space for bicycles. Furthermore, the
 
 			<svg
 				class="color-immutable"
