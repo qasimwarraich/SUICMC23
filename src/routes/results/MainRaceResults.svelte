@@ -50,14 +50,15 @@
 	</h2>
 	<div class="w-2/6 ">
 		<div class="grid grid-cols-5 items-center gap-1 pb-3">
-			<label for="gear">Gear</label>
+			<label for="gear">Gear(s)</label>
 			<input id="gear" bind:value={$Search.gear} />
+
+            <label for="bike">Bike</label>
+            <input id="bike" bind:value={$Search.bike} />
 
 			<label for="age">Age</label>
 			<input id="age" bind:value={$Search.age} />
 
-			<label for="bike">Bike</label>
-			<input id="bike" bind:value={$Search.bike} />
 		</div>
 	</div>
 	{#if filteredResults.length == 0}
