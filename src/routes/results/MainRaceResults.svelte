@@ -45,9 +45,11 @@
 
 <div class="flex flex-col my-5 items-center border-theme-1 border-2 ">
 	<h1 class="text-theme-1 text-4xl">Main Race</h1>
-	<h2 class="pb-2">Use the following inputs to  <span class="animate-pulse text-theme-1">highlight</span> the results</h2>
+	<h2 class="pb-2">
+		Use the following inputs to <span class="animate-pulse text-theme-1">highlight</span> the results
+	</h2>
 	<div class="w-2/6 ">
-		<div class="grid grid-cols-5 gap-1 pb-3">
+		<div class="grid grid-cols-5 items-center gap-1 pb-3">
 			<label for="gear">Gear</label>
 			<input id="gear" bind:value={$Search.gear} />
 
@@ -116,11 +118,12 @@
 
 	input {
 		border: 2px solid var(--color-theme-1);
+		font-size: 0.8rem;
 		grid-column: span 4 / span 4;
 	}
 
 	label {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		font-weight: bold;
 	}
 </style>
