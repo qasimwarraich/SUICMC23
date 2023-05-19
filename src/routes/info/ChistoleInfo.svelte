@@ -54,6 +54,21 @@
 			for the Chistole too!
 
 			<br /> <br />
+			Also, we'd to inform you that all event venues of Chistole are wheelchair accessible.
+			<a target="_blank" rel="noreferrer" href="https://dachstock.ch">Dachstock</a>
+			and <a target="_blank" rel="noreferrer" href="https://dreigaenger.ch/">Dreigänger</a> are
+			equipped with wheelchair lifts, and
+			<a target="_blank" rel="noreferrer" href="https://gaskessel.ch">Gaskessel</a>
+			is also wheelchair accessible. At Chistole, we prioritize inclusivity and are committed to
+			providing a supportive environment. Our team from Chistole or
+			<a href={'/awaremess'} class="text-theme-awaremess">AwareMess</a>
+			is readily available to offer assistance at the respective locations. If you have any
+			questions or require further information, please don't hesitate to contact us on site or via
+			email
+			<a href={'mailto:awaremess@suicmc23.ch'} class="text-theme-awaremess">awaremess@suicmc23,ch</a
+			>.
+
+			<br /> <br />
 			We are looking forward to celebrate this year's SUICMC with you.
 
 			<br /> <br />
