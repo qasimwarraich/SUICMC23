@@ -1,16 +1,16 @@
 <script lang="ts">
-	import { data } from '$lib/data/results';
+	import { data } from '$lib/data/results/main_race/results';
 	import { writable } from 'svelte/store';
 
 	type Result = {
-		name: string;
+		first_name: string;
 		race_number: number;
 		points: number;
 		time: string;
 		team: string;
 		city: string;
-		pronoun: string;
-		gear: string;
+		pronouns: string;
+		gears: string;
 		bike: string;
 		age: string;
 	};
@@ -33,7 +33,7 @@
 	function filter(search: FilterCriteria) {
 		filteredResults = allResults.filter((item: Result) => {
 			return (
-				(!search.gear || item.gear.match(`${search.gear}.*`)) &&
+				(!search.gear || item.gears.match(`${search.gear}.*`)) &&
 				(!search.age || item.age.match(`^${search.age}.*`)) &&
 				(!search.bike || item.bike.match(`^${search.bike}.*`))
 			);
@@ -43,7 +43,7 @@
 	$: filter($Search);
 </script>
 
-<div class="flex flex-col items-center border-theme-1 border-2 ">
+<div class="flex flex-col items-center border-theme-1 border-2 w-full">
 	<h1 class="text-theme-1 text-2xl">Main Race Results</h1>
 	<h2 class="pb-2">
 		Use the following inputs to <span class="animate-pulse text-theme-1">highlight</span> the results
@@ -53,47 +53,50 @@
 			<label for="gear">Gear(s)</label>
 			<input id="gear" bind:value={$Search.gear} />
 
-            <label for="bike">Bike</label>
-            <input id="bike" bind:value={$Search.bike} />
+			<label for="bike">Bike</label>
+			<input id="bike" bind:value={$Search.bike} />
 
 			<label for="age">Age</label>
 			<input id="age" bind:value={$Search.age} />
-
 		</div>
 	</div>
 	{#if filteredResults.length == 0}
 		<h2 class="text-theme-1">Your search doesnt match any results</h2>
 	{/if}
-	<table class="text-xs md:text-lg ">
-		<tr class="bg-white">
-			<th>Name</th>
-			<th>Race Number</th>
-			<th>Points</th>
-			<th>Team</th>
-			<th>City</th>
-			<th>Pronoun(s)</th>
-			<th>Gear(s)</th>
-			<th>Bike</th>
-			<th>Age</th>
-		</tr>
-		{#each allResults as r}
-			<tr
-				class={filteredResults.length !== allResults.length && filteredResults.includes(r)
-					? 'bg-theme-1 text-white'
-					: 'bg-white'}
-			>
-				<td>{r.name}</td>
-				<td>{r.race_number}</td>
-				<td>{r.points}</td>
-				<td>{r.team}</td>
-				<td>{r.city}</td>
-				<td>{r.pronoun}</td>
-				<td>{r.gear}</td>
-				<td>{r.bike}</td>
-				<td>{r.age}</td>
+	<div class="h-[500px]  w-full overflow-y-auto overflow-x-auto">
+		<table class="text-xs md:text-lg ">
+			<tr class="bg-white">
+				<th>Name</th>
+				<th>#</th>
+				<th>Points</th>
+				<th>Time</th>
+				<th>Team</th>
+				<th>City</th>
+				<th>Pronoun(s)</th>
+				<th>Gear(s)</th>
+				<th>Bike</th>
+				<th>Age</th>
 			</tr>
-		{/each}
-	</table>
+			{#each allResults as r}
+				<tr
+					class={filteredResults.length !== allResults.length && filteredResults.includes(r)
+						? 'bg-theme-1 text-white'
+						: 'bg-white'}
+				>
+					<td>{r.first_name}</td>
+					<td>{r.race_number}</td>
+					<td>{r.points}</td>
+					<td>{r.time}</td>
+					<td>{r.team}</td>
+					<td>{r.city}</td>
+					<td>{r.pronouns}</td>
+					<td>{r.gears}</td>
+					<td>{r.bike}</td>
+					<td>{r.age}</td>
+				</tr>
+			{/each}
+		</table>
+	</div>
 </div>
 
 <style>
@@ -104,6 +107,11 @@
 	th {
 		margin-left: 1rem;
 		margin-right: 1rem;
+		position: sticky;
+		background-color: white;
+		box-shadow: inset 0px 2px 0px var(--color-theme-1), inset 0px -2px 0px 0px var(--color-theme-1);
+
+		top: 0;
 	}
 
 	td {

@@ -3,6 +3,7 @@
 	import chain from '$lib/images/kette.png';
 	import PrizeInfo from './PrizeInfo.svelte';
 	import ResultsInfo from './ResultsInfo.svelte';
+	import MainRaceResults from './MainRaceResults.svelte';
 </script>
 
 <svelte:head>
@@ -16,11 +17,15 @@
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>
 </h1>
 
+<<<<<<< HEAD
 <div class="flex flex-col items-center justify-center">
 	<CollapsibleHeading title="Prize Info ℹ️">
 		<PrizeInfo />
 	</CollapsibleHeading>
 	<CollapsibleHeading title="Results Info ℹ️">
 		<ResultsInfo />
+	</CollapsibleHeading>
+	<CollapsibleHeading title="Main Race 🏁">
+		<MainRaceResults />
 	</CollapsibleHeading>
 </div>
