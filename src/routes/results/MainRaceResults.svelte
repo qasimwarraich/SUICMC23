@@ -43,8 +43,8 @@
 	$: filter($Search);
 </script>
 
-<div class="flex flex-col my-5 items-center border-theme-1 border-2 ">
-	<h1 class="text-theme-1 text-4xl">Main Race</h1>
+<div class="flex flex-col items-center border-theme-1 border-2 ">
+	<h1 class="text-theme-1 text-2xl">Main Race Results</h1>
 	<h2 class="pb-2">
 		Use the following inputs to <span class="animate-pulse text-theme-1">highlight</span> the results
 	</h2>
