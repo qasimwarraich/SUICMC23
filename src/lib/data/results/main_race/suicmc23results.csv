@@ -1,0 +1,25 @@
+heat,race_number,first_name,pronouns,city,team,bike,gears,age,points,time
+HEAT 1,77,Jeanne,she,La Chaux-de-Fonds,La Cyclone <3,steel,singlespeed,41-50,220,02:14:19
+HEAT 1,113,Pascal Lorin,BP,SG,Fliege,aluminium,singlespeed,41-50,220,02:40:01
+HEAT 1,165,Iris,sie,St.Gallen,Fliege,steel,fixed,21-30,750,03:17:15
+HEAT 1,273,Cecile,:),Lausanne,Velocite,aluminium,fixed,51-60,760,03:11:06
+HEAT 1,315,Magali,she,Genève,Velopo,carbon,geared,31-40,700,03:13:26
+HEAT 1,552,Brian,Yes,Karlsruhe,Rad Kurier karlsruhe,tractor,fixed,31-40,650,03:08:33
+HEAT 1,1185,Gouigoui,:^*,Bern,CenovX-Turbo,carbon,geared,21-30,550,03:13:07
+HEAT 1,2087,Will,He,2000,La Cyclone,steel,fixed,31-40,200,03:05:15
+HEAT 1,2222,Noé,He/Him,Züri,Veloblitz,aluminium,geared,31-40,500,03:12:15
+HEAT 1,4444,Maurice,er/ihm,Zürich,Veloblitz,steel,fixed,31-40,550,03:10:20
+HEAT 2,8,Lina,she/her,Bern,,steel,singlespeed,31-40,0,0
+HEAT 2,36,Micha,Derdodo und dendada,Bienne,Bienne,tractor,singlespeed,31-40,600,03:10:17
+HEAT 2,49,Sofie,she/her/none,Bern,,carbon,geared,31-40,720,03:11:55
+HEAT 2,55,Mattea,she/her,Bern,Öpfelchasper Bern,carbon,fixed,51-60,800,03:10:45
+HEAT 2,87,Zita,she or none,Tsüri,Spass,aluminium,fixed,N/A,0,0
+HEAT 2,127,Josua,he,St. Gallen,Velokurier St. Gallen,steel,fixed,51-60,750,03:02:22
+HEAT 2,177,Malo,Il/He,Lausanne,Vélochistux,carbon,fixed,41-50,800,02:58:22
+HEAT 2,317,Sara,Sie/Ihr,Basel,,aluminium,fixed,21-30,200,03:10:21
+HEAT 2,404,Matthias,he/him,Bern,VKB,carbon,singlespeed,31-40,200,03:15:34
+HEAT 2,609,Gauthier,He,Lausanne,Safety first,carbon,geared,51-60,450,03:12:23
+HEAT 2,1111,Naomi,she/her,Bern,Öpfelkasper,carbon,singlespeed,61+,500,03:12:17
+HEAT 2,5292,Jasper,He/him,Bern,VKB-Olé,tractor,singlespeed,61+,800,02:58:10
+HEAT 2,6539,Mira,she,Bern,VKB,steel,geared,10-20,220,02:14:19
+HEAT 2,8134,Mestre,he,Zürri,Bis Eine Brüelt,carbon,geared,10-20,220,02:40:01
