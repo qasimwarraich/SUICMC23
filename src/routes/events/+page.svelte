@@ -2,6 +2,7 @@
 	import cone from '$lib/images/safetycone.png';
 	import GeneralInfo from './GeneralInfo.svelte';
 	import MainRaceInfo from './MainRaceInfo.svelte';
+	import PreEventInfo from './PreEventInfo.svelte';
 	import SideEventsInfo from './SideEventsInfo.svelte';
 </script>
 
@@ -17,6 +18,8 @@
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>
 
 	<GeneralInfo />
+    <PreEventInfo/>
 	<MainRaceInfo />
 	<SideEventsInfo />
 </h1>
+
