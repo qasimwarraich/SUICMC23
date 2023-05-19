@@ -11,6 +11,7 @@
 	<img class="h-80" src={helmet} alt="SUICMC" />
 	AwareMess
 </h1>
+<span class="py-4 text-theme-awaremess">**Deutsche Version unten**</span>
 
 <p class="py-4">
 	SUICMC23 <span class="text-theme-awaremess">AwareMess</span> welcomes you wholeheartedly to this event
@@ -72,5 +73,55 @@
 </p>
 <p class="py-4">
 	See you around ❤️ , <br /> <span class="text-theme-awaremess">AwareMess</span>
+	SUICMC23 Bern
+</p>
+
+<hr>
+
+<p class="py-4">Herzlich willkommen an der SUICMC23 in Bern!</p>
+
+<p class="py-4">
+	Wir sind hier um gemeinsam eine unvergessliche Zeit zu erleben. Dazu möchten wir eine Atmosphäre
+	des Respekts und der Wertschätzung schaffen, in der sich alle sicher und aufgehoben fühlen können.
+	Die Meister*innenschaft ist traditionell ein Treffen, das verschiedene soziale Realitäten,
+	Meinungen und Erwartungen zusammenbringt. Daher ist es wichtig, auf sich selbst und auf andere
+	aufzupassen und kollektive Räume zu schaffen, in denen sich alle wohl und ermutigt fühlen können.
+	An der SUICMC23 wird diskriminierendes Verhalten nicht toleriert. Wir pflegen einen sensiblen und
+	respektvollen Umgang miteinander. Wir vermeiden Annahmen über die Erfahrungen anderer,
+	insbesondere in Bezug auf Geschlecht, Race, Sexualität oder körperliche und geistige Gesundheit.
+	Diskriminierendes Verhalten wird oft durch Sprache und erlernte Denkmuster geprägt. Lasst uns
+	einander helfen, diese Verhaltensweisen zu erkennen, dekonstruieren und Verantwortung dafür zu
+	übernehmen.
+</p>
+
+<p class="py-4">
+	Es liegt in der Verantwortung von allen, Räume zugänglich zu machen und Unterstützungsstrukturen
+	zu schaffen. Sei sensibel im Umgang mit anderen Menschen. Respektiere ihre Grenzen – sowohl
+	explizite als auch unausgesprochene. Versuche nachzufragen, wenn du unsicher bist ob sich eine
+	Person wohl fühlt oder nicht.
+</p>
+
+<p class="py-4">
+	Gemeinsam wollen wir eine Kultur des Konsenses fördern und einen Raum in der kapitalistischen
+	Gesellschaft schaffen, in dem wir uns alle akzeptiert, sicher und wohl fühlen können.
+</p>
+
+<p class="py-4">
+	Wenn du dich unwohl oder unsicher fühlst, oder wenn du bemerkst, dass eine andere Person sich
+	unwohl fühlt, versuche, um Hilfe zu bitten oder das <span class="text-theme-awaremess"
+		>Awareness-Teams</span
+	>
+	zu kontaktieren. Zögere nicht,
+	<span class="text-theme-awaremess">+41 77 472 83 97 </span> anzurufen, wenn du Schwierigkeiten
+	hast, in dem Raum, in dem du dich gerade befindest, Unterstützung zu finden. Die Anrufe werden
+	während der Veranstaltung Tag und Nacht von einem Mitglied des
+	<span class="text-theme-awaremess">Awareness-Teams</span> entgegengenommen. Je nach Situation werden
+	wir über weitere Maßnahmen entscheiden, wie wir mit den grenzüberschreitenden Vorfällen umgehen. Bei
+	schwerwiegenden Grenzüberschreitungen oder missachten von respektvollem Verhalten, werden wir nicht
+	zögern, Personen aus dem Event auszuschliessen.
+</p>
+
+<p class="py-4">
+	Bis Bald ❤️ , <br /> <span class="text-theme-awaremess">AwareMess</span>
 	SUICMC23 Bern
 </p>
