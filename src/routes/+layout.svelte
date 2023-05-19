@@ -24,10 +24,10 @@
 
 	<main>
 		<slot />
-		<footer class="bg-background sticky bottom-0 w-full italic font-extrabold text-theme-1">
-			"{RandomQuote}"
-		</footer>
 	</main>
+	<footer class="bg-background sticky bottom-0 w-full italic font-extrabold text-theme-1">
+		"{RandomQuote}"
+	</footer>
 </div>
 
 <style>
@@ -35,6 +35,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		min-width: fit-content;
 	}
 
 	main {
