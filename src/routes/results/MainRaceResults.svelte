@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { data } from '$lib/data/results/main_race/results';
-	import { writable } from 'svelte/store';
 
 	type Result = {
 		first_name: string;
@@ -15,53 +14,72 @@
 		age: string;
 	};
 
-	type FilterCriteria = {
-		gear: string;
-		bike: string;
-		age: string;
-	};
-
 	let allResults: Result[] = JSON.parse(data);
 	let filteredResults: Result[] = [...allResults];
 
-	const Search = writable({
-		age: '',
-		gear: '',
-		bike: ''
-	});
+	const bikeOptions = ['carbon', 'aluminium', 'steel', 'tractor'];
+	const gearOptions = ['fixed', 'singlespeed', 'geared'];
+	const ageOptions = ['10-20', '21-30', '31-40', '41-50', '51-60', '61+'];
 
-	function filter(search: FilterCriteria) {
+	let gearSelections: string[] = [];
+	let bikeSelections: string[] = [];
+	let ageSelections: string[] = [];
+
+	function filter(gearSelections: string[], bikeSelections: string[], ageSelections: string[]) {
 		filteredResults = allResults.filter((item: Result) => {
 			return (
-				(!search.gear || item.gears.match(`${search.gear}.*`)) &&
-				(!search.age || item.age.match(`^${search.age}.*`)) &&
-				(!search.bike || item.bike.match(`^${search.bike}.*`))
+				(bikeSelections.length == 0 || bikeSelections.includes(item.bike)) &&
+				(gearSelections.length == 0 || gearSelections.includes(item.gears)) &&
+				(ageSelections.length == 0 || ageSelections.includes(item.age))
 			);
 		});
 	}
 
-	$: filter($Search);
+	$: filter(gearSelections, bikeSelections, ageSelections);
 </script>
 
 <div class="flex flex-col items-center border-theme-1 border-2 w-full">
 	<h1 class="text-theme-1 text-2xl">Main Race Results</h1>
 	<h2 class="pb-2">
-		Use the following inputs to <span class="animate-pulse text-theme-1">highlight</span> the results
+		Use the following checkboxes to <span class="animate-pulse text-theme-1">highlight</span> the results
 	</h2>
-	<div class="w-2/6 ">
-		<div class="grid grid-cols-5 items-center gap-1 pb-3">
-			<label for="gear">Gear(s)</label>
-			<input id="gear" bind:value={$Search.gear} />
-
-			<label for="bike">Bike</label>
-			<input id="bike" bind:value={$Search.bike} />
-
-			<label for="age">Age</label>
-			<input id="age" bind:value={$Search.age} />
+	<div class="flex-col pb-2">
+		<div>
+			<span class="text-theme-1 font-bold px-2"> Gear(s):</span>
+			{#each gearOptions as gearOpt}
+				<label>
+					<input type="checkbox" class="mx-2" bind:group={gearSelections} value={gearOpt} />
+					{gearOpt}
+				</label>
+			{/each}
+		</div>
+		<div>
+			<span class="text-theme-1 font-bold px-2">Bike:</span>
+			{#each bikeOptions as bikeOpt}
+				<label>
+					<input type="checkbox" class="mx-2" bind:group={bikeSelections} value={bikeOpt} />
+					{bikeOpt}
+				</label>
+			{/each}
+		</div>
+		<div>
+			<span class="text-theme-1 font-bold px-2">Age:</span>
+			{#each ageOptions as ageOpt}
+				<label>
+					<input type="checkbox" class="mx-2" bind:group={ageSelections} value={ageOpt} />
+					{ageOpt}
+				</label>
+			{/each}
 		</div>
 	</div>
 	{#if filteredResults.length == 0}
-		<h2 class="text-theme-1">Your search doesnt match any results</h2>
+		<h2 class="text-theme-1">Your search doesn't match any results</h2>
+	{/if}
+	{#if filteredResults.length !== allResults.length && filteredResults.length > 0}
+		<h2 class="">
+			Your search matches <span class="text-theme-1 font-bold">{filteredResults.length}</span>
+			result{filteredResults.length > 1 ? 's' : ''}
+		</h2>
 	{/if}
 	<div class="h-[500px]  w-full overflow-y-auto overflow-x-auto">
 		<table class="text-xs md:text-lg ">
