@@ -18,8 +18,7 @@
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>
 
 	<GeneralInfo />
-    <PreEventInfo/>
+	<PreEventInfo />
 	<MainRaceInfo />
 	<SideEventsInfo />
 </h1>
-
