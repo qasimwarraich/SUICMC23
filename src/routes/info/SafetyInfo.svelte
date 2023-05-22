@@ -57,9 +57,9 @@
 				</li>
 				<li>
 					<span class="text-theme-1">Swimming:</span>
-					The Aare is a nice and refreshing river but with a rather strong current, thus can be very
+					The Aare is a nice and refreshing river but with a rather strong current, and thus can be very
 					dangerous. Even experienced swimmers should bathe with caution! Ask someone from Bern if you
-					want to go for a swim, especially which parts of the Aare are safe (entry & exit points).
+					want to go for a swim, especially regarding parts of the Aare are safe (entry & exit points).
 				</li>
 				<li>
 					<span class="text-theme-1">Sustainability:</span>

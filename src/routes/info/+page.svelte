@@ -23,7 +23,7 @@
 	<h1>Information</h1>
 
 	<h2 class="py-5">
-		<a href={booklet} download> ↪ Click Here to Download a PDF of our event booklet 🧡↩</a>
+		<a href={booklet} download> ↪ Click Here to download a PDF of our event booklet 🧡↩</a>
 	</h2>
 
 	<h2 class="pb-5">Click on the headings to reveal information :)</h2>

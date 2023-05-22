@@ -26,7 +26,7 @@
 				<a href={schedule} class="pb-5" alt="Schedule Image">
 					<img class="h-80 object-contain" src={schedule} alt="SUICMC" />
 				</a>
-				<a href={schedulePDF} download> ↪ Click Here to Download a PDF of our event schedule🧡↩</a>
+				<a href={schedulePDF} download> ↪ Click Here to download a PDF of our event schedule🧡↩</a>
 			</div>
 
 			<h2 class="py-5">
