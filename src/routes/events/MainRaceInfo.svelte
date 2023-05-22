@@ -2,6 +2,11 @@
 	import { slide } from 'svelte/transition';
 	import Fa6RegularEye from '~icons/fa6-regular/eye';
 	import Fa6RegularEyeSlash from '~icons/fa6-regular/eye-slash';
+	import MainRaceMap from '$lib/docs/SUICMC23-MainRace-Map.jpg';
+	import MainRaceMapPDF from '$lib/docs/SUICMC23-MainRace-Map.pdf';
+	import CargoRaceMap from '$lib/docs/SUICMC23-CargoRace-Map.jpg';
+	import CargoRaceMapPDF from '$lib/docs/SUICMC23-CargoRace-Map.pdf';
+
 	let showInformation = false;
 </script>
 
@@ -93,6 +98,29 @@
 				>
 			</ul>
 		</h2>
+
+		<div class="flex flex-col items-center justify-center pt-4">
+			<div class="pb-8">
+				<a href={MainRaceMap} class="pb-5">
+					<img class="h-80 object-contain" src={MainRaceMap} alt="SUICMC23 Main Race Map" />
+				</a>
+				<h2 class="pt-2">
+					<a href={MainRaceMapPDF} download>
+						↪ Click Here to download a PDF of our main race map 🧡↩</a
+					>
+				</h2>
+			</div>
+			<div class="pb-2">
+				<a href={CargoRaceMap} class="pb-5">
+					<img class="h-80 object-contain" src={CargoRaceMap} alt="SUICMC23 Cargo Race Map" />
+				</a>
+				<h2 class="pt-2">
+					<a href={CargoRaceMapPDF} download>
+						↪ Click Here to download a PDF of our cargo race map 🧡↩</a
+					>
+				</h2>
+			</div>
+		</div>
 	</div>
 {/if}
 

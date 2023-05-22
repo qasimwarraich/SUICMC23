@@ -2,6 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import Fa6RegularEye from '~icons/fa6-regular/eye';
 	import Fa6RegularEyeSlash from '~icons/fa6-regular/eye-slash';
+	import MapPDF from '$lib/docs/SUICMC23-Map.pdf';
 	let showInformation = false;
 </script>
 
@@ -27,6 +28,11 @@
 					Use the icon in the top left of the map to view the different categories of locations and their
 					exact addresses.
 					<br /> <br />
+				<div class="pb-8">
+					<h2 class="pt-2">
+						<a href={MapPDF} download> ↪ Click Here to download an "old school" PDF of our locations map 🧡↩</a>
+					</h2>
+				</div>
 				</div>
 				<iframe
 					src="https://www.google.com/maps/d/embed?mid=14qZP3QL-dUP6kjNFcNg5des5MMjTsmA&ehbc=2E312F"
@@ -35,6 +41,7 @@
 					height="420"
 					title="SUICMC23 MAP"
 				/>
+
 			</div>
 		</h2>
 	</div>
