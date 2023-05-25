@@ -6,6 +6,9 @@
 	import MainRaceMapPDF from '$lib/docs/SUICMC23-MainRace-Map.pdf';
 	import CargoRaceMap from '$lib/docs/SUICMC23-CargoRace-Map.jpg';
 	import CargoRaceMapPDF from '$lib/docs/SUICMC23-CargoRace-Map.pdf';
+	import ExampleManifest from '$lib/docs/SUICMC23-Manifest-Example.png';
+	import ExampleManifestPDF from '$lib/docs/SUICMC23-Manifest-Example.pdf';
+
 
 	let showInformation = false;
 </script>
@@ -117,6 +120,16 @@
 				<h2 class="pt-2">
 					<a href={CargoRaceMapPDF} download>
 						↪ Click Here to download a PDF of our cargo race map 🧡↩</a
+					>
+				</h2>
+			</div>
+			<div class="pb-2">
+				<a href={ExampleManifest} class="pb-5">
+					<img class="h-80 w-full object-contain" src={ExampleManifest} alt="SUICMC23 Manifest Example" />
+				</a>
+				<h2 class="pt-2">
+					<a href={ExampleManifestPDF} download>
+						↪ Click Here to download a PDF of our example manifest 🧡↩</a
 					>
 				</h2>
 			</div>
