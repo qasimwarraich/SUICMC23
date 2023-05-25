@@ -9,13 +9,13 @@
 
 		<br /><br />
 		Our main race team was given the task of designing a race that was as balanced as possible, where
-		all people should be equal with their physical conditions, in terms of biological sex. You have successfully
-		participated in this experiment, and we are open hearing your feedback and input!
+		all people should be equal with their physical conditions, in terms of biological sex. You will have
+		successfully participated in this experiment, and we are open hearing your feedback and input!
 
 		<br /><br />
 		With our general list of results, we want to promote an event culture where you can measure yourself
 		with other people in the courier scene, instead of trying to be the best of the scene. That's why
-		you will be able to filter the results by e.g. age, fixed or team on our website. With this design,
+		you will be able to highlight the results by e.g. age, fixed or team on our website. With this design,
 		you will be able to interpret the results as they seem appropriate for you and measure yourself against
 		the people you feel comfortable with.
 
@@ -31,10 +31,10 @@
 		die vordersten Ränge mit Preisen überhäufen möchten.
 
 		<br /><br />
-		([dieser Teil kommt nur bei der Mainrace-Ceremony] Unser Mainrace-Team hatte den Auftrag erhalten,
-		ein möglichst ausgeglichenes Rennen zu konzipieren, wo alle Menschen mit ihren körperlichen Voraussetzungen,
-		in Bezug auf das biologische Geschlecht, gleichgestellt werden sollen. Ihr habt erfolgreich an diesem
-		Experiment teilgenommen und wir sind offen für eure Inputs dazu! )
+		Unser Mainrace-Team hatte den Auftrag erhalten, ein möglichst ausgeglichenes Rennen zu konzipieren,
+		wo alle Menschen mit ihren körperlichen Voraussetzungen, in Bezug auf das biologische Geschlecht,
+		gleichgestellt werden sollen. Ihr habt erfolgreich an diesem Experiment teilgenommen und wir sind
+		offen für eure Inputs dazu!
 
 		<br /><br />
 		Mit unserer allgemeinen Liste der Resultate, möchten wir einen Eventkultur fördern, wo ihr euch mit
