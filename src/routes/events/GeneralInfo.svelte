@@ -24,7 +24,7 @@
 			enjoy the magnificent racecourse, the community and the rush. Be considerate at all times of
 			those who share the course with you. It’s all just a game! Drive safe! We do not tolerate
 			unfair behavior. In case of misbehavior, breaking the rules or cheating it’s up to the
-			organizing committee to decide the consequences spontaneously.
+			organising committee to decide the consequences spontaneously.
 
 			<br /> <br />
 
