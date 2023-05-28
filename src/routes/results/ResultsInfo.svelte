@@ -1,3 +1,7 @@
+<script lang="ts">
+	import openLetter from '$lib/docs/SUICMC23-Open-Letter.pdf';
+</script>
+
 <h2>
 	<div class="py-4">
 		The Organising committe of SUICMC23 has repeatedly dealt and been confronted with the topics of
@@ -13,8 +17,9 @@
 		identity being assumed for comparison. The only sorting we have done is based on the achieved score.
 		<br /><br />
 
-		In an open letter which you can find here <span class="text-theme-1">(soon 😅)</span>, we would like to go into more detail about
-		this compromise and process.
+		In an open letter which you can find here <a href={openLetter}> here </a >
+		<span class="text-theme-1">(English version coming very soon)</span>, we would like to go into
+		more detail about this compromise and process.
 	</div>
 	<hr />
 </h2>

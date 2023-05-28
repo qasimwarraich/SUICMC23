@@ -1,5 +1,6 @@
 <script lang="ts">
 	import vest from '$lib/images/warnwest.png';
+	import openLetter from '$lib/docs/SUICMC23-Open-Letter.pdf';
 </script>
 
 <svelte:head>
@@ -16,8 +17,10 @@
 		<img class="h-80" src={vest} alt="SUICMC" />
 		See you in Bern <br /> 26-29.05!
 	</h1>
-	<p class="my-10 font-bold text-xl">
-		<a href="/registration" class="underline">Registrations</a> are open! Chistole! ❤️
+	<p class="my-10 font-bold text-lg">
+		<a href={openLetter} class="underline">Click here for our open letter</a> about our "category" system
+        <br>
+		(English version coming very soon) ❤️
 	</p>
 </section>
 
