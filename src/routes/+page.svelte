@@ -18,9 +18,7 @@
 		See you in Bern <br /> 26-29.05!
 	</h1>
 	<p class="my-10 font-bold text-lg">
-		<a href={openLetter} class="underline">Click here for our open letter</a> about our "category" system
-        <br>
-		(English version coming very soon) ❤️
+		<a href='/results' class="underline">Results</a> are up!
 	</p>
 </section>
 
