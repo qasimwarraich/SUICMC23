@@ -18,7 +18,7 @@
 		See you in Bern <br /> 26-29.05!
 	</h1>
 	<p class="my-10 font-bold text-lg">
-		<a href='/results' class="underline">Results</a> are up!
+		<a href='/results' class="underline">Results</a> are up!, Thanks for coming to Bern 🧡
 	</p>
 </section>
 
