@@ -4,7 +4,7 @@
 	type Result = {
 		dispatcher: string;
 		rider_1: string;
-        rider_2: string;
+		rider_2: string;
 		rider_3: string;
 		race_number: number;
 		points: number;
@@ -12,11 +12,24 @@
 	};
 
 	let allResults: Result[] = JSON.parse(data);
-    </script>
+</script>
 
 <div class="flex flex-col items-center border-theme-1 border-2 w-full">
 	<h1 class="text-theme-1 text-2xl">Dispocat Results</h1>
-	<table class="text-xs md:text-lg p-20 ">
+	<div>
+		<h2 class="text-xs">
+			Best Checkpoint: Foncedé (Anna + Mimi)
+			<br />
+			1st place: Team 3920: Verena + Phippu + Nik + Tom w/ 61 points
+			<br />
+			1st out of town: Team 777: Max, Ruben, Suzanne, Iris w/ 60pts
+			<br />
+			DFL: Team 999: Hajime, Arturo, Gui Gui (Nooch Shift), Olaf w/ 18pts
+			<br />
+			Most Average Team: 5846: Ines, Taro, Marie, Regine (VKB shift) w/ 40pts
+		</h2>
+	</div>
+	<table class="text-xs md:text-lg mt-2 ">
 		<tr class="bg-white">
 			<th>Dispatcher</th>
 			<th>Rider 1</th>
@@ -37,28 +50,19 @@
 </div>
 
 <style>
+	th {
+        border-top: 1px solid var(--color-theme-1);
+	}
+
 	td {
 		text-align: center;
-	}
-
-	th {
-		margin-left: 1rem;
-		margin-right: 1rem;
-		position: sticky;
-		background-color: white;
-		box-shadow: inset 0px 2px 0px var(--color-theme-1), inset 0px -2px 0px 0px var(--color-theme-1);
-
-		top: 0;
-	}
-
-	td {
 		padding-left: 1rem;
 		padding-right: 1rem;
+		word-break: break-word;
 	}
 
-	tr {
-		border-top: var(--color-theme-1) 1px solid;
-		transition: color 0.2s ease;
-		transition: background 0.2s ease;
+	tr:nth-child(even) {
+		color: white;
+		background-color: var(--color-theme-1);
 	}
 </style>

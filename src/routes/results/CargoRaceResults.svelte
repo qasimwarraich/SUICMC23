@@ -32,28 +32,20 @@
 </div>
 
 <style>
-	td {
-		text-align: center;
-	}
 
 	th {
-		margin-left: 1rem;
-		margin-right: 1rem;
-		position: sticky;
-		background-color: white;
-		box-shadow: inset 0px 2px 0px var(--color-theme-1), inset 0px -2px 0px 0px var(--color-theme-1);
-
-		top: 0;
+        border-top: 1px solid var(--color-theme-1);
 	}
 
 	td {
+		text-align: center;
 		padding-left: 1rem;
 		padding-right: 1rem;
+		word-break: break-word;
 	}
 
-	tr {
-		border-top: var(--color-theme-1) 1px solid;
-		transition: color 0.2s ease;
-		transition: background 0.2s ease;
+	tr:nth-child(even) {
+		color: white;
+		background-color: var(--color-theme-1);
 	}
 </style>
