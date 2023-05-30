@@ -5,6 +5,7 @@
 	import ResultsInfo from './ResultsInfo.svelte';
 	import MainRaceResults from './MainRaceResults.svelte';
 	import CargoRaceResults from './CargoRaceResults.svelte';
+    import DispoCatResults from './DispoCatResults.svelte';
 </script>
 
 <svelte:head>
@@ -30,5 +31,8 @@
 	</CollapsibleHeading>
 	<CollapsibleHeading title="Cargo Race 🚚">
 		<CargoRaceResults />
+	</CollapsibleHeading>
+	<CollapsibleHeading title="Dispo 🐈‍⬛ ">
+		<DispoCatResults />
 	</CollapsibleHeading>
 </div>
