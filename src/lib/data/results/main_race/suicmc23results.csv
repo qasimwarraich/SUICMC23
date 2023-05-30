@@ -1,25 +1,156 @@
-heat,race_number,first_name,pronouns,city,team,bike,gears,age,points,time
-HEAT 1,77,Jeanne,she,La Chaux-de-Fonds,La Cyclone <3,steel,singlespeed,41-50,220,02:14:19
-HEAT 1,113,Pascal Lorin,BP,SG,Fliege,aluminium,singlespeed,41-50,220,02:40:01
-HEAT 1,165,Iris,sie,St.Gallen,Fliege,steel,fixed,21-30,750,03:17:15
-HEAT 1,273,Cecile,:),Lausanne,Velocite,aluminium,fixed,51-60,760,03:11:06
-HEAT 1,315,Magali,she,Genève,Velopo,carbon,geared,31-40,700,03:13:26
-HEAT 1,552,Brian,Yes,Karlsruhe,Rad Kurier karlsruhe,tractor,fixed,31-40,650,03:08:33
-HEAT 1,1185,Gouigoui,:^*,Bern,CenovX-Turbo,carbon,geared,21-30,550,03:13:07
-HEAT 1,2087,Will,He,2000,La Cyclone,steel,fixed,31-40,200,03:05:15
-HEAT 1,2222,Noé,He/Him,Züri,Veloblitz,aluminium,geared,31-40,500,03:12:15
-HEAT 1,4444,Maurice,er/ihm,Zürich,Veloblitz,steel,fixed,31-40,550,03:10:20
-HEAT 2,8,Lina,she/her,Bern,,steel,singlespeed,31-40,0,0
-HEAT 2,36,Micha,Derdodo und dendada,Bienne,Bienne,tractor,singlespeed,31-40,600,03:10:17
-HEAT 2,49,Sofie,she/her/none,Bern,,carbon,geared,31-40,720,03:11:55
-HEAT 2,55,Mattea,she/her,Bern,Öpfelchasper Bern,carbon,fixed,51-60,800,03:10:45
-HEAT 2,87,Zita,she or none,Tsüri,Spass,aluminium,fixed,N/A,0,0
-HEAT 2,127,Josua,he,St. Gallen,Velokurier St. Gallen,steel,fixed,51-60,750,03:02:22
-HEAT 2,177,Malo,Il/He,Lausanne,Vélochistux,carbon,fixed,41-50,800,02:58:22
-HEAT 2,317,Sara,Sie/Ihr,Basel,,aluminium,fixed,21-30,200,03:10:21
-HEAT 2,404,Matthias,he/him,Bern,VKB,carbon,singlespeed,31-40,200,03:15:34
-HEAT 2,609,Gauthier,He,Lausanne,Safety first,carbon,geared,51-60,450,03:12:23
-HEAT 2,1111,Naomi,she/her,Bern,Öpfelkasper,carbon,singlespeed,61+,500,03:12:17
-HEAT 2,5292,Jasper,He/him,Bern,VKB-Olé,tractor,singlespeed,61+,800,02:58:10
-HEAT 2,6539,Mira,she,Bern,VKB,steel,geared,10-20,220,02:14:19
-HEAT 2,8134,Mestre,he,Zürri,Bis Eine Brüelt,carbon,geared,10-20,220,02:40:01
+heat,race_number,first_name,rank_selection,pronouns,city,team,bike,gears,age,points,time
+HEAT 2,161,Cyril,ranked,he/they,Zurich,Ultra Kurier ZH,aluminium,fixed,21-30,XXX,2:52:56
+HEAT 1,947,remy,ranked,He/Him,kollnau,kuzzz,carbon,geared,21-30,1070,2:37:53
+HEAT 2,999,Hajime,ranked,he/him,Genf,Go-Fast Bicycle Club,aluminium,geared,21-30,1070,2:46:40
+HEAT 1,404,Matthias,ranked,he/him,Bern,VKB,carbon,geared,21-30,1070,2:54:41
+HEAT 1,321,Elias,,,,,,,,1070,3:01:13
+HEAT 1,91,Emma,ranked,She/her,Copenhagen,By-Expressen,steel,fixed,21-30,1070,3:01:49
+HEAT 2,10,camillo,ranked,he/him,zurich,veloflitz,steel,fixed,21-30,1070,3:03:09
+HEAT 1,722,€ri,ranked,he/him,"Bern, i guess",Got lost during an alleycat,carbon,geared,21-30,1070,3:04:00
+HEAT 2,262,Simon,ranked,He/Him,Lozanne,VŽlocitŽ,tractor,N/A,N/A,1050,3:05:00
+HEAT 2,705,Alexandre,ranked,Love,Paris,Picon Squadra Internazionale,carbon,geared,21-30,1050,3:08:49
+HEAT 1,272,richard arthur,ranked,he/him,fribourg,vŽlocitŽ riviera/la cyclone,steel,geared,31-40,1050,3:09:10
+HEAT 1,2222,NoŽ,ranked,He/Him,ZŸri,Veloblitz,aluminium,geared,21-30,1050,3:09:54
+HEAT 2,5,Nicolas,ranked,He/Him,Bern,,tractor,geared,21-30,1030,3:09:20
+HEAT 1,835,Niklaus,ranked,He/him,ZŸrich,Veloblitz,aluminium,geared,21-30,970,2:51:36
+HEAT 1,26,Wanja,ranked,he/him,Bern,,steel,geared,21-30,970,2:51:44
+HEAT 2,1414,Arturo,ranked,No propnoun,Gen�ve,Go Fast,tractor,fixed,N/A,970,2:51:52
+HEAT 1,6171,christian,ranked,He/Him,Bern,VKB,aluminium,geared,21-30,970,2:51:54
+HEAT 1,96,Max,ranked,He/him,Berlin,Messenger,carbon,fixed,31-40,970,2:52:30
+HEAT 1,213,Chris-Alexandre,ranked,He,Lausanne,vŽlocitŽ Lausanne,steel,geared,31-40,970,2:54:18
+HEAT 2,1213,Giacomo,ranked,He/him,Milano,GGGG/UBM/TEAMPICON,steel,singlespeed,21-30,970,2:54:40
+HEAT 1,4,Lorenz,ranked,He/Him,Bern,Velokurier Bern,steel,fixed,31-40,970,2:55:00
+HEAT 2,285,Sylvain,ranked,He,Gen�ve,Messlife Geneva,aluminium,geared,21-30,970,2:56:00
+HEAT 2,2727,Daniel,ranked,Il,Gen�ve,Chartreuse,steel,fixed,21-30,970,2:56:00
+HEAT 1,66,Lino,ranked,He/him,Bern,,aluminium,,21-30,970,2:56:22
+HEAT 2,229,Caroline,ranked,She/her,Lausanne/Neuch‰tel,vŽlocitŽ/Cyclone,aluminium,geared,,970,2:56:58
+HEAT 1,13,Josua,ranked,he/him,Biel,VKB,tractor,fixed,31-40,970,2:57:16
+HEAT 2,150,michael,ranked,he/him,st. gallen,velokurier st. gallen,steel,geared,41-50,970,3:01:29
+HEAT 1,1893,Susanne,ranked,she/her,Winterthur,Velokurier Winterthur,,,,970,3:03:22
+HEAT 2,184,Noa,ranked,he/him,St. Gallen,Velokurier St. Gallen,steel,geared,21-30,970,3:03:33
+HEAT 2,412,ThŽo,ranked,He/him,Geneva,Chartreuse team,steel,fixed,21-30,920,2:51:22
+HEAT 1,1313,Simon,ranked,he/him,Bern,,aluminium,geared,21-30,920,2:53:02
+HEAT 2,4444,Maurice,ranked,er/ihm,ZŸrich,Veloblitz,tractor,geared,21-30,920,2:53:07
+HEAT 2,4645,David,ranked,He,Lausanne,Axcycle,,,,920,2:53:16
+HEAT 1,2322,Telma,,,,,,,,920,2:54:48
+HEAT 2,178,Nils,ranked,He / him,St. Gallen,Velokurier St. Gallen,aluminium,geared,21-30,920,2:56:10
+HEAT 1,2202,Tapio,ranked,he/him,Freiburg im Breisgau,Velokurier Freiburg Breisgau,steel,geared,21-30,920,2:56:37
+HEAT 1,62,Remo,ranked,he/him,Bern,…pfelchasper,aluminium,geared,21-30,920,2:57:28
+HEAT 2,8004,Moritz,ranked,he/him,ZŸrich,Ultrakurier,steel,geared,41-50,920,2:57:34
+HEAT 1,7,ruben,ranked,he/him,bern,vkw/lgc,steel,geared,21-30,920,2:57:44
+HEAT 1,31,Rapha‘l,ranked,he/him,Bern,zero ambitions racing team,steel,fixed,21-30,920,2:58:00
+HEAT 1,1,Kiana,ranked,she/sie,Bern,bohnen,steel,fixed,10-20,920,2:58:10
+HEAT 1,17,Paolo,ranked,all pronouns,Monza,Paolo Pirovano,steel,singlespeed,21-30,920,2:58:50
+HEAT 1,179,Oli,,,,,,,,920,2:59:18
+HEAT 1,2210,Pirmin,ranked,He/Him,Luzern,,aluminium,geared,31-40,920,3:00:30
+HEAT 1,0,Anton,ranked,None,Basel,Team Basel,aluminium,fixed,21-30,920,3:03:31
+HEAT 1,264,Jose,,,,,,,,920,3:03:41
+HEAT 1,444,Fabian,ranked,he/him,Winterthur,Velokurier Winterthur,aluminium,geared,31-40,920,3:04:21
+HEAT 1,777,Max,ranked,he/him,8400,Velokurier Winterthur,aluminium,geared,21-30,920,3:05:17
+HEAT 1,2,armo,ranked,he/him,bern,,,,21-30,920,3:05:39
+HEAT 2,222,Timo,ranked,He/Him,ZŸrich,Veloblitz,steel,geared,21-30,920,3:05:42
+HEAT 2,29,Chahan,ranked,he/him,ZŸrich/bern,Veloblitz,steel,geared,21-30,920,3:05:43
+HEAT 1,6,Manuel,ranked,he/him,Bern,VKB,steel,geared,31-40,920,3:05:55
+HEAT 2,1001,nora,ranked,She/Her,ZŸrich,Veloblitz,steel,geared,21-30,920,3:06:05
+HEAT 2,365,Nicolas,ranked,He/him,Basel,Kurierzentrale,aluminium,geared,31-40,920,3:06:30
+HEAT 1,6539,Mira,ranked,she/her,Bern,VKB,steel,geared,21-30,920,3:06:34
+HEAT 1,1212,Franziska,ranked,she / her,Freiburg,Velokurier Freiburg,aluminium,geared,21-30,920,3:06:53
+HEAT 2,1234,Juan,ranked,Him,ZŸrich,Veloblitz,steel,fixed,21-30,920,3:07:13
+HEAT 2,56,Dom,ranked,He/him,Basel,Kurierzentrale,aluminium,fixed,31-40,920,3:08:25
+HEAT 2,1185,Gouigoui,ranked,:^*,Bern,CenovX-Turbo,aluminium,geared,21-30,920,3:09:20
+HEAT 2,667,Camille,ranked,Iel/elle,Loz,Gofast/Axecycle,steel,geared,10-20,920,3:10:00
+HEAT 1,20,Anna,ranked,she/her,ZŸrich,Ultra Kurier Zurich,aluminium,geared,31-40,920,3:10:10
+HEAT 1,3464,Nik,,,,,,,,920,3:55:50
+HEAT2,28,Lioru,,,,,,,,890,3:01:12
+HEAT 1,3920,Verena,,,,,,,,870,3:06:21
+HEAT 2,765,Andrin,ranked,He/Him,Winterthur,Velokurier Winterthur,aluminium,geared,31-40,860,3:05:33
+HEAT 1,603,Rahel,ranked,she/her,Bern,,aluminium,geared,41-50,840,3:01:30
+HEAT 2,121,Elouan,ranked,he/him,Lausanne,Axecycle,steel,fixed,10-20,820,2:49:50
+HEAT 1,1515,Mathias,ranked,he/him,Bern,…pfelchasper,steel,geared,21-30,820,2:50:59
+HEAT 1,808,Noam,ranked,he/him,ZŸrich,Sushi Pro Cycling,aluminium,geared,21-30,820,2:51:25
+HEAT 1,405,Marcel,ranked,he/him,Leipzig,Fast Fart,aluminium,geared,41-50,820,2:52:43
+HEAT 1,3,Leo,ranked,he/him,ZŸrich,Sushi Pro Cycling ZŸri,aluminium,geared,21-30,820,2:52:50
+HEAT 1,8,Lina,ranked,she/her,Bern,,aluminium,geared,21-30,820,2:53:38
+HEAT 1,1502,Mats,ranked,He/Him,ZŸrich,Sushi Pro Cycling ZŸri,steel,geared,31-40,820,2:53:48
+HEAT 1,422,Andrea,ranked,He/Him,Copenhagen,WeeDelivery / ByExpressen,tractor,geared,21-30,820,2:54:00
+HEAT 2,137,Gilles,ranked,he/him,Basel,The Negronis,,,,820,2:54:00
+HEAT 2,11,Lukas,ranked,he/him,Bern,,steel,geared,21-30,820,2:54:10
+HEAT 1,30,david,ranked,he/him,basel,KuZ,aluminium,geared,21-30,820,2:54:37
+HEAT 1,9,Manuel,ranked,He/him,Biel,VKB,aluminium,geared,31-40,820,2:54:48
+HEAT 1,1993,Philip,ranked,any/all,ZŸrich,Sushi Pro Cycling ZŸrich,aluminium,geared,21-30,820,2:55:09
+HEAT 1,306,Andreas,ranked,He/Him,Basel,KuZ,steel,geared,21-30,820,2:55:27
+HEAT 1,84,Clelia,ranked,She her,Milano,GGGG/Delivermi,aluminium,fixed,21-30,820,2:55:47
+HEAT 1,71,Philippe,ranked,He/Him,Berlin,,aluminium,geared,21-30,820,2:55:55
+HEAT 1,333,Lea,ranked,she,Bern,,,,,820,2:56:10
+HEAT 1,505,Markus,ranked,he him,Freiburg,Photonendichter e.V.,aluminium,geared,31-40,820,2:56:31
+HEAT 2,987,Raphael,ranked,Him,Plan-les-Ouates,Chartreuse team,aluminium,geared,21-30,820,2:56:44
+HEAT 1,1133,Anna Luisa,ranked,she/her,ZŸrich/Luzern,Bio Sushi,aluminium,geared,21-30,820,2:56:50
+HEAT 2,99,Kasimir,ranked,he,ZŸrich,dabba,,,,820,2:58:00
+HEAT 2,120,Lena,ranked,she/her,zuerich,dabba,carbon,geared,10-20,820,2:58:00
+HEAT 1,6579,mali,ranked,sie/ihr,Bern,vkb,aluminium,geared,21-30,820,2:58:20
+HEAT 2,271,Giani,ranked,He,Lausanne,VŽlocitŽ,,,,820,2:58:30
+HEAT2,9998,Dani,,,,,,,,820,2:59:17
+HEAT 1,815,Yannick,ranked,,zurich,sushi pro cycling,aluminium,geared,21-30,820,2:59:47
+HEAT 1,43,Janick,ranked,He/Him,Winterthur,Velokurier Winterthur,steel,fixed,31-40,820,3:00:00
+HEAT 1,4973,Debora,ranked,she/her,ZŸrich,Sushi Pro Cycling ZŸri,steel,geared,21-30,820,3:00:10
+HEAT 2,219,Aude,ranked,she/her,Lausanne,VŽlocitŽ,carbon,geared,,820,3:00:26
+HEAT 1,555,Patrick,ranked,er/ihm,ZŸri,Sushi Pro Cycling ZŸri,steel,geared,21-30,820,3:01:22
+HEAT 1,73,Anouk,ranked,Sie ihr,Basel,Kurierzentrale,aluminium,geared,21-30,820,3:01:38
+HEAT 2,485,PŠsche,ranked,He/Him,Zurich,Flash,steel,geared,31-40,820,3:02:00
+HEAT 1,87,Zita,ranked,she or none,TsŸri,Spass,aluminium,fixed,N/A,820,3:02:09
+HEAT 1,1616,Florian,ranked,he / him / his,Luzern,Velokurier Luzern Zug,aluminium,geared,31-40,820,3:04:30
+HEAT 1,2038,fabian,ranked,he/him,bern,vkb,tractor,geared,31-40,820,3:05:28
+HEAT 1,148,Andrin,ranked,He/Him,ZŸrich,-,steel,fixed,21-30,820,3:05:46
+HEAT 2,36,Micha,ranked,Derdodo und dendada,Bienne,Bienne,aluminium,geared,41-50,820,3:06:16
+HEAT 2,176,Anastasia,ranked,she/her,St. Gallen,Velokurier St. Gallen,aluminium,geared,21-30,820,3:07:06
+HEAT 2,188,Marin,ranked,Mann,St.Gallen,St.Gallen,steel,geared,51-60,820,3:07:33
+HEAT 1,22,Anouk,ranked,she,ZŸrich,Sushi Pro Cycling,,,,800,2:54:09
+HEAT 2,38,Sophie,ranked,she/her,Bern,VKB,,,31-40,800,2:59:45
+HEAT 1,552,Brian,ranked,he/him,Karlsruhe,Rad Kurier karlsruhe,tractor,geared,31-40,800,3:01:00
+HEAT 1,317,Sara,ranked,Sie/Ihr,Basel,,steel,fixed,21-30,800,3:02:00
+HEAT 1,3924,Eric,ranked,he/him,Bern,,aluminium,fixed,21-30,800,3:08:50
+HEAT 1,315,Magali,ranked,she,Gen�ve,Velopo,carbon,geared,31-40,790,3:04:50
+HEAT 2,277,Ariane,ranked,She/her,Lausanne,VŽlocitŽ,aluminium,geared,21-30,780,2:51:40
+HEAT 1,2121,reni,ranked,egal,lu,lucerna,,,,780,2:56:58
+HEAT 2,144,Joel,ranked,He/Him,Bern,,aluminium,geared,21-30,780,3:09:00
+HEAT 2,347,Janosch,ranked,he/him,Zureich,Veloblitz,aluminium,geared,21-30,770,2:37:20
+HEAT 2,153,Mark,ranked,He,st gallen,Mark Bakema,aluminium,geared,31-40,770,2:52:00
+HEAT 2,789,Tobias,ranked,he/him,ZŸrich,Sushi Pro Cycling ZŸrich,carbon,geared,31-40,770,2:55:16
+HEAT 2,57,Guillaume,ranked,he/him,Neu'Neuch',Euh l'bŽquet,steel,geared,31-40,770,2:56:30
+HEAT 2,55,Mattea,ranked,she/her,Bern,…pfelchasper Bern,,,,770,2:57:55
+HEAT 2,480,Moritz,ranked,He,ZŸrich,Sushi pro cycling zŸrich,aluminium,geared,21-30,770,2:58:50
+HEAT2,14,Thomas,,,,,,,,770,2:59:44
+HEAT 2,296,Julie,ranked,she/her,Bern,…pfelchasper,carbon,geared,41-50,770,3:02:00
+HEAT 1,538,Luis,ranked,He/him,Milan,gggg.bici,aluminium,geared,21-30,770,3:02:50
+HEAT 2,3112,Riccardo,ranked,He/Him,Roma,Corro corrieri Roma,aluminium,geared,41-50,770,3:04:52
+HEAT 2,275,Stefan,ranked,He/him,ZŸri,Veloblitz,aluminium,fixed,31-40,770,3:05:00
+HEAT 2,609,Gauthier,ranked,He/Him,Lausanne,Safety first,steel,fixed,21-30,770,3:06:32
+HEAT 1,9326,Iva,ranked,none,Basel,Kuraczentrale,aluminium,geared,21-30,770,3:06:44
+HEAT 2,21,David,ranked,He/him,Geneve,Velopostale,aluminium,fixed,21-30,770,3:07:22
+HEAT 1,1312,Em,ranked,they/them,ZŸrich,"Sushi Pro Cycling, Ultrakurier ZŸrich",aluminium,geared,21-30,770,3:08:00
+HEAT 1,3333,Robin,ranked,they / them,Bern,VKB,aluminium,geared,21-30,770,3:09:34
+HEAT 2,2505,flurin,ranked,he/him,bern,,,,,770,XXX
+HEAT 1,167,Matteo,ranked,He/Him,Milano,UBM,steel,geared,41-50,760,2:55:20
+HEAT 2,172,Nicola,ranked,she/her,St.Gallen,Velokurier St.Gallen,aluminium,geared,31-40,750,3:01:47
+HEAT 1,247,nicholas,ranked,he/him,Manhattan,take over courier,aluminium,geared,,740,2:53:14
+HEAT 2,840,Florian,ranked,He/Him,ZŸrich,Camping,aluminium,fixed,21-30,730,3:08:17
+HEAT 1,309,ThŽo,ranked,He/him,Gen�ve,VŽlopostale,aluminium,geared,21-30,720,2:54:32
+HEAT 1,111,Florian,ranked,no one,ZŸrich,Sushi Pro Cycling,steel,fixed,21-30,680,2:59:07
+HEAT 2,19,LŽon,ranked,He,Lausanne,,steel,fixed,10-20,670,3:06:30
+HEAT 2,1818,Robin,ranked,he / him,St. Gallen,Velokurier SG,steel,geared,21-30,640,3:13:12
+HEAT 2,750,ValŽrie,ranked,She,ZŸrich,,aluminium,geared,31-40,620,2:47:33
+HEAT 2,8008,Assya,ranked,any,Lausanne,axŽcycle,,,,620,2:50:30
+HEAT 2,2131,Thibault,ranked,he/him,1053 Cugy,,steel,geared,10-20,620,2:50:40
+HEAT 2,1111,Naomi,ranked,she/her,Bern,…pfelkasper,,,,620,3:02:11
+HEAT 2,8400,Sisq—,ranked,he/him,Winterthur,,aluminium,fixed,21-30,620,3:11:51
+HEAT 2,5551,Dominic,ranked,He/Him,Zollikon,SPC,aluminium,fixed,31-40,620,3:12:20
+HEAT 2,169,Thomas Edmund,ranked,Herr,ZŸrich,Sushi Pro Cycling,aluminium,geared,21-30,600,3:11:19
+HEAT 2,1337,Moritz,ranked,he/him,Freiburg im Breisgau,DFK/RadsFatz/Rapido,steel,geared,31-40,600,XXX
+HEAT 2,74,Elisa,ranked,she/her,Basel,-,steel,geared,21-30,540,2:55:50
+HEAT 1,1114,Raphaela,ranked,she,Luzern,,steel,,,520,2:20:20
+HEAT 2,1777,NAURAS,ranked,HE/HIM,ST. GALLEN,VELOKURIER ST. GALLEN,steel,geared,31-40,520,3:05:30
+HEAT 2,666,Luz,ranked,she/her,ZŸrich,Ultrakurier,steel,geared,21-30,440,1:16:12
+HEAT 1,165,Iris,ranked,she,St.Gallen,Fliege,steel,geared,21-30,420,1:25:31
+HEAT 1,90,Leon,ranked,He/Him,Basel,KUZ,N/A,N/A,N/A,280,1:47:54
+HEAT 2,95,Oliver,ranked,he/him,Milano,Team Picon International,aluminium,geared,21-30,,
+HEAT 1,113,Pascal Lorin,ranked,BP,SG,Fliege,aluminium,singlespeed,41-50,,
