@@ -83,6 +83,11 @@
 <h1 class="flex flex-col items-center justify-center text-5xl text-theme-1 font-semibold">
 	<img class="h-96" src={rad} alt="SUICMC" />
 	Registration
+    <h2 class="pt-2">
+    Registrations are now closed 🧡 
+    <br>
+    Thanks for coming to Bern
+    </h2>
 </h1>
 
 <div class="flex flex-col w-full h-full p-2">
@@ -393,7 +398,7 @@
 						formmethod="POST"
 						type="submit"
 						class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
-						>Register!</button
+						disabled={true}>Registrations are now closed! Thank you for coming to Bern 🧡</button
 					>
 				{:else}
 					<button
