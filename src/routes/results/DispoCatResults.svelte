@@ -18,15 +18,15 @@
 	<h1 class="text-theme-1 text-2xl">Dispocat Results</h1>
 	<div>
 		<h2 class="text-xs">
-			Best Checkpoint: Foncedé (Anna + Mimi)
+			Best Checkpoint: Foncedé (Anna & Mimi)
 			<br />
-			1st place: Team 3920: Verena + Phippu + Nik + Tom w/ 61 points
+			1st place: Team 3920: Verena, Phippu, Nik & Tom w/ 61 points
 			<br />
-			1st out of town: Team 777: Max, Ruben, Suzanne, Iris w/ 60pts
+			1st out of town: Team 777: Max, Ruben, Suzanne & Iris w/ 60pts
 			<br />
-			DFL: Team 999: Hajime, Arturo, Gui Gui (Nooch Shift), Olaf w/ 18pts
+			DFL: Team 999: Hajime, Arturo, Gui Gui (Nooch Shift) & Olaf w/ 18pts
 			<br />
-			Most Average Team: 5846: Ines, Taro, Marie, Regine (VKB shift) w/ 40pts
+			Most Average Team: 5846: Ines, Taro, Marie & Regine (VKB shift) w/ 40pts
 		</h2>
 	</div>
 	<table class="text-xs md:text-lg mt-2 ">
@@ -58,7 +58,6 @@
 		text-align: center;
 		padding-left: 1rem;
 		padding-right: 1rem;
-		word-break: break-word;
 	}
 
 	tr:nth-child(even) {

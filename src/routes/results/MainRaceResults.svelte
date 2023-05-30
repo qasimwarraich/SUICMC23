@@ -81,7 +81,7 @@
 			result{filteredResults.length > 1 ? 's' : ''}
 		</h2>
 	{/if}
-	<div class="h-[500px]  w-full overflow-y-auto overflow-x-auto">
+	<div class="h-[600px]  w-full overflow-y-auto overflow-x-auto">
 		<table class="text-xs md:text-lg ">
 			<tr class="bg-white">
 				<th>Name</th>

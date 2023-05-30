@@ -17,9 +17,8 @@
 		identity being assumed for comparison. The only sorting we have done is based on the achieved score.
 		<br /><br />
 
-		In an open letter which you can find here <a href={openLetter}> here </a >
-		<span class="text-theme-1">(English version coming very soon)</span>, we would like to go into
+		In an open letter, which you can find here <a href={openLetter}> here </a >
+		<span class="text-theme-1">(English version coming soon)</span>, we would like to go into
 		more detail about this compromise and process.
 	</div>
-	<hr />
 </h2>
