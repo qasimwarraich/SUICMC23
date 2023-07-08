@@ -23,7 +23,7 @@
 		detail about this compromise and process.
 		<br /><br />
 
-		A Fanzine distributed during the event in critic of the categorey system is available
+		A Fanzine distributed during the event in critic of the category system is available
 		<a href={fanzine}> here </a>.
 	</div>
 </h2>
