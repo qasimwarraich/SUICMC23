@@ -1,5 +1,6 @@
 <script lang="ts">
 	import openLetter from '$lib/docs/SUICMC23-Open-Letter.pdf';
+	import fanzine from '$lib/docs/VE_FANZINE_TRANSPHOBIA_SEXISM_AND_SUICMC.pdf';
 </script>
 
 <h2>
@@ -17,8 +18,12 @@
 		identity being assumed for comparison. The only sorting we have done is based on the achieved score.
 		<br /><br />
 
-		In an open letter, which you can find here <a href={openLetter}> here </a >
-		<span class="text-theme-1">(English version coming soon)</span>, we would like to go into
-		more detail about this compromise and process.
+		In an open letter, which you can find here <a href={openLetter}> here </a>
+		<span class="text-theme-1">(English version coming soon)</span>, we would like to go into more
+		detail about this compromise and process.
+		<br /><br />
+
+		A Fanzine distributed during the event in critic of the categorey system is available
+		<a href={fanzine}> here </a>.
 	</div>
 </h2>
