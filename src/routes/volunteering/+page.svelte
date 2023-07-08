@@ -170,7 +170,7 @@
 						type="submit"
 						class="hover:scale-105 duration-300 mt-4 p-1 font-bold text-white max-w-lg  w-full bg-theme-1 "
                         disabled={true}
-						>Registrations are now closed. Thank you to all who volunteereed 🧡</button
+						>Registrations are now closed. Thank you to all who volunteered 🧡</button
 					>
 				</div>
 			</div>
